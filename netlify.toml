@@ -1,0 +1,10 @@
+[build]
+  command = "gatsby build"
+  publish = "public"
+
+[build.environment]
+  YARN_VERSION = "1.22.0"
+  YARN_FLAGS = "--no-ignore-optional"
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
