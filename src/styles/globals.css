@@ -9,11 +9,15 @@ html {
 }
 
 body {
-  @apply p-4 font-body text-base bg-gray-100 dark:bg-gray-900 text-black dark:text-white;
+  @apply p-4 font-body text-base bg-gray-100 dark:bg-slate-900 text-black dark:text-white;
 }
 
 a {
   @apply text-primary hover:text-primary-light;
+}
+
+#disqus_thread {
+  @apply text-black dark:text-white;
 }
 
 input,textarea {

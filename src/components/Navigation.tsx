@@ -29,7 +29,7 @@ const Navigation = () => {
               <Link
                 key={l.id}
                 to={l.url}
-                className="py-2 px-3 text-gray-900"
+                className="py-2 px-3 text-gray-900 dark:text-white"
                 activeClassName="text-primary-light"
               >
                 {l.label}
@@ -38,7 +38,7 @@ const Navigation = () => {
               <a
                 key={l.id}
                 href={l.url}
-                className="py-2 px-3 text-gray-900"
+                className="py-2 px-3 text-gray-900 dark:text-white"
               >
                 {l.label}
               </a>

@@ -14,7 +14,7 @@ export default function Pagination({
       aria-label="Pagination"
     >
       <div className="hidden sm:block">
-        <p className="text-sm text-gray-700">
+        <p className="text-sm text-gray-700 dark:text-gray-400">
           Showing <span className="font-medium">{skip === 0 ? 1 : skip}</span>{" "}
           to{" "}
           <span className="font-medium">

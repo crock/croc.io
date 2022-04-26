@@ -29,10 +29,10 @@ export default function BlogPostTemplate({ data, pageContext }) {
     <article>
       {image ? <GatsbyImage image={image} alt={post.title} /> : null}
       <Seo post={post} />
-      <div className="relative mt-8 md:container mx-auto overflow-hidden p-2 md:p-16 shadow-lg rounded-lg" style={{backgroundColor: `rgba(255, 255, 255, 0.3)`}}>
+      <div className="relative mt-8 md:container mx-auto overflow-hidden p-2 md:p-16 shadow-lg rounded-lg bg-[rgba(255, 255, 255, 0.3)] dark:bg-gray-800">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div
-            className="relative h-full text-lg max-w-prose mx-auto"
+            className="relative h-full text-lg max-w-prose mx-auto dark:hidden"
             aria-hidden="true"
           >
             <svg
@@ -140,7 +140,7 @@ export default function BlogPostTemplate({ data, pageContext }) {
                 {post.categories.nodes[1].name}
               </span>
             ) : null}
-            <h1 className="my-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <h1 className="my-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
               {post.title}
             </h1>
             <div className="text-xs md:text-lg flex flex-row flex-nowrap justify-center items-center text-center">
@@ -168,7 +168,7 @@ export default function BlogPostTemplate({ data, pageContext }) {
             </div>
           </div>
           <div
-            className="mt-6 prose prose-primary prose-lg text-gray-500 mx-auto"
+            className="mt-6 prose prose-primary prose-lg text-gray-500 dark:text-white mx-auto"
             dangerouslySetInnerHTML={{ __html: post.content }}
           ></div>
           <div className="block px-2 lg:px-0 lg:mx-auto mt-16 w-full lg:w-1/2">

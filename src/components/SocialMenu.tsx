@@ -65,7 +65,7 @@ const SocialMenu = () => {
             <a
               key={l.id}
               href={l.url}
-              className="text-gray-900 text-xl block p-2 hover:text-primary-dark"
+              className="text-gray-900 dark:text-white text-xl block p-2 hover:text-primary-dark"
             >
               <FontAwesomeIcon icon={l.icon} size="1x" />
               <span className="sr-only">{l.displayName}</span>
