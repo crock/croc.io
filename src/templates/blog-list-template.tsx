@@ -1,19 +1,16 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Seo from "gatsby-plugin-wpgraphql-seo"
-import Wrapper from "../components/Wrapper"
+import Seo from "../components/Seo"
 import Pagination from "../components/Pagination"
+import { HomeLayout } from "../layouts/"
 
 const BlogList = ({ data, pageContext }) => {
   const posts = data.allWpPost.edges.map((edge) => edge.node)
 
   return (
-    <>
-      <Seo
-        title={`Blog`}
-        postSchema={JSON.parse(data.wp.seo.contentTypes.post.schema.raw)}
-      />
-      <Wrapper className="px-4 md:px-0 pt-10 lg:pt-24">
+    <HomeLayout>
+      <Seo title={`Blog`} />
+      <div className="p-4">
         <h1 className="text-black dark:text-white font-black text-4xl md:text-6xl mb-8">
           Blog
         </h1>
@@ -40,8 +37,8 @@ const BlogList = ({ data, pageContext }) => {
             : null}
         </div>
         <Pagination {...pageContext} />
-      </Wrapper>
-    </>
+      </div>
+    </HomeLayout>
   )
 }
 

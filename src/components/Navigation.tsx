@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery, Link } from "gatsby"
 
-const Navigation = () => {
+const Navigation = (props) => {
   const data = useStaticQuery(graphql`
     {
       menu: wpMenu(name: { eq: "navigation" }) {
@@ -19,8 +19,10 @@ const Navigation = () => {
 
   const links = data.menu.menuItems.nodes
 
+  const { className } = props
+
   return (
-    <nav className="font-semibold text-sm md:text-xl">
+    <nav className={`font-semibold text-xs md:text-xl ${className}`}>
       {links.length
         ? links.map((l) => {
             const isExternal = l.url.startsWith("http")
