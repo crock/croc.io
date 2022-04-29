@@ -30,7 +30,7 @@ export default function BlogPostTemplate({ data, pageContext }) {
     <HomeLayout>
     <article>
       {image ? <GatsbyImage image={image} alt={post.title} /> : null}
-      <Seo post={post} />
+      <Seo post={post} postSchema={post.seo.schema.raw} />
       <div className="relative mt-4 p-4">
           <div className="text-lg text-left max-w-prose">
             {post.categories.nodes.length > 1 ? (
@@ -38,7 +38,7 @@ export default function BlogPostTemplate({ data, pageContext }) {
                 {post.categories.nodes[1].name}
               </span>
             ) : null}
-            <h1 className="mb-2 block text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+            <h1 className="mb-2 block text-2xl lg:text-4xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white">
               {post.title}
             </h1>
             <div className="text-xs md:text-lg flex flex-row flex-nowrap">
