@@ -16,26 +16,27 @@ interface IHead {
 }
 
 const Seo: React.FC<IHead> = ({
-  description,
+  description = "",
   lang = "en",
   meta = [],
-  title,
+  title = "",
 }) => {
-  const { siteTitle, tagline, author } = useSiteMetadata()
+  const { siteTitle, metaDescription, author } = useSiteMetadata()
 
-  const metaDescription = description || tagline
+  const md = description || metaDescription
+  const st = title || siteTitle
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={st}
       titleTemplate={`%s | ${siteTitle}`}
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: md,
         },
         {
           property: `og:title`,
@@ -43,7 +44,7 @@ const Seo: React.FC<IHead> = ({
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: md,
         },
         {
           property: `og:type`,
@@ -59,11 +60,11 @@ const Seo: React.FC<IHead> = ({
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: st,
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: md,
         },
       ].concat(meta)}
     />
