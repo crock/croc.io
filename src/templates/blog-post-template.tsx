@@ -32,7 +32,7 @@ export default function BlogPostTemplate({ data, pageContext }) {
       {image ? <GatsbyImage image={image} alt={post.title} /> : null}
       <Seo post={post} postSchema={post.seo.schema.raw} />
       <div className="relative mt-4 p-4">
-          <div className="text-lg text-left max-w-prose">
+          <div className="text-lg text-center max-w-prose mx-auto">
             {post.categories.nodes.length > 1 ? (
               <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase">
                 {post.categories.nodes[1].name}
@@ -41,7 +41,7 @@ export default function BlogPostTemplate({ data, pageContext }) {
             <h1 className="mb-2 block text-2xl lg:text-4xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white">
               {post.title}
             </h1>
-            <div className="text-xs md:text-lg flex flex-row flex-nowrap">
+            <div className="text-xs md:text-lg flex flex-row flex-nowrap justify-center items-center">
               <span>
                 <span className="font-semibold text-gray-500">Written by</span>
                 {` `}
@@ -66,7 +66,7 @@ export default function BlogPostTemplate({ data, pageContext }) {
             </div>
           </div>
           <div
-            className="mt-6 prose prose-primary prose-lg text-gray-500 dark:text-white"
+            className="my-6 prose prose-lg mx-auto text-gray-500 dark:text-white"
             dangerouslySetInnerHTML={{ __html: post.content }}
           ></div>
           <div className="block px-2 lg:px-0 lg:mx-auto mt-16 w-full lg:w-1/2">
