@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  @apply overflow-x-hidden p-4 font-body text-base bg-gray-100 dark:bg-slate-900 text-black dark:text-white;
+  @apply font-body text-base bg-gray-100 dark:bg-slate-900 text-black dark:text-white;
 }
 
 a {

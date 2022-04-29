@@ -4,8 +4,8 @@ import Navigation from "./Navigation";
 
 export default function Hero() {
   return (
-    <div className="w-screen h-screen">
-      <div className="w-full h-full container mx-auto flex flex-col place-content-center items-center">
+    <div className="w-screen h-screen overflow-hidden">
+      <div className="w-full h-full px-3 lg:container mx-auto flex flex-col place-content-center items-center">
         <h1 className="font-semibold text-center text-base md:text-4xl mb-4 text-gray-900 dark:text-white">
           Innovative <strong className="font-bold">ideas</strong> from a 
           <br />
