@@ -2,8 +2,8 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `croc.io`,
-    description: ``,
+    title: `Croc.io`,
+    description: `Inspiring those that think different to build their own products to live the life they want to live and educating companies on how to best help their neurodivergent employees be successful in the workplace.`,
     author: `@gatorverse`,
     siteUrl: `https://croc.io`
   },

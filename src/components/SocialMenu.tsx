@@ -9,6 +9,7 @@ import {
   faYoutube,
   faDribbble,
   faTiktok,
+  faTwitch,
 } from "@fortawesome/free-brands-svg-icons"
 
 const menuItems = [
@@ -49,6 +50,13 @@ const menuItems = [
   },
   {
     id: 6,
+    displayName: 'Twitch',
+    url: 'https://www.twitch.tv/gators',
+    internal: false,
+    icon: faTwitch
+  },
+  {
+    id: 7,
     displayName: 'TikTok',
     url: 'https://tiktok.com/@jetcrocker',
     internal: false,

@@ -5,8 +5,7 @@ import Seo from "../components/Seo"
 const IndexPage = () => {
   return (
     <>
-    <Seo title="Welcome" description="Building innovative ideas from a
-unique perspective." />
+      <Seo title="Welcome to Croc.io!" />
       <Hero />
     </>
   )

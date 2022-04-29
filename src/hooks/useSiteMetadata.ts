@@ -24,12 +24,12 @@ export const useSiteMetadata = () => {
   )
 
   const siteTitle = wp.generalSettings.title || site.siteMetadata.title
-  const tagline =
+  const description =
     wp.generalSettings.description || site.siteMetadata.description
 
   return {
     siteTitle,
-    tagline,
+    description,
     siteUrl: site.siteMetadata.siteUrl,
     author: site.siteMetadata.author,
   }
