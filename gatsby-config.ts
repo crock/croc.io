@@ -9,6 +9,26 @@ const config: GatsbyConfig = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: "UA-105760658-5"
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: "images",
+        path: "./src/images/"
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: "pages",
+        path: "./src/pages/"
+      },
+    },
+    {
       resolve: 'gatsby-source-wordpress',
       options: {
         url: "https://x.croc.io/graphql",
@@ -30,18 +50,18 @@ const config: GatsbyConfig = {
       }
     },
     "gatsby-plugin-postcss",
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: "UA-105760658-5"
-      }
-    },
     `gatsby-plugin-fontawesome-css`,
+    "gatsby-plugin-image",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-mdx",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://croc.io",
-        sitemap: "https://croc.io/sitemap.xml",
+        sitemap: "https://croc.io/sitemap/sitemap-index.xml",
         env: {
           development: {
             policy: [{ userAgent: "*", disallow: ["/"] }],
@@ -52,33 +72,13 @@ const config: GatsbyConfig = {
         },
       },
     },
-    "gatsby-plugin-image",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sitemap",
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
         icon: "src/images/icon.png"
       }
     },
-    "gatsby-plugin-mdx",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: "images",
-        path: "./src/images/"
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: "pages",
-        path: "./src/pages/"
-      },
-    },
-    "gatsby-plugin-netlify"
+    "gatsby-plugin-netlify",
   ]
 };
 
