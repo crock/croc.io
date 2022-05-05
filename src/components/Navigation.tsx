@@ -4,7 +4,7 @@ import { graphql, useStaticQuery, Link } from "gatsby"
 const Navigation = (props) => {
   const data = useStaticQuery(graphql`
     {
-      menu: wpMenu(name: { eq: "navigation" }) {
+      wpMenu(name: { eq: "navigation" }) {
         menuItems {
           nodes {
             id
@@ -17,7 +17,7 @@ const Navigation = (props) => {
     }
   `)
 
-  const links = data.menu.menuItems.nodes
+  const links = data.wpMenu.menuItems.nodes
 
   const { className } = props
 

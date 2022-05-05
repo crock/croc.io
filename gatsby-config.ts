@@ -9,10 +9,26 @@ const config: GatsbyConfig = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "G-EEH3043D9R",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+        enableWebVitalsTracking: true,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "UA-105760658-5"
+        trackingId: "UA-105760658-5",
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: "ca-pub-3627563344348929",
+        head: true,
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
@@ -31,7 +47,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        url: "https://x.croc.io/graphql",
+        url: "https://cms.digipresence.org/croc-io/graphql",
         html: {
           useGatsbyImage: true,
         },
