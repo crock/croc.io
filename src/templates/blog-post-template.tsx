@@ -12,8 +12,10 @@ import { HomeLayout } from "../layouts/"
 export default function BlogPostTemplate({ data, pageContext }) {
   const post = data.wpPost
 
+  const path = post.uri.startsWith('/croc-io') ? post.uri.replace('/croc-io', '') : post.uri
+
   let disqusConfig = {
-    url: post.uri,
+    url: path,
     identifier: post.databaseId.toString(),
     title: post.title,
   }

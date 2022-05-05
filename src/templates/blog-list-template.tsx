@@ -5,7 +5,11 @@ import Pagination from "../components/Pagination"
 import { HomeLayout } from "../layouts/"
 
 const BlogList = ({ data, pageContext }) => {
-  const posts = data.allWpPost.edges.map((edge) => edge.node)
+  const posts = data.allWpPost.edges.map((edge) => edge.node).map(post => {
+    post.uri = post.uri.startsWith('/croc-io') ? post.uri.replace('/croc-io', '') : post.uri
+
+    return post
+  })
 
   return (
     <HomeLayout>

@@ -95,13 +95,14 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
         // Creste post pages
         const postTemplate = path.resolve("./src/templates/blog-post-template.tsx")
         posts.forEach((post) => {
+            const path = post.uri.startsWith('/croc-io') ? post.uri.replace('/croc-io', '') : post.uri
 
             createPage({
-                path: post.uri,
+                path,
                 component: postTemplate,
                 context: {
                     databaseId: post.databaseId,
-                    pagePath: post.uri,
+                    pagePath: path,
                 },
             })
         })
