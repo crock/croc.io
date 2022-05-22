@@ -2,9 +2,9 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Croc.io`,
-    description: `Inspiring those that think different to build their own products to live the life they want to live and educating companies on how to best help their neurodivergent employees be successful in the workplace.`,
-    author: `@gatorverse`,
+    title: `croc.io`,
+    description: `Coming Soon`,
+    author: `@gatoverse`,
     siteUrl: `https://croc.io`
   },
   plugins: [
@@ -43,27 +43,6 @@ const config: GatsbyConfig = {
         name: "pages",
         path: "./src/pages/"
       },
-    },
-    {
-      resolve: 'gatsby-source-wordpress',
-      options: {
-        url: "https://cms.digipresence.org/croc-io/graphql",
-        html: {
-          useGatsbyImage: true,
-        },
-        verbose: true,
-        schema: {
-          perPage: 20, // currently set to 100
-          requestConcurrency: 5, // currently set to 15
-          previewRequestConcurrency: 2, // currently set to 5
-        },
-      }
-    },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-        shortname: `croc`
-      }
     },
     "gatsby-plugin-postcss",
     `gatsby-plugin-fontawesome-css`,

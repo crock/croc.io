@@ -4,13 +4,6 @@ export const useSiteMetadata = () => {
   const { wp, site } = useStaticQuery(
     graphql`
       query SITE_SETTINGS_QUERY {
-        wp {
-          generalSettings {
-            title
-            description
-          }
-        }
-
         site {
           siteMetadata {
             title
@@ -23,9 +16,8 @@ export const useSiteMetadata = () => {
     `
   )
 
-  const siteTitle = wp.generalSettings.title || site.siteMetadata.title
-  const metaDescription =
-    wp.generalSettings.description || site.siteMetadata.description
+  const siteTitle = site.siteMetadata.title
+  const metaDescription = site.siteMetadata.description
 
   return {
     siteTitle,
