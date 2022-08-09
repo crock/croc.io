@@ -1,31 +1,18 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faTwitter,
-  faInstagram,
-  faDiscord,
   faGithub,
-  faFacebook,
-  faYoutube,
   faDribbble,
-  faTiktok,
-  faTwitch,
+  faMastodon
 } from "@fortawesome/free-brands-svg-icons"
 
 const menuItems = [
   {
     id: 1,
-    displayName: 'Twitter',
-    url: 'https://twitter.com/gatorverse',
+    displayName: 'Mastodon',
+    url: 'https://mastodon.social/@croc',
     internal: false,
-    icon: faTwitter
-  },
-  {
-    id: 2,
-    displayName: 'Instagram',
-    url: 'https://instagram.com/clipping',
-    internal: false,
-    icon: faInstagram
+    icon: faMastodon
   },
   {
     id: 3,
@@ -40,27 +27,6 @@ const menuItems = [
     url: 'https://dribbble.com/croc',
     internal: false,
     icon: faDribbble
-  },
-  {
-    id: 5,
-    displayName: 'YouTube',
-    url: 'https://www.youtube.com/AlexCrocker',
-    internal: false,
-    icon: faYoutube
-  },
-  {
-    id: 6,
-    displayName: 'Twitch',
-    url: 'https://www.twitch.tv/gators',
-    internal: false,
-    icon: faTwitch
-  },
-  {
-    id: 7,
-    displayName: 'TikTok',
-    url: 'https://tiktok.com/@jetcrocker',
-    internal: false,
-    icon: faTiktok
   },
 ]
 

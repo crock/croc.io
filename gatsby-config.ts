@@ -3,8 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `croc.io`,
-    description: `Coming Soon`,
-    author: `@gatoverse`,
+    description: `Domain Name Investor`,
     siteUrl: `https://croc.io`
   },
   plugins: [

@@ -21,7 +21,7 @@ const Seo: React.FC<IHead> = ({
   meta = [],
   title = "",
 }) => {
-  const { siteTitle, metaDescription, author } = useSiteMetadata()
+  const { siteTitle, metaDescription } = useSiteMetadata()
 
   const md = description || metaDescription
   const st = title || siteTitle
@@ -53,10 +53,6 @@ const Seo: React.FC<IHead> = ({
         {
           name: `twitter:card`,
           content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: author,
         },
         {
           name: `twitter:title`,

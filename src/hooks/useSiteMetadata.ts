@@ -9,7 +9,6 @@ export const useSiteMetadata = () => {
             title
             description
             siteUrl
-            author
           }
         }
       }
@@ -23,7 +22,6 @@ export const useSiteMetadata = () => {
     siteTitle,
     metaDescription,
     siteUrl: site.siteMetadata.siteUrl,
-    author: site.siteMetadata.author,
   }
 }
 
