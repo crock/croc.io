@@ -3,7 +3,7 @@
   publish = "public"
 
 [build.environment]
-  YARN_VERSION = "1.22.0"
+  YARN_VERSION = "3.3.1"
   YARN_FLAGS = "--no-ignore-optional"
 
 [[plugins]]
