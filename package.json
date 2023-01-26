@@ -25,7 +25,6 @@
     "babel-plugin-prismjs": "^2.1.0",
     "crockit-react": "^1.0.0",
     "gatsby": "^5.5.0",
-    "gatsby-plugin-fontawesome-css": "^1.2.0",
     "gatsby-plugin-google-adsense": "^1.1.3",
     "gatsby-plugin-google-analytics": "^4.12.1",
     "gatsby-plugin-google-tagmanager": "^4.13.0",
