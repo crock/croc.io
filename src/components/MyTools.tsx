@@ -12,6 +12,11 @@ const links = [
         title: 'Webhook Sender',
         href: '/tools/webhook-sender'
     },
+    {
+        id: 3,
+        title: 'CSR Detector',
+        href: '/tools/csr-detector'
+    },
 ]
 
 const MyTools = () => {
