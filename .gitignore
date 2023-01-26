@@ -6,8 +6,10 @@ public
 node_modules
 vendor
 
-# Dependency Lock files
-*.lock
+# yarn fiiles
+yarn.lock
+.yarnrc.yml
+.yarn
 
 # Useless macOS file
 .DS_Store

@@ -1,16 +1,22 @@
 import * as React from "react"
-import Seo from "../components/Seo"
-import SocialMenu from "../components/SocialMenu"
+import { Wrapper } from 'crockit-react/core/'
+import { Slice } from "gatsby"
+import ProjectsList from "../components/ProjectsList"
 
 const IndexPage = () => {
   return (
     <>
-      <Seo title="Welcome!" />
-      <div className="flex flex-col justify-center items-center place-content-center w-full h-screen">
-        <h1 className="text-6xl font-black text-gray-900 dark:text-gray-50 mb-4">croc.io</h1>
-        <p className="font-semibold text-gray-500 dark:text-gray-50 text-sm uppercase tracking-widest">Entrepreneur Life</p>
-        <SocialMenu />
-      </div>
+      <ProjectsList />
+    </>
+  )
+}
+
+export const Head = () => {
+
+  return (
+    <>
+      <body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
+      <title>Alex Crocker</title>
     </>
   )
 }

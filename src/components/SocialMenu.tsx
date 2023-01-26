@@ -33,13 +33,13 @@ const menuItems = [
 const SocialMenu = () => {
 
   return (
-    <nav className="flex flex-row flex-nowrap justify-end items-center mt-4">
+    <nav className="flex flex-row flex-nowrap justify-end items-center">
       {menuItems.length
         ? menuItems.map((l) => (
             <a
               key={l.id}
               href={l.url}
-              className="text-gray-900 dark:text-white text-xl block p-2 hover:text-primary-dark"
+              className="text-gray-200 text-xl block p-2 hover:text-white"
             >
               <FontAwesomeIcon icon={l.icon} size="1x" />
               <span className="sr-only">{l.displayName}</span>

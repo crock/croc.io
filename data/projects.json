@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Domaincord",
+        "startDate": 20180909,
+        "endDate": null,
+        "ongoging": true,
+        "status": "active",
+        "pitch": "A Discord community for domain name investors",
+        "postUrl": "/posts/domaincord-discord-community",
+        "imageUrl": "/images/domaincord.jpg",
+        "tags": [
+            "community"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Dropfilter",
+        "startDate": 20180702,
+        "endDate": null,
+        "ongoging": true,
+        "status": "active",
+        "pitch": "A web app, Python CLI, and Discord bot for helping domain name investors to filter new expired domain names to hand-register.",
+        "postUrl": "/posts/dropfilter",
+        "imageUrl": "/images/dropfilter.jpg",
+        "tags": [
+            "ReactJS",
+            "NodeJS",
+            "Python"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Username Checker",
+        "startDate": 20170206,
+        "endDate": 20200728,
+        "ongoging": false,
+        "status": "inactive",
+        "pitch": "A REST API and Python CLI for checking social media username availability",
+        "postUrl": "/posts/checker",
+        "imageUrl": "/images/checker.jpg",
+        "tags": [
+            "Python",
+            "NodeJS",
+            "ExpressJS"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "PlayBattleRoyale.com",
+        "startDate": 20190131,
+        "endDate": 20200501,
+        "ongoging": false,
+        "status": "inactive",
+        "pitch": "Twitch.tv video clip aggregator platform for battle royale games",
+        "postUrl": "/posts/twitch-clip-aggregator",
+        "imageUrl": "/images/pbr.jpg",
+        "tags": [
+            "Laravel",
+            "PHP",
+            "VueJS"
+        ]
+    }
+]

@@ -39,15 +39,53 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: "postImages",
+        path: `${__dirname}/content/assets/`
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: "pages",
         path: "./src/pages/"
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: "posts",
+        path: `${__dirname}/content/`
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+              escapeEntities: {},
+            },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+        ],
+        extensions: [`.mdx`, `.md`],
       },
     },
     "gatsby-plugin-postcss",
     `gatsby-plugin-fontawesome-css`,
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sitemap",

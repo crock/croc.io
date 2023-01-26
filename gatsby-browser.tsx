@@ -3,12 +3,9 @@ import type { GatsbyBrowser } from 'gatsby'
 import { Layout } from './src/layouts/'
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import "./src/styles/globals.css"
-import splitbee from "@splitbee/web"
-
-splitbee.init({
-  scriptUrl: "/crocolytics.js",
-  apiUrl: "/_croc",
-})
+import "prismjs/themes/prism-solarizedlight.css"
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"
+import "prismjs/plugins/command-line/prism-command-line.css"
 
 export const wrapPageElement: GatsbyBrowser["wrapPageElement"] = ({element}) => <Layout>{element}</Layout>
 export const wrapRootElement: GatsbyBrowser["wrapRootElement"] = ({element}) => <>{element}</>
