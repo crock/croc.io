@@ -12,6 +12,7 @@ const menuItems = [
     displayName: 'Mastodon',
     url: 'https://mastodon.social/@croc',
     internal: false,
+    rel: "me",
     icon: faMastodon
   },
   {
@@ -39,6 +40,7 @@ const SocialMenu = () => {
             <a
               key={l.id}
               href={l.url}
+              rel={l.rel}
               className="text-gray-200 text-xl block p-2 hover:text-white"
             >
               <FontAwesomeIcon icon={l.icon} size="1x" />

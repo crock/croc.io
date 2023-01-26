@@ -26,3 +26,5 @@ yarn.lock
 .vscode/
 .atom/
 .nova/
+# Local Netlify folder
+.netlify

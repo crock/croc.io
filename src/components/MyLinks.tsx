@@ -14,6 +14,7 @@ const links = [
     {
         id: 3,
         title: 'Mastodon',
+        rel: 'me',
         href: 'https://mastodon.social/@croc'
     },
     {
@@ -41,7 +42,7 @@ const MyLinks = () => {
             <ul>
                 { links.length && links.map(link => (
                     <li key={link.id} className="mb-2">
-                        <a target={`_blank`} href={link.href} className="text-primary hover:text-primary-light">{link.title}</a>
+                        <a target={`_blank`} rel={link.rel} href={link.href} className="text-primary hover:text-primary-light">{link.title}</a>
                     </li>
                 )) }
             </ul>

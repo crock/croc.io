@@ -8,3 +8,9 @@
 
 [[plugins]]
   package = "@netlify/plugin-gatsby"
+
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+	[plugins.inputs]
+	sitemapPath = "/sitemap-index.xml"
+	ignorePeriod = 0
