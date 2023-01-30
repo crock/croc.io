@@ -16,6 +16,12 @@ const links = [
 		internal: true,
 	},
 	{
+		id: 8,
+		title: "Stuff We Love",
+		href: "/uses",
+		internal: true,
+	},
+	{
 		id: 2,
 		title: "Join Domaincord",
 		href: "https://discord.gg/domains",

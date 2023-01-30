@@ -15,6 +15,11 @@ const links = [
 		url: "/blog",
 		internal: true,
 	},
+	{
+		name: "Stuff We Love",
+		url: "/uses",
+		internal: true,
+	},
 ]
 
 const Header = () => {
