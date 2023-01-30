@@ -26,7 +26,7 @@ const Header = () => {
                 <Wrapper className="mx-auto px-4 h-full max-w-5xl flex justify-between items-center">
                     <div className="flex flex-row justify-start items-center">
                         <Link to="/" className="mr-2">
-                            <StaticImage src="../images/CS_LOGO.png" alt="CROC BUZZ STUDIOS" className="inline-block w-24" />
+                            <StaticImage src="../images/CS_LOGO.png" alt="CROC BUZZ STUDIOS" layout={`constrained`} placeholder={`none`} width={100} />
                             <span className="sr-only">Croc Studios</span>
                         </Link>
                         <nav className="hidden lg:inline-flex">
