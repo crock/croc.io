@@ -2,6 +2,7 @@
 title: Build a WordPress plugin settings screen with React
 publishDate: 20220106
 ---
+
 WordPress is one of the leading and oldest content management systems on the web today and has a huge community of people contributing to the platform every day.
 
 With that said, WordPress also has a ton of baggage and legacy code. While that takes lots of time and energy to change the platform and modernize it for everyone, that doesn’t mean solo developers can’t modernize parts of it through custom code and they do.

@@ -4,9 +4,10 @@ publishDate: 20220525
 customSlug: domainquest-catalyst-orlando
 category: Domain Quest
 tags:
-  - candid
-  - domain-sightings
+    - candid
+    - domain-sightings
 ---
+
 On my evening dog walk, I spotted the sign for a non-denominational church by the name of Catalyst in Orlando, FL.
 
 ![](assets/catalyst_orlando_church_sign.jpg)

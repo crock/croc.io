@@ -4,13 +4,15 @@ author: Kieran Cairns
 customSlug: wordpress-comparisons
 title: Comparing WordPress.org vs WordPress.com
 publishDate: 20200804
-description: Comparing the open-source, self-hosted version of WordPress with the
-  commercial, hosted solution from Automattic
+description:
+    Comparing the open-source, self-hosted version of WordPress with the
+    commercial, hosted solution from Automattic
 tags:
-  - CMS
-  - WordPress
+    - CMS
+    - WordPress
 category: Guest Post
 ---
+
 Today, we will be comparing WordPress and self hosted WordPress.
 By the end of this post you will have the information to make the best
 decision for your blog. This post will have multiple sections, including

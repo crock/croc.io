@@ -2,7 +2,8 @@
 title: Improved User Menu for Xenforo 2
 publishDate: 20181215
 ---
-The default user menu in ThemeHouse’s [UI.X theme](https://www.themehouse.com/xenforo/2/themes/ui-x)  for  [Xenforo 2](https://xenforo.com)  looks very bad, but it is a simple CSS fix to make it look 10x more appealing.
+
+The default user menu in ThemeHouse’s [UI.X theme](https://www.themehouse.com/xenforo/2/themes/ui-x) for [Xenforo 2](https://xenforo.com) looks very bad, but it is a simple CSS fix to make it look 10x more appealing.
 
 First, be sure to enable the Material icons instead of the text for the user menu. You can do that by navigating to Appearance -> Styles -> [YOUR THEME] – Style Properties -> Sidebar. Tick the checkbox next to “Visitor panel stats as icons” then click Save.
 
@@ -60,6 +61,6 @@ Navigating back to the homepage should reveal a more balanced and appealing stat
 
 ![](assets/86289163-358d0680-bbb9-11ea-9d17-8c92595394e3.webp)
 
-The following CSS will still work even if you use the  [ThemeHouse Reactions add-on](https://www.themehouse.com/xenforo/2/addons/reactions-plus) .
+The following CSS will still work even if you use the [ThemeHouse Reactions add-on](https://www.themehouse.com/xenforo/2/addons/reactions-plus) .
 
 ![](assets/86289184-42a9f580-bbb9-11ea-92be-92d350736393.webp)

@@ -4,9 +4,10 @@ publishDate: 20210506
 customSlug: 4-automated-domain-appraisal-tools
 category: Directory
 tags:
-  - resources
-  - appraisals
+    - resources
+    - appraisals
 ---
+
 Assessing a domain name’s value can be a time consuming and heavily biased process. Sometimes you just need a fair starting point to begin negotiations with an end user. These four tools can help you find a reasonable and fair starting price point for a domain name.
 
 ### Estibot
@@ -24,5 +25,3 @@ Like GoDaddy, Epik is a large, established registrar in the domain space. You ca
 ### NameWorth
 
 NameWorth is the most limited of these appraisal tools as it only works with dot com domains, but it’s still worth using as I find it to give the most accurate valuation. Like Estibot, it gives you a limited number of free appraisals before you have to upgrade to a paid plan, but the pricing is reasonable for what you get.
-
-

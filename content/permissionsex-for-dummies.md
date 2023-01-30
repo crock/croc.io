@@ -2,7 +2,9 @@
 title: PermissionsEx for Dummies
 publishDate: 20151225
 ---
+
 ## Setting up permissions for a Minecraft server
+
 Running a Minecraft server is a great experience! It is an opportunity to work on one’s leadership skills, while making money on the side. However, Minecraft servers are not all fun and games. They require more work than one might think. The heart of any Minecraft server is the permissions. Without properly configured permissions, chaos would overtake any Minecraft server. In my opinion, setting up and configuring permissions is the best part of setting up a server because it allows the owner to be creative with how he wants his server to run. There are a few different options when it comes to setting up permissions for a Minecraft server and everyone is entitled to his personal preference. Some people like Essentials Group Manager, others swear by zPermissions, or bPermissions, but the one I like is good ol’ PEX (PermissionsEx) which is the focus of this tutorial.
 
 ### Helpful Tools & Reference links
@@ -74,7 +76,7 @@ The fourth step is the fun part—setting up those fancy prefixes and suffixes. 
 /pex group {nameOfGroup} set suffix {suffix}
 ```
 
-Last but not least, you are now ready for the most tedious part—adding permissions. I’m assuming many of you will be using the full Essentials suite (minus Group Manager), so you can find a full list of every command and its associated permission node here. For other plugins, they typically list all the permissions on the download page or at the very least a link to the plugin’s wiki. For Owner rank, you only need to add one permission—a single asterisk or * symbol. That is simply a variable which means every permission available.
+Last but not least, you are now ready for the most tedious part—adding permissions. I’m assuming many of you will be using the full Essentials suite (minus Group Manager), so you can find a full list of every command and its associated permission node here. For other plugins, they typically list all the permissions on the download page or at the very least a link to the plugin’s wiki. For Owner rank, you only need to add one permission—a single asterisk or \* symbol. That is simply a variable which means every permission available.
 
 #### To add a permission to a group:
 

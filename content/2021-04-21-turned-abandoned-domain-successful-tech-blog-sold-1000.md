@@ -6,9 +6,10 @@ author: Charlie Kemp
 featured: true
 category: Guest Post
 tags:
-  - reflections
-  - success-stories
+    - reflections
+    - success-stories
 ---
+
 Have you ever just wanted to start a blog from the ground up, with no prior SEO, no prior experience? I did. I wanted to find the next ‘**big**’ tech blog that I had built by myself from the ground up and enjoy all the benefits that came along with it, but making a blog of that scale to compete with the big dogs was always going to be tough.
 
 ## A New Journey
@@ -17,23 +18,19 @@ I think it was a Saturday when I woke up out of my bed from a long week at my fu
 
 At the time, I was flipping domains, I.e., buying domains that had expired with traffic, or brandable names and selling them straight on. I was doing this on some smaller forums and had sold a domain or two on Domaincord. [Flippa](https://flippa.com/) was a site I was also familiar with, but because of high-fees, I opted to avoid this as much as I could.
 
-
-
 I was using my default tools to find domains to flip and decided to run a search through some old domains (first registered before 2007). I had stumbled upon a domain [TechQuack.com](http://techquack.com/). For some reason, this domain jumped out in front of all the other domains. Looking at the stats, it had 3 backlinks from old-school phone blogs and was registered back in 2007.
 
 I thought this alone would sell for more than the $10 registration fee I had to pay, so I went ahead and bought the domain [TechQuack.com](http://techquack.com/).
 
 ## The first month of ownership
 
-At this point, I looked into the history of ***TechQuack*** and saw that it was in fact a tech blog at one stage in its life. This did make me question all of the above, and that day when I woke up and thought I might start my own blog.
+At this point, I looked into the history of **_TechQuack_** and saw that it was in fact a tech blog at one stage in its life. This did make me question all of the above, and that day when I woke up and thought I might start my own blog.
 
-Tech was a field of interest for me, being an IT Support analyst for a small company, and knowing that 50% of my job role meant I was googling for solutions to strange and wonderful issues on my clients’ computers. That, right there was the trigger for me creating and developing on the site we now know as ***TechQuack***.
+Tech was a field of interest for me, being an IT Support analyst for a small company, and knowing that 50% of my job role meant I was googling for solutions to strange and wonderful issues on my clients’ computers. That, right there was the trigger for me creating and developing on the site we now know as **_TechQuack_**.
 
 Knowing that my job and many other technical support jobs meant people were Googling for answers meant that I might be able to get some natural SEO views to the site. It’s worth mentioning at this point that I’ve only really hosted and dabbled in website development at this stage, so this wasn’t going to be an easy task for me to start with.
 
-The first week of ownership had me creating a Google Drive folder called “The Tech Project” where I had a spreadsheet with all my content ideas. These literally included “*How to fix printer issues*”, and “*How to troubleshoot internet issues on PCs*”, enticing, I know.
-
-
+The first week of ownership had me creating a Google Drive folder called “The Tech Project” where I had a spreadsheet with all my content ideas. These literally included “_How to fix printer issues_”, and “_How to troubleshoot internet issues on PCs_”, enticing, I know.
 
 I slowly realized that writing down all these ideas was great, as I could keep track of what I needed to write up and post to the site. But what site? There was no website or framework installed on the site for me to upload to. I had recently been recommended WordPress by a fellow blog owner as it was easy to create, manage, edit and sell on in the future which was ideal for me, but me being the naïve person I am, I ignored this and went straight onto CodeCanyon.
 
@@ -65,17 +62,13 @@ See, I had come to realize that this site that I had been around for quite some 
 
 I had given up on the site, but I wanted to change it, not for the money but to build a community and a repository to prove to myself that not only can I change a website and flip it for a solid profit, but to further my knowledge in the tech field.
 
-
-
 ## The Turnaround
 
 One of the main pushes for me turning this around was my own knowledge, and possibly getting the site ready to sell. I wasn’t going to flood the site with content anymore, as I had lost a bit of passion to create the content to post on the site. I decided I needed some help, but not for the content but rather the statistical and analysis side of it.
 
-I enlisted the help of *Google*. Google has three amazing tools that I wasn’t aware of that I needed to use on TechQuack, and boy did I realize what I was missing when they were set up.
+I enlisted the help of _Google_. Google has three amazing tools that I wasn’t aware of that I needed to use on TechQuack, and boy did I realize what I was missing when they were set up.
 
-I used Google Analytics to track where my users were coming from, what they were looking at, and how long they were looking at them for. This was a *crucial* stage of the turnaround and made selling TechQuack easier in the coming months.
-
-
+I used Google Analytics to track where my users were coming from, what they were looking at, and how long they were looking at them for. This was a _crucial_ stage of the turnaround and made selling TechQuack easier in the coming months.
 
 I used Google Search Console to see where my content was ranking, and to start with it was very poor, with around 10 impressions/month.
 
@@ -91,7 +84,7 @@ I had just come back from work, and someone had a very difficult question, on ho
 
 Remembering this, and realizing how silly it was (as people being in the office for only ? days of the week was quite normal, and people wanted to automate their out-of-office responses), I felt the need to write this up.
 
-I wrote up *“How to set up Recurring Out of Office in Outlook 2016”* and little did I know how amazing this one article would be. After a few days, I noticed that my view-count and AdSense balance was rising quite healthy, but almost anonymously. I logged into the Search Console to find out what was going on, and I couldn’t believe that my one post had logged over 200 views in less than a week.
+I wrote up _“How to set up Recurring Out of Office in Outlook 2016”_ and little did I know how amazing this one article would be. After a few days, I noticed that my view-count and AdSense balance was rising quite healthy, but almost anonymously. I logged into the Search Console to find out what was going on, and I couldn’t believe that my one post had logged over 200 views in less than a week.
 
 ![](assets/out-of-office-reply-tutorial-thumbnail.png)
 
@@ -115,15 +108,11 @@ Going back to the original offer, I realized that moving to WordPress wouldn’t
 
 On WordPress, my next step was to sell TechQuack.
 
-
-
 Selling it was going to be tough, and I knew I would have to work on selling it but eventually I knew it would all go through and sell. My first port of call was to go back to my old pal and try to offer him the original $400. The speed at which he declined was ridiculous. He turned down the offer because of the 1000 page views/week I was getting, 800 of them were from the Out of Office article that did me so well. This was a bit of a knock as I thought other people might think the same, and so I opted to auction the site.
 
 I headed over to Flippa, a great place to sell established sites. I say established sites as the fees can be a little high for low-tier or low-value sites. I set off an auction starting at $400 and within 2 hours of listing it (7-day auction) I had several questions and 2 bids for $400, and $425. After all, 7-days had passed, the site [TechQuack.com](http://techquack.com/) had sold for $750 to a private buyer. Unfortunately, this buyer dropped out and as I was about to relist it, I had a private offer (over Flippa) for $1000.
 
 This offer blew me away. I took a site that I had only invested my time into, and around $60, and had just received a four-figure offer for it. Admittedly, you might not call $1000 a 4-figure offer after fees… but I like to keep it that way! And just like that, TechQuack, and all of its content had sold for a nice profit.
-
-
 
 Selling TechQuack was not at the forefront of my agenda when I first started this project, but when you get to be a part of something that doesn’t only make you happy, but can help you earn a living — that’s what it was all about in the end.
 
@@ -132,5 +121,3 @@ TechQuack is now a quite successful tech blog generating around 5k views/week, a
 ![](assets/techquack-chart.png)
 
 For sure, If I could do it again there are so many things I would do differently, but as with any project, you learn, and you fail — but the next project will be so much better. I am already working on another project, which will be amazing too, but this time — I’m not focusing on the money but rather building a brand, and a community that will love the site just as much as I will.
-
-

@@ -6,24 +6,25 @@ author: Charlie Kemp
 featured: true
 category: Guest Post
 tags:
-  - SEO
-  - Ahrefs
-  - SEMrush
-  - Reviews
+    - SEO
+    - Ahrefs
+    - SEMrush
+    - Reviews
 ---
+
 When on the market for a professional SEO toolset that can aid in building and growing your online presence, there are many of them available. Two of the biggest SEO tools on the market, Ahrefs and SEMrush have been competing against each other since 2010, and have been helping all kinds of businesses thrive online. But which one is best?
 
 In today's Domaincord article, we give an honest overview of each base-plan tier for both Ahrefs and SEMrush to help you decide which tool is best for you. Let's jump straight into it. In this article, we will be comparing both SEO tools using the key focuses below, as well as closing reviews of each tool and our pick for the best.
 
 ## Key Focuses:
 
-- Domain Crawling/Ranking
-- Keyword Research and Analysis
-- Backlink Research and Analysis
-- Site Audit and Suggestion Capabilities
-- UI and Usability
-- Pricing
-- Support and Education
+-   Domain Crawling/Ranking
+-   Keyword Research and Analysis
+-   Backlink Research and Analysis
+-   Site Audit and Suggestion Capabilities
+-   UI and Usability
+-   Pricing
+-   Support and Education
 
 ## What is Ahrefs?
 
@@ -147,7 +148,6 @@ SEMrush, as we've already mentioned, does look quite similar and features the sa
 
 ![SEMrush Site UI and functionality](assets/ahrefs-semrush-comparison/14.png)
 
-
 Functionality wise, SEMrush is about the same as Ahrefs. SEMrush is comparable in speed, with keywords and backlink analysis taking just a couple of seconds to get a whole catalogue of data and information, but similarly to Ahrefs – the site crawl can take a little bit of time. From adding the site to having a full-site audit, it took just 14 minutes which is acceptable for the tool, still considerably faster than Ahrefs on this front.
 
 ### Pricing and Tiers
@@ -160,11 +160,11 @@ Ahrefs has four plans, Lite ($95/m), Standard ($190/m), Advanced ($385/m), and E
 
 For this review, (of Lite – the lowest subscription), you're able to use the tool to manage;
 
-- 5 Unverified project, and Unlimited verified projects. (Verified using GSC, or manual verification).
-- 750 Tracked Keywords (additional costs $50/m for 500 extra).
-- Keyword, Domain, and Backlink Analysis
-- Domain, Keyword, and Backlink Analytics; 500,000 results a month, ($50/m for an extra million).
-- 100,000 Page Crawls per Month (max. Of 25,000 per project).
+-   5 Unverified project, and Unlimited verified projects. (Verified using GSC, or manual verification).
+-   750 Tracked Keywords (additional costs $50/m for 500 extra).
+-   Keyword, Domain, and Backlink Analysis
+-   Domain, Keyword, and Backlink Analytics; 500,000 results a month, ($50/m for an extra million).
+-   100,000 Page Crawls per Month (max. Of 25,000 per project).
 
 Something to note with Ahrefs, is that some features such as content explorer, domain comparisons, additional site explorer/audit features and the notable "Ahrefs Search" are all in the higher packages, and are not within the lite edition.
 
@@ -176,16 +176,15 @@ On the flip side, SEMrush only has three paid tiers, Pro ($119.95/m), Guru ($229
 
 For this review (of Pro – the lowest subscription), you're able to use the tool to manage;
 
-- 5 Projects (or Websites)
-- 500 Tracked Keywords
-- Keyword, Domain, and Backlink Analysis
-- Domain and Keyword Analytics; 10,000 Results per report; 3,000 reports per day.
-- 100,000 Page Crawls per month (split into 20,000 per project).
+-   5 Projects (or Websites)
+-   500 Tracked Keywords
+-   Keyword, Domain, and Backlink Analysis
+-   Domain and Keyword Analytics; 10,000 Results per report; 3,000 reports per day.
+-   100,000 Page Crawls per month (split into 20,000 per project).
 
 SEMrush also opens the door with many on-site tools such as keyword research, on-page SEO, competitor analysis, link building, rank tracking, content optimization, seo analysis and even site-audits to help you improve your sites presence. The [full list of SEMrush features can be found here](https://www.semrush.com/features/). These are included with every paid plan, although some may have limitations.
 
 ![SEMrush Pricing](assets/ahrefs-semrush-comparison/16.png)
-
 
 ### Support and Further SEO Education
 
@@ -194,7 +193,6 @@ In terms of support, both platforms are all for helping and assisting customers 
 Both SEMrush and Ahrefs have further education outside of their tool on their respective YouTube channels as well as on-site education platforms such as Ahrefs "academy" that can help people understand more about SEO, and how not only the SEO tool can help – but also other aspects of SEO to help grow your business. Both education platforms have a wide range of free to access content (regardless of if you're paying for it) and both offer a great level of information.
 
 ![SEMrush education academy - learn SEO](assets/ahrefs-semrush-comparison/17.png)
-
 
 In terms of support and further SEO information provided, both tools appear to go the extra mile to make sure you have the best setup for success from an SEO standpoint.
 

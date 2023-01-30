@@ -2,6 +2,7 @@
 title: Programmatically checking Steam username availability
 publishDate: 20180810
 ---
+
 Sometimes you need to find an easy and reliable way to do something without resorting to using an official API for various reasons such as distributing an amateur-focused script or program.
 
 Explaining how to obtain API keys is often too much of a hassle. Other times, the service might not provide a convenient endpoint for getting the information you need.
@@ -31,7 +32,7 @@ def check(name):
     requestUrl = "https://steamcommunity.com/id/%s" % name # Creates a variable to hold our request url which should be the url to the Steam profile page
 
     response = session.request("GET", requestUrl) # Makes an HTTP request to the profile page using the session we initialized above
-    
+
     if response.status_code is 200: # Checks if the request was successful before trying to parse the response on the next line
         soup = BeautifulSoup(response.content, "html.parser") # Initializes our HTML parser module of choice, BeautifulSoup4, with the passed in response content
 
@@ -56,4 +57,4 @@ def check(name):
 
 If you have any relevant questions at all, please leave a comment on this post with your question and I will be happy to answer them.
 
-**Update 2018/08/10:**  I have changed the method I’m using to check availability to check for a specific phrase rather than an H3 element.
+**Update 2018/08/10:** I have changed the method I’m using to check availability to check for a specific phrase rather than an H3 element.

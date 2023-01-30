@@ -3,15 +3,17 @@ title: Where to get low-cost and free domain names
 customSlug: free-domains
 author: Kieran Cairns
 publishDate: 20220518
-description: In this post we will discuss the differences between free and paid domains,
-  along with a list of providers to get your domain name from and tips on how to
-  avoid the all to common bait and switch marketing.
+description:
+    In this post we will discuss the differences between free and paid domains,
+    along with a list of providers to get your domain name from and tips on how to
+    avoid the all to common bait and switch marketing.
 category: Guest Post
 tags:
-  - free
-  - resources
+    - free
+    - resources
 featured: true
 ---
+
 A website and therefore a domain name is an unavoidable nesscesity for any business in the 21st centuary. However, despite what you may have heard you do not have to pay hundreds of dollars for a domain name, you can actually even get certain domains for free. However, like with most free things in life, there are caveats.
 
 In this post we will discuss the differences between free and paid domains, along with a list of providers to get your domain name from and tips on how to avoid the all to common "bait and switch" marketing.
@@ -19,8 +21,6 @@ In this post we will discuss the differences between free and paid domains, alon
 ### No Domain / IP Address
 
 Few people know you can actually allow other people to access your website without a domain name. All web servers will have an IP address associated with, and if there is a single website hosted on the server you can often access your website by typing the server IP into your web browser. However accessing your site through an IP addresses come with a number of issues.
-
-
 
 #### Poor Formatting
 
@@ -68,10 +68,10 @@ As we have already established free domains are certainly not suitable for busin
 
 If you choose to use a free domain name for your provider there are couple of options available to you which are detailed below.
 
-| Provider                                           | Extensions                  | Notes                                                   |
-| -------------------------------------------------- | --------------------------- | ------------------------------------------------------- |
-| [Freenom](https://freenom.com/?ref=domaincord.com) | .tk / .ml / .cf / .gq / .ga | Freenom are known to revoke domain names for no reason. |
-| [eu.org](https://nic.eu.org/?ref=domaincord.com) | .eu.org | Registrations are manually approved which can take up to a week. You do not need to live in the EU. |                                                   |                             |                                                         |
+| Provider                                           | Extensions                  | Notes                                                                                               |
+| -------------------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------- | --- | --- | --- |
+| [Freenom](https://freenom.com/?ref=domaincord.com) | .tk / .ml / .cf / .gq / .ga | Freenom are known to revoke domain names for no reason.                                             |
+| [eu.org](https://nic.eu.org/?ref=domaincord.com)   | .eu.org                     | Registrations are manually approved which can take up to a week. You do not need to live in the EU. |     |     |     |
 
 ## Free Subdomains
 
@@ -98,16 +98,17 @@ Like with free domains, subdomains are a great option for non business use, for 
 If you choose to use a free subdomain you can find information on the main providers listed below.
 
 ##### For Hosting Customers Only
-| **Provider**                                                 | **Sub-domain**  |
-|:-------------------------------------------------------------|:----------------|
+
+| **Provider**                                                 | **Sub-domain**        |
+| :----------------------------------------------------------- | :-------------------- |
 | [Netlify](https://netlify.com/?ref=domaincord.com)           | example.netlify.app   |
-|  [Vercel](https://vercel.com/?ref=domaincord.com)             |  example.vercel.app    |
-|  [GitHub Pages](https://pages.github.com/?ref=domaincord.com) | example.github.io     |
-|  [Surge](https://surge.sh/?ref=domaincord.com)                | example.surge.sh      |
-|  [Weebly](https://weebly.com/?ref=domaincord.com)             | example.weebly.com    |
-|  [Wix](https://wix.com/?ref=domaincord.com)                   |  example.wix.com       |
-|  [WordPress](https://wordpress.com/?ref=domaincord.com)       |  example.wordpress.com |
-|  [Blogger](https://blogger.com/?ref=domaincord.com)           |  example.blogger.com   |
+| [Vercel](https://vercel.com/?ref=domaincord.com)             | example.vercel.app    |
+| [GitHub Pages](https://pages.github.com/?ref=domaincord.com) | example.github.io     |
+| [Surge](https://surge.sh/?ref=domaincord.com)                | example.surge.sh      |
+| [Weebly](https://weebly.com/?ref=domaincord.com)             | example.weebly.com    |
+| [Wix](https://wix.com/?ref=domaincord.com)                   | example.wix.com       |
+| [WordPress](https://wordpress.com/?ref=domaincord.com)       | example.wordpress.com |
+| [Blogger](https://blogger.com/?ref=domaincord.com)           | example.blogger.com   |
 
 ### Paid Domains
 
@@ -131,9 +132,9 @@ However, be aware each tld will be sold at a different price, ranging from as li
 
 #### Highly Reliable
 
-Unlike with free domains and subdomains you will find a paid domain is incredibly reliable, this is because when you buy a domain you sign a contract which means as long as you pay your annual renewal fee, you will not loose your domain.*
+Unlike with free domains and subdomains you will find a paid domain is incredibly reliable, this is because when you buy a domain you sign a contract which means as long as you pay your annual renewal fee, you will not loose your domain.\*
 
-*You may still loose your domain if you violate your providers terms of services, although generally the terms only prohibit using the domain for criminal / immoral purposes.
+\*You may still loose your domain if you violate your providers terms of services, although generally the terms only prohibit using the domain for criminal / immoral purposes.
 
 #### Who are paid domains suitable for?
 
@@ -155,13 +156,13 @@ The key things to look out for are the following:
 
 There are a handful of providers that are known by the industry to be reliable, cost effective and to offer good customer services.
 
-| Provider                                                                                                                                                                                                                                                                                                                       | Extensions Available | Price Range | Notes                                                      |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:------------|:-----------------------------------------------------------|
-| [NameCheap](https://namecheap.com/?ref=domaincord.com)   |                 500+ | Moderate    | $0.18 ICANN Fee not included in listed prices. |
-| [NameSilo](https://namesilo.com/?ref=domaincord.com)    | 400+      | Inexpensive |                                                            |
-| [Cloudflare](https://cloudflare.com/?ref=domaincord.com) |                 200+ | Inexpensive | At cost domains, however you must use CloudFlare DNS.      |
-| [Porkbun](https://porkbun.com/croc)                                                                                                                                                                                                                                                                                            |                 500+ | Inexpensive |                                                            |
-| [Sav](https://sav.com/?ref=domaincord.com)                                                                                                                                                                                                                                                                                     |                 300+ | Inexpensive |                                                            |
+| Provider                                                 | Extensions Available | Price Range | Notes                                                 |
+| :------------------------------------------------------- | :------------------- | :---------- | :---------------------------------------------------- |
+| [NameCheap](https://namecheap.com/?ref=domaincord.com)   | 500+                 | Moderate    | $0.18 ICANN Fee not included in listed prices.        |
+| [NameSilo](https://namesilo.com/?ref=domaincord.com)     | 400+                 | Inexpensive |                                                       |
+| [Cloudflare](https://cloudflare.com/?ref=domaincord.com) | 200+                 | Inexpensive | At cost domains, however you must use CloudFlare DNS. |
+| [Porkbun](https://porkbun.com/croc)                      | 500+                 | Inexpensive |                                                       |
+| [Sav](https://sav.com/?ref=domaincord.com)               | 300+                 | Inexpensive |                                                       |
 
 #### Avoiding Bait & Switch
 
@@ -185,4 +186,4 @@ So whilst it is most certainly an option if your budget is constrained, consider
 
 ---
 
-[1] www.spamhaus.org. (n.d.). _The Spamhaus Project - The Top 10 Most Abused TLDs_. [online] Available at: [https://www.spamhaus.org/statistics/tlds/](https://www.spamhaus.org/statistics/tlds/) [Accessed 17 May 2022].
+[1] www.spamhaus.org. (n.d.). *The Spamhaus Project - The Top 10 Most Abused TLDs*. [online] Available at: [https://www.spamhaus.org/statistics/tlds/](https://www.spamhaus.org/statistics/tlds/) [Accessed 17 May 2022].

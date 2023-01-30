@@ -5,17 +5,16 @@ author: Charlie Kemp
 featured: true
 category: Guest Post
 tags:
-  - reflections
-  - success-stories
+    - reflections
+    - success-stories
 customSlug: grew-highly-competitive-niche-gaming-content-site-sold-1500
 ---
+
 ![](assets/ovrpwr-featured-thumbnail.jpeg)
 
 When I was younger, I would always be Infront of games, and I always loved being the “achievement hunter” out of my family, which was fun when you have two older brothers! No matter what the game was, I wanted to truly complete it.
 
 When I was younger, some easter eggs in the old Call of Duty’s were quite hard to understand or figure out, but searching the internet was quite a tough task back then. Fast forward to today, and there are thousands of game guides, reviews, and troubleshooting content sites that you can use to get easy lists of achievements. I wanted a piece of that action.
-
-
 
 This article is all about how I thought up, developed and created a highly competitive niche gaming guide site, and sold it less than a year after committing to it for $1500.
 
@@ -24,8 +23,6 @@ This article is all about how I thought up, developed and created a highly compe
 The idea of having my own site was always something that I loved doing but didn’t always have the motivation to go forward and write all the content myself. When I first started with [TechQuack](https://domaincord.com/blog/turned-abandoned-domain-successful-tech-blog-sold-1000) (my first content-based guide and troubleshooting website), I never intended to sell, but felt like there was someone who could take it further than I could, and as you can see from this article — this was true.
 
 Whilst owning [TechQuack](https://domaincord.com/blog/turned-abandoned-domain-successful-tech-blog-sold-1000), I also owned the domain OvrPwr.net. OvrPwr was a brandable name for “Over-Power”. Initially, I wanted to make OvrPwr a drink brand, more of an energy drink brand because when you drink an energy drink you can often feel overpowered.
-
-
 
 After selling TechQuack for $1000, I felt like I was missing something in my life, and I wanted to have a purpose and I wasn’t sure where to find it. After trying to flip domains and have side-hustle writing and investing, I felt like the time had come to utilize the OvrPwr.net domain.
 
@@ -43,8 +40,6 @@ At this point, OvrPwr.net was ready. I had made the logo on Photoshop a few days
 
 Once the site was set up it was finally time to start writing some content. Something that I’ve always been able to do, is write content just how I like it. After TechQuack, I learnt that affiliate-based content (where you provide links and if a reader clicks, you may receive a commission) was where most of the money was. My first post on OvrPwr was called “How to get Free CSGO Skins in 2019” and I provided affiliate links (10% commission on earnings). This article took around 30 minutes to write and post, and I was so excited!
 
-
-
 In 30 days, this post had generated a massive… 4 views.
 
 This made me feel quite… sad. Personally, If I don’t see results quick, I often get disheartened but sometimes persistence is needed, and sadly without spending advertising money on getting your site noticed, getting authentic, natural readers take time.
@@ -60,8 +55,6 @@ I left OvrPwr.net for around 6–8 months, just dwelling and collecting dust. I 
 I knew from previous experience that creating these content websites and generating roughly 1000 views a month will bring a nice return on investment for not too much work. So, I decided to start it all up again. I paid for a SEO consultant for 1 hours’ worth of work ($150) to help me out with what I needed to do to get this back on the successful road.
 
 After 45 minutes, the SEO consultant offered me a few solutions. Most of it was keyword based, and what I should be writing for good starting exposure for my content, but a massive part of the SEO he said was down to its performance. The site took a new viewer 7 seconds to load, and in most cases, a reader would click off within 4–5 seconds of loading.
-
-
 
 Knowing this, I decided to make the jump to use WordPress for the core of the website. This migration wasn’t easy but was well worth the time. The load time went from 7 seconds down to just 1 second, which was amazing and prove beneficial for the long-term. WordPress is the best for these kinds of content-sites, and will always be on top for both small, and large-sized blogs.
 
@@ -83,8 +76,6 @@ A lot of people often go to freelance sites, or otherwise, off-shore employment 
 
 One of my friends, was looking for a job, knew English quite well and the average monthly wage in his country was only $200 a month. What’s more, is that he was really into games. He loved playing games like Genshin Impact, League of Legends, and Fortnite. These games were all massive when I first employed him, and I decided to take a plunge and invest in him for a number of months.
 
-
-
 He was able to write daily articles, that returned a nice 30–40 views, per article, within the first 7 days of posting them. Some of these articles were more news-based, rather than guides and tips and tricks like I had been writing. I was really happy with his work, and couldn’t have asked for anything more. This was quite an investment for me, but I made a great relationship with the writer, and will likely be working with him on my other projects.
 
 ![](assets/ovrpwr-chart-2.png)
@@ -98,8 +89,6 @@ With spending almost $250 a month on OvrPwr, I needed to really figure out how t
 I needed to write some affiliate content. Affiliate content is content that would let me earn a commission or revenue from readers clicking, using, or purchasing something from another company — but coming from OvrPwr.
 
 I wrote some more “How to earn Giftcards for FREE” which helped me get a few extra $ a month, but nothing special. I also wrote some guides on how people can buy gift cards or gifts for their friends using code sites such as Gamivo, or G2A. These sites generated around 85% of all revenue on OvrPwr.
-
-
 
 On average, OvrPwr was earning around $20 a month, which was still quite a massive loss — but I soon came to realize this may have been my fault.
 
@@ -115,8 +104,6 @@ We had decided that if we couldn’t push OvrPwr over the 2000 views line, then 
 
 Similarly, to the [sale of TechQuack](https://domaincord.com/blog/turned-abandoned-domain-successful-tech-blog-sold-1000), I decided to sell OvrPwr over on Flippa. Flippa is a great, but slightly expensive place to post websites, domains and apps to get in front of hundreds of thousands of buyers who will have expertise in the category.
 
-
-
 Flippa charged me $29 + 10% After Sale Fee ($150 on sale completion), but was an easy-to-list and easy to use experience which is great, as it takes maybe 5–10 minutes to list. Within 24-hours, I had 3 offers for OvrPwr. I had listed it at a $2000 buy-it-now price, but bidding at $800. One offer was for $1000, another for $850, and one at $1100.
 
 To me, these offers were low, but the problem was — I was losing more money than I was gaining and these values would actually save money and relieve some weight from my shoulders.
@@ -129,21 +116,17 @@ I countered the offer at $1100 for $1600, before they countered for $1250, and I
 
 If I was ever to create another site like OvrPwr, and will probably use some of these tips going forward with my other projects. I feel like next time, I need to;
 
-- Focus on Keywords (Low Difficulty, Low Traffic Keywords).
-- Build Backlinks Early On
-- Write a “Content Plan” and “Content Creation Guide” for any Writers
-- Commit to it, and don’t give up when it’s not fast-growth.
+-   Focus on Keywords (Low Difficulty, Low Traffic Keywords).
+-   Build Backlinks Early On
+-   Write a “Content Plan” and “Content Creation Guide” for any Writers
+-   Commit to it, and don’t give up when it’s not fast-growth.
 
 Keywords are massively important, even if they’re easy to rank and only bring in 10 views per month, this is still worth it because it’s a rank that you can hold if you’re early. This was massively important for OvrPwr’s initial growth.
 
 Backlinks are essential to DR, and as mentioned earlier, the higher your DR, the easier it is to rank higher on Google, but it’s not essential. Backlinks and guest posting for other people will be the best way to gain these backlinks.
-
-
 
 When I tried to help my writer get started, with a creation guide and some titles and keywords in a list — this would’ve made content creation 10x faster, and a lot easier for my writer. This is also a massive help for when you have duplicate content, separate from WordPress.
 
 Don’t. Give. Up. I need to not give up when the views are low because in a few months of work it could be 500–1000 views a month, or maybe more and will be well worth the initial 3-month struggle.
 
 In conclusion, OvrPwr was my baby-site, that I did put a lot of effort and heart into, and even though it was losing me money — OvrPwr was definitely a massive learning curve for me, and I’ve gained endless experience and a writer who can help me with more projects going forward. The buyer of OvrPwr has a track record of taking these sites and making them into amazing sites, so no doubt that you might be seeing OvrPwr on a search near you, sometime soon.
-
-

@@ -4,9 +4,10 @@ customSlug: domainquest-downtown-air
 publishDate: 20211011
 category: Domain Quest
 tags:
-  - candid
-  - domain-sightinga
+    - candid
+    - domain-sightinga
 ---
+
 Spotted the service vehicle for the Orlando-based HVAC service center known as Downtown Air. They use a generic two word, hyphenated domain name as their primary domain. I love the colors that they chose to represent their brand and their stylish truck is rocking it well!
 
 ![](assets/downtown-air.jpeg)

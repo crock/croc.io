@@ -2,6 +2,7 @@
 title: The State of ADA Compliance in the workplace in 2022
 publishDate: 20220426
 ---
+
 ## Disclosing a disability in the workplace—should you do it?
 
 Getting a new job is one of the most difficult things that one has to do in life. Interview prep, refining technical skills, and projecting enough confidence to land a new job is stressful for anyone and a major stress inducer.
@@ -10,7 +11,7 @@ After an arduous job hunt and landing a gig, the new hire has to maintain good c
 
 However, not everyone achieves success in the same way. Those with disabilities often struggle to perform at the same level as their neurotypical peers. Individuals with disabilities often try to hide or mask their disability in the workplace for fear of retaliation.
 
-This brings us to the question that many of my readers probably had at one point or another. *Is it worth disclosing a disability to a potential or current employer?*
+This brings us to the question that many of my readers probably had at one point or another. _Is it worth disclosing a disability to a potential or current employer?_
 
 ### The short answer
 
@@ -32,7 +33,7 @@ If you are still employed and suspect that you are being mistreated due to a doc
 
 > Be sure to put your complaint in writing, so you have a record of when you complained and what you said.
 
-&mdash; DisabilitySecrets.com  
+&mdash; DisabilitySecrets.com
 
 It’s not necessary to raise a formal complaint within your company, but there are a few benefits to doing so. Most importantly, the company may cooperate with you and try to address your concerns appropriately, which would save you both time and money from legal affairs. The only way to know for sure is to at least try. If the company fails to take appropriate action, you now have written, verifiable proof that you brought the concern to their attention internally and gave them a reasonable chance to address it.
 
@@ -40,7 +41,7 @@ It’s not necessary to raise a formal complaint within your company, but there 
 
 In the unfortunate scenario that you are no longer employed, one of your options is to file a discrimination charge with the EEOC, the federal agency responsible for enforcing ADA compliance.
 
-To file a charge, you can go to your  [local EEOC office](https://www.eeoc.gov/field/index.cfm). The EEOC does not take complaints online or over the phone. You will also need to have some information handy when you go such as names and contact information for you and your employer, the size of the employer, a description of the incident (include dates and times to the best of your knowledge), why you believe you were discriminated against, and your signature. For more information about the charge-filing process and how to file, visit the [EEOC webite](https://www.eeoc.gov/employees/howtofile.cfm).
+To file a charge, you can go to your [local EEOC office](https://www.eeoc.gov/field/index.cfm). The EEOC does not take complaints online or over the phone. You will also need to have some information handy when you go such as names and contact information for you and your employer, the size of the employer, a description of the incident (include dates and times to the best of your knowledge), why you believe you were discriminated against, and your signature. For more information about the charge-filing process and how to file, visit the [EEOC webite](https://www.eeoc.gov/employees/howtofile.cfm).
 
 #### Talk to a Lawyer
 
