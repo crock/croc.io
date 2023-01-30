@@ -36,6 +36,28 @@
 		"tags": ["Python", "NodeJS", "ExpressJS"]
 	},
 	{
+		"id": 6,
+		"name": "Leasecake",
+		"startDate": 20191001,
+		"endDate": 20200120,
+		"ongoging": false,
+		"status": "inactive",
+		"pitch": "Jr. Full Stack Developer",
+		"postUrl": "/posts/leasecake",
+		"tags": ["Laravel", "VueJS", "SCSS", "PHP", "MySQL"]
+	},
+	{
+		"id": 5,
+		"name": "CNCMachines.com",
+		"startDate": 20190301,
+		"endDate": 20190525,
+		"ongoging": false,
+		"status": "inactive",
+		"pitch": "Jr. Front-End Developer",
+		"postUrl": "/posts/cncmachines",
+		"tags": ["NextJS", "ReactJS", "SCSS"]
+	},
+	{
 		"id": 4,
 		"name": "PlayBattleRoyale.com",
 		"startDate": 20190131,

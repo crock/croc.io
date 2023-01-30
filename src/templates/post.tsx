@@ -5,7 +5,7 @@ import moment from "moment"
 
 const PostTemplate = ({ data: { mdx }, children }) => {
 	const { body, excerpt, frontmatter, id } = mdx
-	const { title, publishDate, author } = frontmatter
+	const { title, publishDate, author, type } = frontmatter
 
 	
 
@@ -27,18 +27,20 @@ const PostTemplate = ({ data: { mdx }, children }) => {
 	return (
 		<div className="py-10">
 			<Wrapper className="mx-auto px-4 h-full max-w-5xl">
-				<h1 className="font-bold text-4xl text-gray-900 dark:text-gray-50">
+				<h1 className="font-bold text-4xl text-gray-900 dark:text-gray-50 mb-3">
 					{title}
 				</h1>
-				<p className="my-4 text-gray-500 text-lg">
-					Published on{" "}
-					<time dateTime={publishDate} className="text-primary">
-						{moment(publishDate, "YYYYMMDD").format(
-							"MMMM DD, YYYY"
-						)}
-					</time>
-					<Attribution />
-				</p>
+				{ type != "project" ? (
+					<p className="mb-4 text-gray-500 text-lg">
+						Published on{" "}
+						<time dateTime={publishDate} className="text-primary">
+							{moment(publishDate, "YYYYMMDD").format(
+								"MMMM DD, YYYY"
+							)}
+						</time>
+						<Attribution />
+					</p>
+				) : null }
 				<div className="prose dark:prose-invert prose-lg">
 					{children}
 				</div>
@@ -56,6 +58,7 @@ export const query = graphql`
 				title
 				publishDate
 				author
+				type
 			}
 			id
 			tableOfContents
@@ -65,12 +68,15 @@ export const query = graphql`
 
 export const Head = ({ data }) => {
 	const { body, excerpt, frontmatter, id } = data.mdx
-	const { title, publishDate } = frontmatter
+	const { title, publishDate, type } = frontmatter
+
+	const subpage = type === "project" ? "Projects" : "Blog"
 
 	return (
 		<>
 			<body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
-			<title>{title} | Blog | Croc Studios</title>
+			<title>{title} | {subpage} | Croc Studios</title>
+			<meta name="description" content={excerpt} />
 		</>
 	)
 }
