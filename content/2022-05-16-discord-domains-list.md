@@ -25,48 +25,123 @@ I have gathered a list of domains that have been registered within the last 10 y
 
 ### Active domains containing the full “discord” keyword
 
-| Domain Name                                               | Use Case                                 |
-| --------------------------------------------------------- | ---------------------------------------- |
-| [DiscordBotList.com](https://discordbotlist.com/)         | Discord chat bot directory               |
-| [DiscordServers.com](https://discordservers.com/)         | Discord community directory              |
-| [Discord.me](https://discord.me/)                         | Discord community directory              |
-| [Discord.st](https://discord.st/)                         | Discord community directory              |
-| [Discords.com](https://discords.com/)                     | Discord community and chat bot directory |
-| [DiscordHome.com](https://discordhome.com/)               | Discord community directory              |
-| [FindADiscord.com](https://findadiscord.com/)             | Discord community directory              |
-| [DiscordList.space](https://discordlist.space/)           | Discord community and chat bot directory |
-| [DiscordInvites.net](https://discordinvites.net/)         | Discord community directory              |
-| [DiscordBee.com](https://discordbee.com/)                 | Discord community directory              |
-| [DiscordList.me](https://discordlist.me/)                 | Discord community directory              |
-| [DiscordHub.com](https://discordhub.com/)                 | Discord community directory              |
-| [DiscordServerLists.com](https://discordserverlists.com/) | Discord community directory              |
-| [DiscordTop.com](https://discordtop.com/)                 | Discord community directory              |
-| [discord.center](https://discord.center/)                 | Discord community directory              |
-| [DiscordExpert.com](discordexpert.com/)                   | Discord community directory              |
+<table class="table table-auto">
+    <thead class="table-header-group">
+        <tr class="table-row">
+            <th>Domain Name</th>
+            <th>Use Case</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordbotlist.com/">DiscordBotList.com</a></td>
+            <td class="table-cell">Discord chat bot directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordservers.com/">DiscordServers.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discord.me/">Discord.me</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discord.st/">Discord.st</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discords.com/">Discords.com</a></td>
+            <td class="table-cell">Discord community and chat bot directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordhome.com/">DiscordHome.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://findadiscord.com/">FindADiscord.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordlist.space/">DiscordList.space</a></td>
+            <td class="table-cell">Discord community and chat bot directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordinvites.net/">DiscordInvites.net</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordbee.com/">DiscordBee.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordlist.me/">DiscordList.me</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordhub.com/">DiscordHub.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordserverlists.com/">DiscordServerLists.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discordtop.com/">DiscordTop.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://discord.center/">discord.center</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="discordexpert.com/">DiscordExpert.com</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Active domains containing “discord” keyword variations
 
-| Domain Name                           | Use Case                                 |
-| ------------------------------------- | ---------------------------------------- |
-| [disboard.org](https://disboard.org/) | Discord community directory              |
-| [disforge.com](https://disforge.com/) | Discord community and chat bot directory |
+<table class="table table-auto">
+    <thead class="table-header-group">
+        <tr class="table-row">
+            <th>Domain Name</th>
+            <th>Use Case</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://disboard.org/">disboard.org</a></td>
+            <td class="table-cell">Discord community directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://disforge.com/">disforge.com</a></td>
+            <td class="table-cell">Discord community and chat bot directory</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Active domains containing alternative keywords that target Discord users
 
-| Domain Name                   | Use Case                                 |
-| ----------------------------- | ---------------------------------------- |
-| [top.gg](https://top.gg/)     | Discord community and chat bot directory |
-| [dyno.gg](https://dyno.gg/)   | Popular Discord chat bot                 |
-| [mee6.xyz](https://mee6.xyz/) | Popular Discord chat bot                 |
-
-### Inactive, registered domains containing the full “discord” keyword
-
-| Domain Name                                        | Use Case |
-| -------------------------------------------------- | -------- |
-| [DiscordAds.com](https://discordads.com)           | For Sale |
-| [Discords.io](https://discords.io)                 | For Sale |
-| [Discords.org](https://discords.org)               | For Sale |
-| [Discord.cfd](https://discord.cfd)                 | For Sale |
-| [Discord.group](https://discord.group)             | For Sale |
-| [DiscordAuctions.com](https://discordauctions.com) | For Sale |
-| [DiscordCommerce.com](https://discordcommerce.com) | For Sale |
+<table class="table table-auto">
+    <thead class="table-header-group">
+        <tr class="table-row">
+            <th>Domain Name</th>
+            <th>Use Case</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://top.gg/">top.gg</a></td>
+            <td class="table-cell">Discord community and chat bot directory</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://dyno.gg/">dyno.gg</a></td>
+            <td class="table-cell">Popular Discord chat bot</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://mee6.xyz/">mee6.xyz</a></td>
+            <td class="table-cell">Popular Discord chat bot</td>
+        </tr>
+    </tbody>
+</table>

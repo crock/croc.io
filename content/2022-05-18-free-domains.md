@@ -68,10 +68,30 @@ As we have already established free domains are certainly not suitable for busin
 
 If you choose to use a free domain name for your provider there are couple of options available to you which are detailed below.
 
-| Provider                                           | Extensions                  | Notes                                                                                               |
-| -------------------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------- | --- | --- | --- |
-| [Freenom](https://freenom.com/?ref=domaincord.com) | .tk / .ml / .cf / .gq / .ga | Freenom are known to revoke domain names for no reason.                                             |
-| [eu.org](https://nic.eu.org/?ref=domaincord.com)   | .eu.org                     | Registrations are manually approved which can take up to a week. You do not need to live in the EU. |     |     |     |
+<table class="table table-auto">
+    <thead class="table-header-group">
+        <tr class="table-row">
+            <th>Provider</th>
+            <th>Extensions</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://freenom.com/?ref=domaincord.com">Freenom</a></td>
+            <td class="table-cell">.tk / .ml / .cf / .gq / .ga</td>
+            <td class="table-cell">Freenom are known to revoke domain names for no reason.</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://nic.eu.org/?ref=domaincord.com">eu.org</a></td>
+            <td class="table-cell">.eu.org</td>
+            <td class="table-cell">Registrations are manually approved which can take up to a week. You do not need to live in the EU.</td>
+            <td class="table-cell"></td>
+            <td class="table-cell"></td>
+            <td class="table-cell"></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Free Subdomains
 
@@ -99,16 +119,48 @@ If you choose to use a free subdomain you can find information on the main provi
 
 ##### For Hosting Customers Only
 
-| **Provider**                                                 | **Sub-domain**        |
-| :----------------------------------------------------------- | :-------------------- |
-| [Netlify](https://netlify.com/?ref=domaincord.com)           | example.netlify.app   |
-| [Vercel](https://vercel.com/?ref=domaincord.com)             | example.vercel.app    |
-| [GitHub Pages](https://pages.github.com/?ref=domaincord.com) | example.github.io     |
-| [Surge](https://surge.sh/?ref=domaincord.com)                | example.surge.sh      |
-| [Weebly](https://weebly.com/?ref=domaincord.com)             | example.weebly.com    |
-| [Wix](https://wix.com/?ref=domaincord.com)                   | example.wix.com       |
-| [WordPress](https://wordpress.com/?ref=domaincord.com)       | example.wordpress.com |
-| [Blogger](https://blogger.com/?ref=domaincord.com)           | example.blogger.com   |
+<table class="table table-auto">
+    <thead class="table-header-group">
+        <tr class="table-row">
+            <th><strong>Provider</strong></th>
+            <th><strong>Sub-domain</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://netlify.com/?ref=domaincord.com">Netlify</a></td>
+            <td class="table-cell">example.netlify.app</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://vercel.com/?ref=domaincord.com">Vercel</a></td>
+            <td class="table-cell">example.vercel.app</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://pages.github.com/?ref=domaincord.com">GitHub Pages</a></td>
+            <td class="table-cell">example.github.io</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://surge.sh/?ref=domaincord.com">Surge</a></td>
+            <td class="table-cell">example.surge.sh</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://weebly.com/?ref=domaincord.com">Weebly</a></td>
+            <td class="table-cell">example.weebly.com</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://wix.com/?ref=domaincord.com">Wix</a></td>
+            <td class="table-cell">example.wix.com</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://wordpress.com/?ref=domaincord.com">WordPress</a></td>
+            <td class="table-cell">example.wordpress.com</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://blogger.com/?ref=domaincord.com">Blogger</a></td>
+            <td class="table-cell">example.blogger.com</td>
+        </tr>
+    </tbody>
+</table>
 
 ### Paid Domains
 
@@ -156,13 +208,48 @@ The key things to look out for are the following:
 
 There are a handful of providers that are known by the industry to be reliable, cost effective and to offer good customer services.
 
-| Provider                                                 | Extensions Available | Price Range | Notes                                                 |
-| :------------------------------------------------------- | :------------------- | :---------- | :---------------------------------------------------- |
-| [NameCheap](https://namecheap.com/?ref=domaincord.com)   | 500+                 | Moderate    | $0.18 ICANN Fee not included in listed prices.        |
-| [NameSilo](https://namesilo.com/?ref=domaincord.com)     | 400+                 | Inexpensive |                                                       |
-| [Cloudflare](https://cloudflare.com/?ref=domaincord.com) | 200+                 | Inexpensive | At cost domains, however you must use CloudFlare DNS. |
-| [Porkbun](https://porkbun.com/croc)                      | 500+                 | Inexpensive |                                                       |
-| [Sav](https://sav.com/?ref=domaincord.com)               | 300+                 | Inexpensive |                                                       |
+<table class="table table-auto">
+    <thead class="table-header-group">
+        <tr class="table-row">
+            <th>Provider</th>
+            <th>Extensions Available</th>
+            <th>Price Range</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://namecheap.com/?ref=domaincord.com">NameCheap</a></td>
+            <td class="table-cell">500+</td>
+            <td class="table-cell">Moderate</td>
+            <td class="table-cell">$0.18 ICANN Fee not included in listed prices.</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://namesilo.com/?ref=domaincord.com">NameSilo</a></td>
+            <td class="table-cell">400+</td>
+            <td class="table-cell">Inexpensive</td>
+            <td class="table-cell"></td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://cloudflare.com/?ref=domaincord.com">Cloudflare</a></td>
+            <td class="table-cell">200+</td>
+            <td class="table-cell">Inexpensive</td>
+            <td class="table-cell">At cost domains, however you must use CloudFlare DNS.</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://porkbun.com/croc">Porkbun</a></td>
+            <td class="table-cell">500+</td>
+            <td class="table-cell">Inexpensive</td>
+            <td class="table-cell"></td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-cell"><a href="https://sav.com/?ref=domaincord.com">Sav</a></td>
+            <td class="table-cell">300+</td>
+            <td class="table-cell">Inexpensive</td>
+            <td class="table-cell"></td>
+        </tr>
+    </tbody>
+</table>
 
 #### Avoiding Bait & Switch
 

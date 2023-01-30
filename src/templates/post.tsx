@@ -5,7 +5,25 @@ import moment from "moment"
 
 const PostTemplate = ({ data: { mdx }, children }) => {
 	const { body, excerpt, frontmatter, id } = mdx
-	const { title, publishDate } = frontmatter
+	const { title, publishDate, author } = frontmatter
+
+	
+
+	const Attribution = () => {
+		const authorName = author || "Alex Crocker"
+		
+		return (
+			<p className="text-gray-500 text-lg inline-block ml-1">
+				by
+				{' '}
+				<span>
+					<span className="text-primary">{authorName}</span>
+					{ authorName !== "Alex Crocker" ? <span className="py-1 px-2 bg-yellow-500 text-white rounded-sm font-semibold text-sm uppercase ml-2">Guest Post</span> : null }
+				</span>
+			</p>
+		)
+	}
+
 	return (
 		<div className="py-10">
 			<Wrapper className="mx-auto px-4 h-full max-w-5xl">
@@ -14,11 +32,12 @@ const PostTemplate = ({ data: { mdx }, children }) => {
 				</h1>
 				<p className="my-4 text-gray-500 text-lg">
 					Published on{" "}
-					<time dateTime={publishDate}>
+					<time dateTime={publishDate} className="text-primary">
 						{moment(publishDate, "YYYYMMDD").format(
 							"MMMM DD, YYYY"
 						)}
 					</time>
+					<Attribution />
 				</p>
 				<div className="prose dark:prose-invert prose-lg">
 					{children}
@@ -36,6 +55,7 @@ export const query = graphql`
 			frontmatter {
 				title
 				publishDate
+				author
 			}
 			id
 			tableOfContents
