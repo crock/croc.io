@@ -1,36 +1,50 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
+import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 
 const links = [
     {
         id: 1,
         title: 'Get in touch!',
-        href: 'mailto:alex@croc.io'
+        href: 'mailto:alex@croc.io',
+        internal: false
+    },
+    {
+        id: 7,
+        title: 'Blog',
+        href: '/blog',
+        internal: true
     },
     {
         id: 2,
         title: 'Join Domaincord',
-        href: 'https://discord.gg/domains'
+        href: 'https://discord.gg/domains',
+        internal: false
     },
     {
         id: 3,
         title: 'Mastodon',
         rel: 'me',
-        href: 'https://mastodon.social/@croc'
+        href: 'https://mastodon.social/@croc',
+        internal: false
     },
     {
         id: 4,
         title: 'Pixelfed',
-        href: 'https://pixelfed.social/croc'
+        href: 'https://pixelfed.social/croc',
+        internal: false
     },
     {
         id: 5,
         title: 'GitHub',
-        href: 'https://github.com/crock'
+        href: 'https://github.com/crock',
+        internal: false
     },
     {
         id: 6,
         title: 'Dribbble',
-        href: 'https://dribbble.com/croc'
+        href: 'https://dribbble.com/croc',
+        internal: false
     }
 ]
 
@@ -42,7 +56,16 @@ const MyLinks = () => {
             <ul>
                 { links.length && links.map(link => (
                     <li key={link.id} className="mb-2">
-                        <a target={`_blank`} rel={link.rel} href={link.href} className="text-primary hover:text-primary-light">{link.title}</a>
+                        {
+                            link.internal ? (
+                                <Link to={link.href} className="text-primary hover:text-primary-light">{link.title}</Link>
+                            ) : (
+                                <a target={`_blank`} rel={link.rel} href={link.href} className="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                                    {link.title}
+                                    <ArrowTopRightOnSquareIcon width={16} className="ml-2" />
+                                </a>
+                            )
+                        }
                     </li>
                 )) }
             </ul>

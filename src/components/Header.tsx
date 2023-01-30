@@ -2,22 +2,47 @@ import * as React from 'react';
 import { Wrapper } from 'crockit-react/core/'
 import SocialMenu from './SocialMenu';
 import { Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
+
+const links = [
+    {
+        name: 'Home',
+        url: '/',
+        internal: true
+    },
+    {
+        name: 'Blog',
+        url: '/blog',
+        internal: true
+    }
+]
 
 const Header = () => {
 
 
     return (
         <>
-            <header className="w-full h-20 bg-primary">
+            <header className="w-full h-20 bg-gray-200 dark:bg-gray-800">
                 <Wrapper className="mx-auto px-4 h-full max-w-5xl flex justify-between items-center">
-                    <div className="flex flex-col">
-                        <h1 className="text-2xl font-bold text-gray-50 mb-1">
-                            <Link to="/" className="mr-2">
-                                <span role="img" aria-label="crocodile" className="text-2xl">🐊</span>
-                            </Link>
-                            Alex Crocker
-                        </h1>
-                        <small className="font-semibold text-gray-50 text-xs uppercase tracking-widest">Independent Software Developer</small>
+                    <div className="flex flex-row justify-start items-center">
+                        <Link to="/" className="mr-2">
+                            <StaticImage src="../images/CS_DARK.png" alt="CROC BUZZ STUDIOS" className="dark:hidden inline-block w-24" />
+                            <StaticImage src="../images/CS_LIGHT.png" alt="CROC BUZZ STUDIOS" className="hidden dark:inline-block w-24" />
+                            <span className="sr-only">Croc Studios</span>
+                        </Link>
+                        <nav className="hidden lg:inline-flex">
+                            <ul className="flex flex-row ml-4">
+                                { links.length && links.map((link, index) => (
+                                    <li key={index} className="ml-4">
+                                        { link.internal ? (
+                                            <Link to={link.url} className="text-gray-900  dark:text-gray-50  hover:text-gray-500 hover:dark:text-white font-normal text-base">{link.name}</Link>
+                                        ) : (
+                                            <a href={link.url} className="text-gray-900 dark:text-gray-50  hover:text-gray-500 hover:dark:text-white font-normal text-base">{link.name}</a>
+                                        )}
+                                    </li>
+                                )) }
+                            </ul>
+                        </nav>
                     </div>
                     <SocialMenu />
                 </Wrapper>

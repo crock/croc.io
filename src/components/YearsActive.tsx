@@ -2,8 +2,8 @@ import * as React from "react";
 import moment from 'moment'
 
 interface YearsActiveProps {
-    startDate: string;
-    endDate?: string;
+    startDate: string | number;
+    endDate?: string | number;
 }
 
 const YearsActive = ({ startDate, endDate }: YearsActiveProps) => {

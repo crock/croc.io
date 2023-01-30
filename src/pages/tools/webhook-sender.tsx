@@ -165,7 +165,7 @@ export const Head = () => {
     return (
       <>
         <body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
-        <title>Webhook Sender | Croc&apos;s Tools</title>
+        <title>Webhook Sender | Tools | Croc Studios</title>
         <meta name="description" content="Easily send data to webhooks." />
       </>
     )

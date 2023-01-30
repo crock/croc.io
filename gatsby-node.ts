@@ -32,6 +32,7 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
               frontmatter {
                 title
                 publishDate
+                customSlug
                 type
               }
               internal {
@@ -62,6 +63,17 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
 
   const posts = result.data.allMdx.edges
     .map(edge => edge.node)
+    .filter(post => post.frontmatter.type != 'project')
+    .sort((a, b) => {
+      const aDate = new Date(a.frontmatter.publishDate)
+      const bDate = new Date(b.frontmatter.publishDate)
+
+      return bDate.getTime() - aDate.getTime()
+    })
+
+  const projects = result.data.allMdx.edges
+    .map(edge => edge.node)
+    .filter(post => post.frontmatter.type === 'project')
     .sort((a, b) => {
       const aDate = new Date(a.frontmatter.publishDate)
       const bDate = new Date(b.frontmatter.publishDate)
@@ -88,19 +100,55 @@ export const createPages: GatsbyNode["createPages"] = async ({ graphql, actions,
     id: `recent-posts`,
     component: path.resolve(`./src/components/RecentPosts.tsx`),
     context: {
-      posts: posts.filter(post => post.frontmatter.type != 'project').slice(0, 3),
+      posts: posts.slice(0, 3),
     }
   })
 
   const postTemplate = path.resolve(`./src/templates/post.tsx`)
 
   if (posts.length > 0) {
-    posts.forEach((post, index) => createPage({
-      path: `/posts/${slugify(post.frontmatter.title, slugifyOptions)}`,
-      component: `${postTemplate}?__contentFilePath=${post.internal.contentFilePath}`,
-      context: {
-        id: post.id,
-      }
-    }))
+    posts.forEach((post, index) => {
+      const slug = post.frontmatter.customSlug || slugify(post.frontmatter.title, slugifyOptions)
+
+      createPage({
+        path: `/posts/${slug}`,
+        component: `${postTemplate}?__contentFilePath=${post.internal.contentFilePath}`,
+        context: {
+          id: post.id,
+        }
+      })
+    })
   }
+
+  if (projects.length > 0) {
+    projects.forEach((post, index) => {
+      const slug = post.frontmatter.customSlug || slugify(post.frontmatter.title, slugifyOptions)
+
+      createPage({
+        path: `/posts/${slug}`,
+        component: `${postTemplate}?__contentFilePath=${post.internal.contentFilePath}`,
+        context: {
+          id: post.id,
+        }
+      })
+    })
+  }
+
+  // Create blog index pages
+  const postsPerPage = 8
+  const totalPosts = posts.length
+  const numPages = Math.ceil(totalPosts / postsPerPage)
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+      component: path.resolve("./src/templates/blog-index.tsx"),
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+        totalPosts,
+      },
+    })
+  })
 }

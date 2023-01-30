@@ -13,7 +13,7 @@ export const Head = () => {
   return (
     <>
       <body className="bg-white dark:bg-black text-black dark:text-white" />
-      <title>Page Not Found | croc.io</title>
+      <title>Page Not Found | Croc Studios</title>
     </>
   )
 }

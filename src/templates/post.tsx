@@ -41,7 +41,7 @@ export const Head = ({ data }) => {
   return (
     <>
       <body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
-      <title>{title} | Croc&aposs Blog</title>
+      <title>{title} | Blog | Croc Studios</title>
     </>
   )
 }

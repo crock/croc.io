@@ -106,7 +106,7 @@ export const Head = () => {
     return (
       <>
         <body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
-        <title>Password Generator | Croc&apos;s Tools</title>
+        <title>Password Generator | Tools | Croc Studios</title>
         <meta name="description" content="Securely and privately generate a random, strong password." />
       </>
     )

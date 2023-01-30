@@ -58,7 +58,7 @@ export const Head = () => {
     return (
       <>
         <body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
-        <title>CSR Detector | Croc&apos;s Tools</title>
+        <title>CSR Detector | Tools | Croc Studios</title>
         <meta name="description" content="Intelligently detect whether any given site uses client-side or server-side rendering." />
       </>
     )
