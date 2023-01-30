@@ -18,7 +18,7 @@ const PostTemplate = ({ data: { mdx }, children }) => {
 				{' '}
 				<span>
 					<span className="text-primary">{authorName}</span>
-					{ authorName !== "Alex Crocker" ? <span className="py-1 px-2 bg-yellow-500 text-white rounded-sm font-semibold text-sm uppercase ml-2">Guest Post</span> : null }
+					{ authorName !== "Alex Crocker" ? <span className="py-2 px-3 bg-yellow-500 text-white rounded-sm font-semibold text-sm uppercase ml-2">Guest Post</span> : null }
 				</span>
 			</p>
 		)

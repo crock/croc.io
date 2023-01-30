@@ -34,67 +34,67 @@ I have gathered a list of domains that have been registered within the last 10 y
     </thead>
     <tbody>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordbotlist.com/">DiscordBotList.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordbotlist.com/">DiscordBotList.com</a></td>
             <td class="table-cell">Discord chat bot directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordservers.com/">DiscordServers.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordservers.com/">DiscordServers.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discord.me/">Discord.me</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discord.me/">Discord.me</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discord.st/">Discord.st</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discord.st/">Discord.st</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discords.com/">Discords.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discords.com/">Discords.com</a></td>
             <td class="table-cell">Discord community and chat bot directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordhome.com/">DiscordHome.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordhome.com/">DiscordHome.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://findadiscord.com/">FindADiscord.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://findadiscord.com/">FindADiscord.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordlist.space/">DiscordList.space</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordlist.space/">DiscordList.space</a></td>
             <td class="table-cell">Discord community and chat bot directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordinvites.net/">DiscordInvites.net</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordinvites.net/">DiscordInvites.net</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordbee.com/">DiscordBee.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordbee.com/">DiscordBee.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordlist.me/">DiscordList.me</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordlist.me/">DiscordList.me</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordhub.com/">DiscordHub.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordhub.com/">DiscordHub.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordserverlists.com/">DiscordServerLists.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordserverlists.com/">DiscordServerLists.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discordtop.com/">DiscordTop.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discordtop.com/">DiscordTop.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://discord.center/">discord.center</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://discord.center/">discord.center</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="discordexpert.com/">DiscordExpert.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="discordexpert.com/">DiscordExpert.com</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
     </tbody>
@@ -111,11 +111,11 @@ I have gathered a list of domains that have been registered within the last 10 y
     </thead>
     <tbody>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://disboard.org/">disboard.org</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://disboard.org/">disboard.org</a></td>
             <td class="table-cell">Discord community directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://disforge.com/">disforge.com</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://disforge.com/">disforge.com</a></td>
             <td class="table-cell">Discord community and chat bot directory</td>
         </tr>
     </tbody>
@@ -132,15 +132,15 @@ I have gathered a list of domains that have been registered within the last 10 y
     </thead>
     <tbody>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://top.gg/">top.gg</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://top.gg/">top.gg</a></td>
             <td class="table-cell">Discord community and chat bot directory</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://dyno.gg/">dyno.gg</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://dyno.gg/">dyno.gg</a></td>
             <td class="table-cell">Popular Discord chat bot</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://mee6.xyz/">mee6.xyz</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://mee6.xyz/">mee6.xyz</a></td>
             <td class="table-cell">Popular Discord chat bot</td>
         </tr>
     </tbody>

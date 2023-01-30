@@ -78,12 +78,12 @@ If you choose to use a free domain name for your provider there are couple of op
     </thead>
     <tbody>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://freenom.com/?ref=domaincord.com">Freenom</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://freenom.com/">Freenom</a></td>
             <td class="table-cell">.tk / .ml / .cf / .gq / .ga</td>
             <td class="table-cell">Freenom are known to revoke domain names for no reason.</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://nic.eu.org/?ref=domaincord.com">eu.org</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://nic.eu.org/">eu.org</a></td>
             <td class="table-cell">.eu.org</td>
             <td class="table-cell">Registrations are manually approved which can take up to a week. You do not need to live in the EU.</td>
             <td class="table-cell"></td>
@@ -128,35 +128,35 @@ If you choose to use a free subdomain you can find information on the main provi
     </thead>
     <tbody>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://netlify.com/?ref=domaincord.com">Netlify</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://netlify.com/">Netlify</a></td>
             <td class="table-cell">example.netlify.app</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://vercel.com/?ref=domaincord.com">Vercel</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://vercel.com/">Vercel</a></td>
             <td class="table-cell">example.vercel.app</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://pages.github.com/?ref=domaincord.com">GitHub Pages</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://pages.github.com/">GitHub Pages</a></td>
             <td class="table-cell">example.github.io</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://surge.sh/?ref=domaincord.com">Surge</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://surge.sh/">Surge</a></td>
             <td class="table-cell">example.surge.sh</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://weebly.com/?ref=domaincord.com">Weebly</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://weebly.com/">Weebly</a></td>
             <td class="table-cell">example.weebly.com</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://wix.com/?ref=domaincord.com">Wix</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://wix.com/">Wix</a></td>
             <td class="table-cell">example.wix.com</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://wordpress.com/?ref=domaincord.com">WordPress</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://wordpress.com/">WordPress</a></td>
             <td class="table-cell">example.wordpress.com</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://blogger.com/?ref=domaincord.com">Blogger</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://blogger.com/">Blogger</a></td>
             <td class="table-cell">example.blogger.com</td>
         </tr>
     </tbody>
@@ -219,31 +219,31 @@ There are a handful of providers that are known by the industry to be reliable, 
     </thead>
     <tbody>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://namecheap.com/?ref=domaincord.com">NameCheap</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://namecheap.com/">NameCheap</a></td>
             <td class="table-cell">500+</td>
             <td class="table-cell">Moderate</td>
             <td class="table-cell">$0.18 ICANN Fee not included in listed prices.</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://namesilo.com/?ref=domaincord.com">NameSilo</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://namesilo.com/">NameSilo</a></td>
             <td class="table-cell">400+</td>
             <td class="table-cell">Inexpensive</td>
             <td class="table-cell"></td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://cloudflare.com/?ref=domaincord.com">Cloudflare</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://cloudflare.com/">Cloudflare</a></td>
             <td class="table-cell">200+</td>
             <td class="table-cell">Inexpensive</td>
             <td class="table-cell">At cost domains, however you must use CloudFlare DNS.</td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://porkbun.com/croc">Porkbun</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://porkbun.com/croc">Porkbun</a></td>
             <td class="table-cell">500+</td>
             <td class="table-cell">Inexpensive</td>
             <td class="table-cell"></td>
         </tr>
         <tr class="table-row">
-            <td class="table-cell"><a href="https://sav.com/?ref=domaincord.com">Sav</a></td>
+            <td class="table-cell"><a rel="nofollow" href="https://sav.com/">Sav</a></td>
             <td class="table-cell">300+</td>
             <td class="table-cell">Inexpensive</td>
             <td class="table-cell"></td>

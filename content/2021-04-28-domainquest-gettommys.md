@@ -16,6 +16,6 @@ Today we’ve come across a Tommy’ van, representing Tommy’s waterboard pro 
 
 Originally registered in 2004 at GoDaddy, this somewhat unique brand name has managed to build a business across three different states — Michigan, Florida, and Colorado.
 
-Visit [Tommy’s](https://gettommys.com/?ref=domaincord.com) today if you are in need of watersports gear or boat repair!
+Visit [Tommy’s](https://gettommys.com/) today if you are in need of watersports gear or boat repair!
 
 ![](assets/tommys-watersports-shop.jpeg)
