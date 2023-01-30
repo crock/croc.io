@@ -57,9 +57,9 @@ const links = [
 const MyLinks = () => {
 	return (
 		<div className="bg-white dark:bg-gray-800 p-4 shadow-lg rounded-lg w-full h-auto mb-2">
-			<h3 className="font-semibold uppercase text-lg text-gray-400 dark:text-gray-300 mb-2">
+			<h4 className="font-semibold uppercase text-lg text-gray-400 dark:text-gray-300 mb-2">
 				My Links
-			</h3>
+			</h4>
 			<ul>
 				{links.length &&
 					links.map((link) => (

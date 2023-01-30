@@ -7,6 +7,7 @@ const NotFoundPage = () => {
 export const Head = () => {
 	return (
 		<>
+			<html lang="en" />
 			<body className="bg-white dark:bg-black text-black dark:text-white" />
 			<title>Page Not Found | Croc Studios</title>
 		</>

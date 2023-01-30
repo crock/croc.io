@@ -17,15 +17,15 @@ const ProjectsList = () => {
 						className="w-full h-auto bg-white dark:bg-gray-800 p-2 rounded shadow flex flex-col justify-start items-start text-black dark:text-white hover:bg-primary-dark group mb-4"
 					>
 						<div className="flex flex-row flex-nowrap justify-between items-center w-full">
-							<h4 className="text-2xl font-semibold">
+							<h3 className="text-2xl font-semibold">
 								{proj.name}
-							</h4>
+							</h3>
 							<YearsActive
 								startDate={proj.startDate}
 								endDate={proj.endDate}
 							/>
 						</div>
-						<p className="text-gray-500 group-hover:text-white">
+						<p className="text-gray-900 dark:text-gray-200 group-hover:text-white">
 							{proj.pitch}
 						</p>
 						<div className="flex flex-row justify-start items-center mt-3">

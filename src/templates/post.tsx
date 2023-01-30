@@ -74,6 +74,7 @@ export const Head = ({ data }) => {
 
 	return (
 		<>
+			<html lang="en" />
 			<body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
 			<title>{title} | {subpage} | Croc Studios</title>
 			<meta name="description" content={excerpt} />

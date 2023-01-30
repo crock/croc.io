@@ -108,6 +108,7 @@ const PasswordGenerator = () => {
 export const Head = () => {
 	return (
 		<>
+			<html lang="en" />
 			<body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
 			<title>Password Generator | Tools | Croc Studios</title>
 			<meta
