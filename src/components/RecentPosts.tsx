@@ -18,11 +18,15 @@ const RecentPosts = ({ sliceContext }) => {
         <div className="bg-white dark:bg-gray-800 p-4 shadow-lg rounded-lg w-full h-auto mb-2">
             <h3 className="font-semibold uppercase text-lg text-gray-400 dark:text-gray-300 mb-2">Recent Posts</h3>
             <ul className="list-disc list-inside">
-                { posts.length && posts.map(post => (
-                    <li key={post.id} className="mb-2">
-                        <Link to={`/posts/${slugify(post.frontmatter.title, slugifyOptions)}`} className="text-primary hover:text-primary-light">{post.frontmatter.title}</Link>
-                    </li>
-                )) }
+                { posts.length && posts.map(post => {
+                    const slug = post.frontmatter.customSlug || slugify(post.frontmatter.title, slugifyOptions);
+
+                    return (
+                        <li key={post.id} className="mb-2">
+                            <Link to={`/posts/${slug}`} className="text-primary hover:text-primary-light">{post.frontmatter.title}</Link>
+                        </li>
+                    )
+                }) }
             </ul>
         </div>
     )
