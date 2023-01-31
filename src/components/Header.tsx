@@ -31,7 +31,7 @@ const Header = () => {
 						<Link to="/" className="mr-2">
 							<StaticImage
 								src="../images/CS_LOGO.png"
-								alt="CROC BUZZ STUDIOS"
+								alt="CROC STUDIOS"
 								layout={`constrained`}
 								placeholder={`none`}
 								width={100}

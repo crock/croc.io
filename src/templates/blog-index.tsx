@@ -18,6 +18,10 @@ const BlogList = ({ data, pageContext }) => {
 
 	return (
 		<>
+			<h1 className="text-4xl font-black mb-8">
+                Blog
+                <span role="img" aria-label="heart" className="ml-2">📖</span>
+            </h1>
 			<div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 				{posts.length
 					? posts.map((post: any) => {

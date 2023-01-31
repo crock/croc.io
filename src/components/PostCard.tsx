@@ -61,9 +61,9 @@ const PostCard: React.FC<PostCardProps> = ({
 			>
 				{primaryCategory}
 			</span>
-			<h3 className="font-bold text-xl text-black dark:text-white mb-1">
+			<h2 className="font-bold text-xl text-black dark:text-white mb-1">
 				{title}
-			</h3>
+			</h2>
 			<div className="flex flex-col flex-nowrap justify-start items-start mb-2 text-black dark:text-white">
 				{primaryCategory === "Guest Post" ? (
 					<div className="font-normal">

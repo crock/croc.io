@@ -13,9 +13,9 @@ const AuthorBlock = ({ name, bio, avatarUrl, url, cta }: Author) => {
                     </div>
                 ) : null }
                 <div className="flex flex-col justify-start items-start">
-                    <h6 className="font-bold text-gray-900 dark:text-gray-50 text-lg mb-2">
-                        {name}
-                    </h6>
+                    <h2 className="font-bold text-gray-900 dark:text-gray-50 text-lg mb-2">
+                        {name} <span className="sr-only">(Author)</span>
+                    </h2>
                     { bio ? <p className="leading-relaxed font-normal text-black dark:text-white text-base">
                         {bio}
                     </p> : null }

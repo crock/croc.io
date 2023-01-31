@@ -38,9 +38,9 @@ const links = [
 const MyTools = () => {
 	return (
 		<div className="bg-white dark:bg-gray-800 p-4 shadow-lg rounded-lg w-full h-auto mb-2">
-			<h4 className="font-semibold uppercase text-lg text-gray-400 dark:text-gray-300 mb-2">
+			<h2 className="font-semibold uppercase text-lg text-gray-400 dark:text-gray-300 mb-2">
 				My Tools
-			</h4>
+			</h2>
 			<ul>
 				{links.length &&
 					links.map((link) => (
