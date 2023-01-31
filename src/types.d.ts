@@ -41,3 +41,11 @@ export interface PostCardProps {
 	category?: string
 	tags?: string[]
 }
+
+export interface Author {
+	name: string
+	avatarUrl?: string
+	bio?: string
+	url?: string
+	cta?: string
+}

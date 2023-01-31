@@ -2,12 +2,20 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 import { Wrapper } from "crockit-react/core"
 import moment from "moment"
+import AuthorBlock from "../components/AuthorBlock"
+import { Author } from "../types"
 
 const PostTemplate = ({ data: { mdx }, children }) => {
 	const { body, excerpt, frontmatter, id } = mdx
-	const { title, publishDate, author, type } = frontmatter
+	const { title, publishDate, author, type, authorUrl, authorBio, authorCta, authorAvatarUrl } = frontmatter
 
-	
+	const authorObj: Author = {
+		name: author,
+		bio: authorBio,
+		avatarUrl: authorAvatarUrl,
+		url: authorUrl,
+		cta: authorCta
+	}
 
 	const Attribution = () => {
 		const authorName = author || "Alex Crocker"
@@ -44,6 +52,7 @@ const PostTemplate = ({ data: { mdx }, children }) => {
 				<div className="prose dark:prose-invert prose-lg">
 					{children}
 				</div>
+				{ authorBio ? <AuthorBlock {...authorObj} /> : null }
 			</Wrapper>
 		</div>
 	)
@@ -58,6 +67,10 @@ export const query = graphql`
 				title
 				publishDate
 				author
+				authorUrl
+				authorBio
+				authorCta
+				authorAvatarUrl
 				type
 			}
 			id

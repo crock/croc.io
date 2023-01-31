@@ -1,6 +1,10 @@
 ---
 featured: true
-author: Kieran Cairns
+author: Kieran Cairns (Emily)
+authorBio: Emily is an active member of the Domaincord Discord community and often writes for the blog. She is passionate about building new ideas to better her local community. She lives in the United Kingdom. She wants the readers that enjoy her content to know that she is always open to feedback and suggestions through her Twitter.
+authorAvatarUrl: https://pbs.twimg.com/profile_images/1581971214016385026/bnRf4acU_400x400.jpg
+authorUrl: https://twitter.com/ReliableRanter
+authorCta: Connect With Me
 customSlug: wordpress-comparisons
 title: Comparing WordPress.org vs WordPress.com
 publishDate: 20200804

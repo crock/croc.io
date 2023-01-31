@@ -1,7 +1,11 @@
 ---
 title: Where to get low-cost and free domain names
 customSlug: free-domains
-author: Kieran Cairns
+author: Kieran Cairns (Emily)
+authorBio: Emily is an active member of the Domaincord Discord community and often writes for the blog. She is passionate about building new ideas to better her local community. She lives in the United Kingdom. She wants the readers that enjoy her content to know that she is always open to feedback and suggestions through her Twitter.
+authorAvatarUrl: https://pbs.twimg.com/profile_images/1581971214016385026/bnRf4acU_400x400.jpg
+authorUrl: https://twitter.com/ReliableRanter
+authorCta: Connect With Me
 publishDate: 20220518
 description:
     In this post we will discuss the differences between free and paid domains,
