@@ -87,12 +87,11 @@ const config: GatsbyConfig = {
 		"gatsby-plugin-react-helmet",
 		"gatsby-plugin-sharp",
 		"gatsby-transformer-sharp",
-		"gatsby-plugin-sitemap",
 		{
 			resolve: "gatsby-plugin-robots-txt",
 			options: {
 				host: "https://croc.io",
-				sitemap: "https://croc.io/sitemap/sitemap-index.xml",
+				sitemap: "https://croc.io/sitemap.xml",
 				env: {
 					development: {
 						policy: [{ userAgent: "*", disallow: ["/"] }],
