@@ -3,6 +3,10 @@ title: Ahrefs vs SEMrush Comparison [2022]
 publishDate: 20220728
 customSlug: ahrefs-semrush-comparison-2022
 author: Charlie Kemp
+authorBio: Charlie is an active member of the Domaincord Discord community and often writes for the blog. He works in the cybersecurity industry during the day and is passionate about pursuing cyber threat intelligence and flight simulators in his free time. He lives in the United Kingdom. He also wants our readers to know that he blogs about cybersecurity on his own website.
+authorAvatarUrl: https://s.gravatar.com/avatar/aef2bc7a71b45914a14a7b2f87276012?s=250
+authorUrl: https://hakubi.io/
+authorCta: Visit My Website
 featured: true
 category: Guest Post
 tags:
