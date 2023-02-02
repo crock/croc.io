@@ -31,7 +31,7 @@ const links = [
 		id: 3,
 		title: "Mastodon",
 		rel: "me",
-		href: "https://mastodon.social/@croc",
+		href: "https://social.lol/@croc",
 		internal: false,
 	},
 	{
