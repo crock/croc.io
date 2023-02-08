@@ -1,9 +1,10 @@
 import * as React from "react"
 import { Link } from 'gatsby'
+import { Layout } from "../layouts/"
 
 const NotFoundPage = () => {
 	return (
-		<>
+		<Layout>
 			<h1 className="text-4xl font-black mb-8">
                 Page Not Found
                 <span role="img" aria-label="skull" className="ml-2">💀</span>
@@ -11,7 +12,7 @@ const NotFoundPage = () => {
 			<p className="leading-loose font-light text-lg text-gray-900 dark:text-gray-200">
 				The page you are looking for does not exist. Please check the URL and try again. Why not go back <Link to="/" className="text-primary hover:text-primary-light">home</Link>?
 			</p>
-		</>
+		</Layout>
 	)
 }
 

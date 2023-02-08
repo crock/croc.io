@@ -2,6 +2,9 @@ import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import { Link, Slice } from "gatsby"
 import { Wrapper } from "crockit-react/core/"
+import "prismjs/themes/prism-solarizedlight.css"
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"
+import "prismjs/plugins/command-line/prism-command-line.css"
 
 const shortcodes = { Link }
 

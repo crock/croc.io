@@ -1,11 +1,13 @@
 import * as React from "react"
 import type { GatsbyBrowser } from "gatsby"
-import { Layout } from "./src/layouts/"
+import { AppProvider } from './src/store/'
+import { Root } from "./src/layouts/"
 import "./src/styles/globals.css"
-import "prismjs/themes/prism-solarizedlight.css"
-import "prismjs/plugins/line-numbers/prism-line-numbers.css"
-import "prismjs/plugins/command-line/prism-command-line.css"
 
 export const wrapPageElement: GatsbyBrowser["wrapPageElement"] = ({
 	element,
-}) => <Layout>{element}</Layout>
+}) => <Root>{element}</Root>
+
+export const wrapRootElement: GatsbyBrowser["wrapRootElement"] = ({
+	element,
+}) => <AppProvider>{element}</AppProvider>

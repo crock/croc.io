@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import PayloadParameterInputPair from "../../components/PayloadParameterInputPair"
 import axios from "axios"
+import { Layout } from "../../layouts/"
 
 const timer = (ms: number) => new Promise((res) => setTimeout(res, ms))
 
@@ -77,7 +78,7 @@ const WebhookSender = () => {
 	}
 
 	return (
-		<>
+		<Layout>
 			<h1 className="font-black text-3xl mb-4">Webhook Sender</h1>
 			<p className="font-light text-lg">Easily send webhooks.</p>
 
@@ -162,7 +163,7 @@ const WebhookSender = () => {
 					{status}
 				</p>
 			</form>
-		</>
+		</Layout>
 	)
 }
 

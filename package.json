@@ -60,5 +60,8 @@
     "@types/react-copy-to-clipboard": "^5.0.4",
     "netlify-cli": "^12.9.2",
     "prettier": "^2.8.3"
-  }
+  },
+  "workspaces": [
+    "server"
+  ]
 }

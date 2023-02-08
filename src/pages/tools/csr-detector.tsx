@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import axios from "axios"
+import { Layout } from "../../layouts/"
 
 const CSRDetector = () => {
 	const [data, setData] = useState(undefined)
@@ -31,7 +32,7 @@ const CSRDetector = () => {
 	}
 
 	return (
-		<>
+		<Layout>
 			<h1 className="font-black text-3xl mb-4">CSR / SSR Detector</h1>
 			<p className="font-light text-lg">
 				Intelligently detect whether any given site uses client-side or
@@ -72,7 +73,7 @@ const CSRDetector = () => {
 					)}
 				</div>
 			</div>
-		</>
+		</Layout>
 	)
 }
 

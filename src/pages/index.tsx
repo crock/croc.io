@@ -1,13 +1,12 @@
 import * as React from "react"
-import { Wrapper } from "crockit-react/core/"
-import { Slice } from "gatsby"
 import ProjectsList from "../components/ProjectsList"
+import { Layout } from "../layouts/"
 
 const IndexPage = () => {
 	return (
-		<>
+		<Layout>
 			<ProjectsList />
-		</>
+		</Layout>
 	)
 }
 

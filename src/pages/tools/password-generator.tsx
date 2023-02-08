@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 import { toInteger } from "lodash"
+import { Layout } from "../../layouts/"
 
 const PasswordGenerator = () => {
 	const [pwdLength, setPwdLength] = useState(12)
@@ -30,7 +31,7 @@ const PasswordGenerator = () => {
 	}
 
 	return (
-		<>
+		<Layout>
 			<h1 className="font-black text-3xl mb-4">Password Generator</h1>
 			<p className="font-light text-lg">
 				Securely and privately generate a random, strong password.
@@ -89,10 +90,9 @@ const PasswordGenerator = () => {
 
 			<CopyToClipboard
 				text={password}
-				title="Copy generated password to clipboard"
-				className="bg-gray-300 hover:bg-gray-400 py-2 px-3 rounded text-black font-semibold"
 			>
-				<span>Copy to clipboard</span>
+				<span title="Copy generated password to clipboard"
+				className="bg-gray-300 hover:bg-gray-400 py-2 px-3 rounded text-black font-semibold">Copy to clipboard</span>
 			</CopyToClipboard>
 
 			<button
@@ -101,7 +101,7 @@ const PasswordGenerator = () => {
 			>
 				Clear Field
 			</button>
-		</>
+		</Layout>
 	)
 }
 

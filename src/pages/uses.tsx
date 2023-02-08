@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Layout } from "../layouts/"
 
 const usesCategories = {
     hardware: [
@@ -128,7 +129,7 @@ const usesCategories = {
 const UsesPage = () => {
 
     return (
-        <>
+        <Layout>
             <h1 className="text-4xl font-black mb-8">
                 Stuff We Love
                 <span role="img" aria-label="heart" className="ml-2">❤️</span>
@@ -203,7 +204,7 @@ const UsesPage = () => {
                     )) }
                 </ul>
             </section>
-        </>
+        </Layout>
     )
 }
 
