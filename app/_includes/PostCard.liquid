@@ -1,0 +1,19 @@
+<article class="relative bg-white dark:bg-gray-800 rounded shadow w-full h-auto p-4 flex flex-col justify-between items-start">
+    <span class="p-2 uppercase text-black font-semibold text-xs rounded-sm mb-2 {% if post.category == "Guest Post" %}bg-yellow-500{% else %}bg-gray-300{% endif  %}">{{ post.category }}</span>
+    <h2 class="font-bold text-xl text-black dark:text-white mb-1">{{ post.title  }}</h2>
+    <div class="flex flex-col flex-nowrap justify-start items-start mb-2 text-black dark:text-white">
+        {% if  post.category == "Guest Post" %}
+            <div class="font-normal">Written by <span class="text-primary">{{ post.author }}</span></div>
+        {% endif %}
+        <div class="font-normal">Published on <span class="text-primary"><time dateTime="{{ post.publishDate }}">{{ post.publishDate }}</time></span></div>
+    </div>
+    <div class="font-light text-sm leading-8 text-black dark:text-white">{{ content }}</div>
+    <a href="{{ post.permalink }}" class="bg-primary-light hover:bg-primary text-white py-2 px-3 text-lg font-semibold uppercase rounded-sm mt-4">Read More</a>
+    {% if post.tags %}
+        <div class="flex flex-row flex-wrap justify-start items-center">
+        {% for tag in post.tags %}
+            <span class="mt-2 px-1.5 py-0.5 mr-1 rounded-full text-xs font-medium text-gray-700 bg-gray-100 hover:bg-gray-200">#{{ tag }}</span>
+        {% endfor %}
+        </div>
+    {% endif %}
+</article>

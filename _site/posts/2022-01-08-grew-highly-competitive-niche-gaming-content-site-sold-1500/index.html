@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html class="overflow-y-scroll" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <meta name="description" content="Software development and design studio based in the US. We build web and mobile applications for startups and enterprises.">
+    <title>
+      
+        Flipping a gaming content site for $1500
+      
+    </title>
+
+    <link rel="stylesheet" href="/globals.css">
+
+  </head>
+
+  <body class="bg-gray-50 dark:bg-gray-900 text-black dark:text-white">
+
+    <header class="w-full h-20 bg-gray-200 dark:bg-gray-800">
+	<div
+		class="container mx-auto px-4 h-full max-w-5xl flex justify-between items-center"
+	>
+		<div class="flex flex-row justify-start items-center">
+			<a aria-current="page" class="mr-2" href="/">
+				<img
+					class="h-8 w-8"
+					src="/assets/CS_LOGO.png"
+					alt="Croc Studios"
+				/>
+				<span class="sr-only">Croc Studios</span>
+			</a>
+			<nav class="hidden lg:inline-flex">
+				<ul class="flex flex-row ml-4">
+					<li class="ml-4">
+						<a
+							aria-current="page"
+							class="text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white font-normal text-base"
+							href="/"
+							>Home</a
+						>
+					</li>
+					<li class="ml-4">
+						<a
+							class="text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white font-normal text-base"
+							href="/blog/"
+							>Blog</a
+						>
+					</li>
+					<li class="ml-4">
+						<a
+							class="text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white font-normal text-base"
+							href="/uses/"
+							>Stuff We Love</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<nav class="flex flex-row flex-nowrap justify-end items-center">
+			<a
+				href="https://social.lol/@croc"
+				rel="me"
+				class="text-xl block p-2 text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white">
+                <svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fab"
+					data-icon="mastodon"
+					class="svg-inline--fa fa-mastodon fa-1x"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512">
+					<path
+						fill="currentColor"
+						d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"></path>
+                </svg>
+                    <span class="sr-only">Mastodon</span></a
+			>
+            <a href="https://github.com/crock" class="text-xl block p-2 text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white">
+                <svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fab"
+					data-icon="github"
+					class="svg-inline--fa fa-github fa-1x"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 496 512">
+					<path
+						fill="currentColor"
+						d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                </svg>
+                <span class="sr-only">GitHub</span>
+            </a>
+            <a
+				href="https://dribbble.com/croc"
+				class="text-xl block p-2 text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white">
+                <svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fab"
+					data-icon="dribbble"
+					class="svg-inline--fa fa-dribbble fa-1x"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512">
+					<path
+						fill="currentColor"
+						d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z"></path>
+                </svg>
+                <span class="sr-only">Dribbble</span>
+            </a>
+		</nav>
+	</div>
+</header>
+
+
+    <div class="py-10">
+				<div class="container mx-auto h-full max-w-5xl px-4 flex justify-between items-center">
+					<div class="w-full grid grid-cols-12 gap-4">
+						<div class="col-span-12 lg:col-span-9">
+							<main>
+                                <p><img src="assets/ovrpwr-featured-thumbnail.jpeg" alt=""></p>
+<p>When I was younger, I would always be Infront of games, and I always loved being the “achievement hunter” out of my family, which was fun when you have two older brothers! No matter what the game was, I wanted to truly complete it.</p>
+<p>When I was younger, some easter eggs in the old Call of Duty’s were quite hard to understand or figure out, but searching the internet was quite a tough task back then. Fast forward to today, and there are thousands of game guides, reviews, and troubleshooting content sites that you can use to get easy lists of achievements. I wanted a piece of that action.</p>
+<p>This article is all about how I thought up, developed and created a highly competitive niche gaming guide site, and sold it less than a year after committing to it for $1500.</p>
+<h2>How did I get the idea for OvrPwr?</h2>
+<p>The idea of having my own site was always something that I loved doing but didn’t always have the motivation to go forward and write all the content myself. When I first started with <a href="https://domaincord.com/blog/turned-abandoned-domain-successful-tech-blog-sold-1000">TechQuack</a> (my first content-based guide and troubleshooting website), I never intended to sell, but felt like there was someone who could take it further than I could, and as you can see from this article — this was true.</p>
+<p>Whilst owning <a href="https://domaincord.com/blog/turned-abandoned-domain-successful-tech-blog-sold-1000">TechQuack</a>, I also owned the domain <a href="http://OvrPwr.net">OvrPwr.net</a>. OvrPwr was a brandable name for “Over-Power”. Initially, I wanted to make OvrPwr a drink brand, more of an energy drink brand because when you drink an energy drink you can often feel overpowered.</p>
+<p>After selling TechQuack for $1000, I felt like I was missing something in my life, and I wanted to have a purpose and I wasn’t sure where to find it. After trying to flip domains and have side-hustle writing and investing, I felt like the time had come to utilize the <a href="http://OvrPwr.net">OvrPwr.net</a> domain.</p>
+<p>I wasn’t sure initially what I wanted to do with OvrPwr, I wasn’t sure if I wanted to provide gaming guides, or tutorials in games, or anything around games at all. After a few days to think it over, I decided to create a gaming guide website. I had only really just sold <a href="https://domaincord.com/blog/turned-abandoned-domain-successful-tech-blog-sold-1000">TechQuack</a> and didn’t really use WordPress, which I came to use for OvrPwr, but originally — that wasn’t the original.</p>
+<h2>How did I get started?</h2>
+<p>After I had decided what I wanted to do with OvrPwr, I usually rush into things. As I wasn’t too confident with anything other than pure, hard-coded PHP — I decided to head over to CodeCanyon. I had a license key from TechQuack but did in the end having to pay for another license. This was the first instance of OvrPwr.</p>
+<p><img src="assets/ovrpwr-homepage-original.png" alt=""></p>
+<p>At this point, <a href="http://OvrPwr.net">OvrPwr.net</a> was ready. I had made the logo on Photoshop a few days before, experimenting with colours and layouts, and I decided that OvrPwr needed something bright, something catchy. OvrPwr’s old logo was bright orange and wasn’t even symmetrical!</p>
+<p><img src="assets/ovrpwr.png" alt=""></p>
+<p>Once the site was set up it was finally time to start writing some content. Something that I’ve always been able to do, is write content just how I like it. After TechQuack, I learnt that affiliate-based content (where you provide links and if a reader clicks, you may receive a commission) was where most of the money was. My first post on OvrPwr was called “How to get Free CSGO Skins in 2019” and I provided affiliate links (10% commission on earnings). This article took around 30 minutes to write and post, and I was so excited!</p>
+<p>In 30 days, this post had generated a massive… 4 views.</p>
+<p>This made me feel quite… sad. Personally, If I don’t see results quick, I often get disheartened but sometimes persistence is needed, and sadly without spending advertising money on getting your site noticed, getting authentic, natural readers take time.</p>
+<p>After posting a further 10–15 posts around CSGO, and League of Legends — I decided to call it quits on <a href="http://OvrPwr.net">OvrPwr.net</a>. This was the downfall of <a href="http://OvrPwr.net">OvrPwr.net</a>. Every 30 days, the 10–15 posts that were made were generating around 25–30 views a month which wasn’t at all the speed I was hoping for.</p>
+<p>Something I didn’t realize, was that gaming and gaming guides are a highly-competitive niche with an average of 74 DR for the first page results. Because of this, it was almost impossible for OvrPwr to rank on the first page of Google Searches, making it seem hidden to readers.</p>
+<h2>The Uprise of OvrPwr</h2>
+<p>I left <a href="http://OvrPwr.net">OvrPwr.net</a> for around 6–8 months, just dwelling and collecting dust. I got some emails from Namecheap, who was my domain and host for <a href="http://OvrPwr.net">OvrPwr.net</a>. I was in a place, where I was considering giving up on and letting the domain and hosting expire, but at the time — I was in a good frame of mind.</p>
+<p>I knew from previous experience that creating these content websites and generating roughly 1000 views a month will bring a nice return on investment for not too much work. So, I decided to start it all up again. I paid for a SEO consultant for 1 hours’ worth of work ($150) to help me out with what I needed to do to get this back on the successful road.</p>
+<p>After 45 minutes, the SEO consultant offered me a few solutions. Most of it was keyword based, and what I should be writing for good starting exposure for my content, but a massive part of the SEO he said was down to its performance. The site took a new viewer 7 seconds to load, and in most cases, a reader would click off within 4–5 seconds of loading.</p>
+<p>Knowing this, I decided to make the jump to use WordPress for the core of the website. This migration wasn’t easy but was well worth the time. The load time went from 7 seconds down to just 1 second, which was amazing and prove beneficial for the long-term. WordPress is the best for these kinds of content-sites, and will always be on top for both small, and large-sized blogs.</p>
+<p>Once everything was migrated, I thought it was time to switch to something else that I had been after since I registered <a href="http://OvrPwr.net">OvrPwr.net</a>… <a href="http://OvrPwr.com">OvrPwr.com</a>. With knowing a bit about domain flipping, I decided to hunt down the owner of <a href="http://OvrPwr.com">OvrPwr.com</a> and decided to buy it from her. She didn’t want anything to do with the domain, I decided to offer her only $50, which she happily accepted.</p>
+<p>Once <a href="http://OvrPwr.com">OvrPwr.com</a> was connected to WordPress, it was time to start writing again. I used the keywords that the SEO consultant had provided and spent a good 3–4 months writing high-quality content that got natural views, all from SEO.</p>
+<p><img src="assets/ovrpwr-homepage.png" alt=""></p>
+<h2>Running OvrPwr — Day to Day Operations</h2>
+<p>As you can tell, OvrPwr was a bit of a bumpy ride in terms of commitment, but once I was in this limbo state with the site running itself, with the 20–30 posts I had, on WordPress, on <a href="http://OvrPwr.com">OvrPwr.com</a>. For me, this was generating around 100–200 views a month, which was perfectly fine with me, but it was draining my wallet for hosting, domain costs, and some plugins I was using on WordPress.</p>
+<p>Although this was good, it was not really at a point where I could sell the site, or even consider leaving it to build backlinks itself, or just let it die out. Compared to my other site, TechQuack, I felt like I needed someone to help me build the site.</p>
+<h3>Acquiring Staff</h3>
+<p>A lot of people often go to freelance sites, or otherwise, off-shore employment agencies to get cost-effective labour or services that will provide a good return on investment, but I was new to this and I didn’t have any plans on doing this because I would’ve had to pay a minimum of $400 per month, which was a lot for me at the time.</p>
+<p>One of my friends, was looking for a job, knew English quite well and the average monthly wage in his country was only $200 a month. What’s more, is that he was really into games. He loved playing games like Genshin Impact, League of Legends, and Fortnite. These games were all massive when I first employed him, and I decided to take a plunge and invest in him for a number of months.</p>
+<p>He was able to write daily articles, that returned a nice 30–40 views, per article, within the first 7 days of posting them. Some of these articles were more news-based, rather than guides and tips and tricks like I had been writing. I was really happy with his work, and couldn’t have asked for anything more. This was quite an investment for me, but I made a great relationship with the writer, and will likely be working with him on my other projects.</p>
+<p><img src="assets/ovrpwr-chart-2.png" alt=""></p>
+<h3>Revenue Streams</h3>
+<p>With spending almost $250 a month on OvrPwr, I needed to really figure out how to make money. At this point, OvrPwr had Google AdSense running, but that was it. Google Ads are great for people who have a good niche, and one that gets plenty of views — however the gaming niche, with only 1000/views a month, isn’t something that should be the main source of income. As you can see, over the last 3 years — OvrPwr didn’t earn much from ads served by Google.</p>
+<p><img src="assets/ovrpwr-chart-3.png" alt=""></p>
+<p>I needed to write some affiliate content. Affiliate content is content that would let me earn a commission or revenue from readers clicking, using, or purchasing something from another company — but coming from OvrPwr.</p>
+<p>I wrote some more “How to earn Giftcards for FREE” which helped me get a few extra $ a month, but nothing special. I also wrote some guides on how people can buy gift cards or gifts for their friends using code sites such as Gamivo, or G2A. These sites generated around 85% of all revenue on OvrPwr.</p>
+<p>On average, OvrPwr was earning around $20 a month, which was still quite a massive loss — but I soon came to realize this may have been my fault.</p>
+<h2>How I sold OvrPwr for $1500</h2>
+<p>After running OvrPwr for 3 years, but truly committing to it for 8 months, I had made the decision to sell it. Some months I was getting 1800 views a month, but sometimes I was only getting 900 views a month, but averaged out to be around 1500 views a month.</p>
+<p><img src="assets/ovrpwr-chart-4.png" alt=""></p>
+<p>I spoke to my writer and asked what he thought to sell the site. This is a hard decision because the writer would normally lose their job with this, but thankfully I was able to re-purpose the role for my other projects.</p>
+<p>We had decided that if we couldn’t push OvrPwr over the 2000 views line, then it was more of a wallet drain and pain-point for myself, then it was only best to let someone else deal with it. OvrPwr was my baby and was something I had really committed to, and had devotion towards but sometimes, the business way is not always the nicest way.</p>
+<p>Similarly, to the <a href="https://domaincord.com/blog/turned-abandoned-domain-successful-tech-blog-sold-1000">sale of TechQuack</a>, I decided to sell OvrPwr over on Flippa. Flippa is a great, but slightly expensive place to post websites, domains and apps to get in front of hundreds of thousands of buyers who will have expertise in the category.</p>
+<p>Flippa charged me $29 + 10% After Sale Fee ($150 on sale completion), but was an easy-to-list and easy to use experience which is great, as it takes maybe 5–10 minutes to list. Within 24-hours, I had 3 offers for OvrPwr. I had listed it at a $2000 buy-it-now price, but bidding at $800. One offer was for $1000, another for $850, and one at $1100.</p>
+<p>To me, these offers were low, but the problem was — I was losing more money than I was gaining and these values would actually save money and relieve some weight from my shoulders.</p>
+<p>I countered the offer at $1100 for $1600, before they countered for $1250, and I made one last counter offer for $1500. This offer was accepted by the buyer, and within a few days — I was paid directly into my bank account and the transfer process was easy. I gave the buyer the account details and pushed the domain via. Namecheap.</p>
+<p><img src="assets/ovrpwr-chart-5.png" alt=""></p>
+<h2>What I would do differently next time?</h2>
+<p>If I was ever to create another site like OvrPwr, and will probably use some of these tips going forward with my other projects. I feel like next time, I need to;</p>
+<ul>
+<li>Focus on Keywords (Low Difficulty, Low Traffic Keywords).</li>
+<li>Build Backlinks Early On</li>
+<li>Write a “Content Plan” and “Content Creation Guide” for any Writers</li>
+<li>Commit to it, and don’t give up when it’s not fast-growth.</li>
+</ul>
+<p>Keywords are massively important, even if they’re easy to rank and only bring in 10 views per month, this is still worth it because it’s a rank that you can hold if you’re early. This was massively important for OvrPwr’s initial growth.</p>
+<p>Backlinks are essential to DR, and as mentioned earlier, the higher your DR, the easier it is to rank higher on Google, but it’s not essential. Backlinks and guest posting for other people will be the best way to gain these backlinks.</p>
+<p>When I tried to help my writer get started, with a creation guide and some titles and keywords in a list — this would’ve made content creation 10x faster, and a lot easier for my writer. This is also a massive help for when you have duplicate content, separate from WordPress.</p>
+<p>Don’t. Give. Up. I need to not give up when the views are low because in a few months of work it could be 500–1000 views a month, or maybe more and will be well worth the initial 3-month struggle.</p>
+<p>In conclusion, OvrPwr was my baby-site, that I did put a lot of effort and heart into, and even though it was losing me money — OvrPwr was definitely a massive learning curve for me, and I’ve gained endless experience and a writer who can help me with more projects going forward. The buyer of OvrPwr has a track record of taking these sites and making them into amazing sites, so no doubt that you might be seeing OvrPwr on a search near you, sometime soon.</p>
+
+                                <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg w-full h-auto p-6 mt-4">
+    <div class="grid grid-cols-2 gap-4">
+        
+        <div class="flex flex-col justify-start items-start">
+            <h2 class="font-bold text-gray-900 dark:text-gray-50 text-lg mb-2"> <span class="sr-only">(Author)</span></h2>
+
+            
+
+            
+        </div>
+    </div>
+</div>
+                            </main>
+						</div>
+						<div class="col-span-12 lg:col-span-3">
+							<div class="bg-white dark:bg-gray-800 p-4 shadow-lg rounded-lg w-full h-auto mb-2">
+    <h2 class="font-semibold uppercase text-lg text-gray-400 dark:text-gray-300 mb-2">
+        My Links
+    </h2>
+	<ul>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="mailto:alex@croc.io"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Get in touch!
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a href="/blog" class="text-primary hover:text-primary-light">
+                        Blog
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a href="/uses" class="text-primary hover:text-primary-light">
+                        Stuff We Love
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://discord.gg/domains"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Join Domaincord
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://social.lol/@croc"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Mastodon
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pixelfed.social/croc"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Pixelfed
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/crock"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        GitHub
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://dribbble.com/croc"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Dribbble
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+	</ul>
+</div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+  </body>
+
+</html>

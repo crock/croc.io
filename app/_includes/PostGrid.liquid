@@ -1,0 +1,6 @@
+<h1 class="text-4xl font-black mb-8">Blog<span role="img" aria-label="heart" class="ml-2">📖</span></h1>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+    {%- for post in posts %}
+        {% include PostCard, post: post %}
+    {% endfor -%}
+</div>

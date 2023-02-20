@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="overflow-y-scroll" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <meta name="description" content="{% if description %}{{ description }}{% else %}Software development and design studio based in the US. We build web and mobile applications for startups and enterprises.{% endif %}">
+    <title>
+      {% if title %}
+        {{ title }}
+      {% else %}
+        Croc Studios
+      {% endif %}
+    </title>
+
+    <link rel="stylesheet" href="/globals.css">
+
+  </head>
+
+  <body class="bg-gray-50 dark:bg-gray-900 text-black dark:text-white">
+
+    {% include header %}
+
+    <div class="py-10">
+				<div class="container mx-auto h-full max-w-5xl px-4 flex justify-between items-center">
+					<div class="w-full grid grid-cols-12 gap-4">
+						<div class="col-span-12 lg:col-span-9">
+							<main>
+                                {{ content }}
+                                {% include AuthorCard %}
+                            </main>
+						</div>
+						<div class="col-span-12 lg:col-span-3">
+							{% include MyLinks %}
+						</div>
+					</div>
+				</div>
+		</div>
+
+  </body>
+
+</html>

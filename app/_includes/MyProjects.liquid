@@ -1,0 +1,12 @@
+<div class="flex flex-col justify-start items-start">
+    <h2 class="font-black text-4xl text-black dark:text-white mb-8">Projects</h2>
+    {% for proj in collections.projects %}<a href="{{ proj.postUrl }}" class="w-full h-auto bg-white dark:bg-gray-800 p-2 rounded shadow flex flex-col justify-start items-start text-black dark:text-white hover:bg-primary-dark group mb-4">
+        <div class="flex flex-row flex-nowrap justify-between items-center w-full">
+            <h3 class="text-2xl font-semibold">{{proj.name}}</h3>
+        </div>
+        <p class="text-gray-900 dark:text-gray-200 group-hover:text-white">{{proj.pitch}}</p>
+        <div class="flex flex-row justify-start items-center mt-3">
+        {% for tag in proj.tags %}<span class="text-gray-400 group-hover:text-white text-sm p-1 mr-2"><span class="text-lime-500 group-hover:text-lime-300 mr-1">#</span>{{ tag }}</span>{% endfor %}
+        </div></a>
+    {% endfor %}
+</div>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="overflow-y-scroll" lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <meta name="description" content="Software development and design studio based in the US. We build web and mobile applications for startups and enterprises.">
+    <title>
+      
+        Ahrefs vs SEMrush Comparison [2022]
+      
+    </title>
+
+    <link rel="stylesheet" href="/globals.css">
+
+  </head>
+
+  <body class="bg-gray-50 dark:bg-gray-900 text-black dark:text-white">
+
+    <header class="w-full h-20 bg-gray-200 dark:bg-gray-800">
+	<div
+		class="container mx-auto px-4 h-full max-w-5xl flex justify-between items-center"
+	>
+		<div class="flex flex-row justify-start items-center">
+			<a aria-current="page" class="mr-2" href="/">
+				<img
+					class="h-8 w-8"
+					src="/assets/CS_LOGO.png"
+					alt="Croc Studios"
+				/>
+				<span class="sr-only">Croc Studios</span>
+			</a>
+			<nav class="hidden lg:inline-flex">
+				<ul class="flex flex-row ml-4">
+					<li class="ml-4">
+						<a
+							aria-current="page"
+							class="text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white font-normal text-base"
+							href="/"
+							>Home</a
+						>
+					</li>
+					<li class="ml-4">
+						<a
+							class="text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white font-normal text-base"
+							href="/blog/"
+							>Blog</a
+						>
+					</li>
+					<li class="ml-4">
+						<a
+							class="text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white font-normal text-base"
+							href="/uses/"
+							>Stuff We Love</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<nav class="flex flex-row flex-nowrap justify-end items-center">
+			<a
+				href="https://social.lol/@croc"
+				rel="me"
+				class="text-xl block p-2 text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white">
+                <svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fab"
+					data-icon="mastodon"
+					class="svg-inline--fa fa-mastodon fa-1x"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512">
+					<path
+						fill="currentColor"
+						d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"></path>
+                </svg>
+                    <span class="sr-only">Mastodon</span></a
+			>
+            <a href="https://github.com/crock" class="text-xl block p-2 text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white">
+                <svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fab"
+					data-icon="github"
+					class="svg-inline--fa fa-github fa-1x"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 496 512">
+					<path
+						fill="currentColor"
+						d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                </svg>
+                <span class="sr-only">GitHub</span>
+            </a>
+            <a
+				href="https://dribbble.com/croc"
+				class="text-xl block p-2 text-gray-900 dark:text-gray-50 hover:text-gray-500 hover:dark:text-white">
+                <svg
+					aria-hidden="true"
+					focusable="false"
+					data-prefix="fab"
+					data-icon="dribbble"
+					class="svg-inline--fa fa-dribbble fa-1x"
+					role="img"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512">
+					<path
+						fill="currentColor"
+						d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z"></path>
+                </svg>
+                <span class="sr-only">Dribbble</span>
+            </a>
+		</nav>
+	</div>
+</header>
+
+
+    <div class="py-10">
+				<div class="container mx-auto h-full max-w-5xl px-4 flex justify-between items-center">
+					<div class="w-full grid grid-cols-12 gap-4">
+						<div class="col-span-12 lg:col-span-9">
+							<main>
+                                <p>When on the market for a professional SEO toolset that can aid in building and growing your online presence, there are many of them available. Two of the biggest SEO tools on the market, Ahrefs and SEMrush have been competing against each other since 2010, and have been helping all kinds of businesses thrive online. But which one is best?</p>
+<p>In today's Domaincord article, we give an honest overview of each base-plan tier for both Ahrefs and SEMrush to help you decide which tool is best for you. Let's jump straight into it. In this article, we will be comparing both SEO tools using the key focuses below, as well as closing reviews of each tool and our pick for the best.</p>
+<h2>Key Focuses:</h2>
+<ul>
+<li>Domain Crawling/Ranking</li>
+<li>Keyword Research and Analysis</li>
+<li>Backlink Research and Analysis</li>
+<li>Site Audit and Suggestion Capabilities</li>
+<li>UI and Usability</li>
+<li>Pricing</li>
+<li>Support and Education</li>
+</ul>
+<h2>What is Ahrefs?</h2>
+<p>Ahrefs is a large SEO tool that contains multiple tools for website owners and marketers, that are able to utilize link building, keyword research, competitor analysis, rank tracking as well as site audits and much more. Ahrefs is a tool that most marketers use to help get their website and search terms higher up on Google rankings.</p>
+<h2>What is SEMrush?</h2>
+<p>SEMrush is another large-scale SEO tool that has many tools for marketers as well as website owners to improve their SEO and searchability on search engines like Google. SEMrush features several tools such as link building, keyword research and analysis, competitor analysis, site audits as well as competitor analysis.</p>
+<h2>Which SEO tool is better?</h2>
+<p>After purchasing both a &quot;Lite&quot; plan on Ahrefs and the &quot;Pro&quot; plan on SEMrush (these are both considered the <strong>lowest-paid</strong> subscription tier) - we put both tools to work with one project. We tracked keywords, made changes to the site as well as testing every aspect of the SEO tool to see which one compares the best. Let's find out more about this.</p>
+<h3>Domain Crawling and Ranking Ability</h3>
+<p>Domain crawling and ranking ability are something that both tools can do very well, if done correctly. Domain crawling is built-in natively to both Ahrefs and SEMrush, so we will review both of them starting with Ahrefs.</p>
+<p>Ahrefs domain crawling can be a little slow. Their domain crawling doesn't start straight away, and after adding a project for ourselves with only 50 pages – it took roughly an hour to show the results of the crawl. We're not sure why this is the case, but it is something to be aware of when using Ahrefs if you're in a rush. Saying that, Ahrefs' crawler is very perceptive of the site it's crawling, and can find issues that many tools won't find, which is a big selling point for Ahrefs.</p>
+<p><img src="assets/ahrefs-semrush-comparison/1.png" alt="Ahrefs Domain Crawling"></p>
+<p>Ahrefs is also quite good at ranking sites, but you have to use either Google search console or add keywords manually to be able to do this. If you do link Google search console, however, you can review all of your sites/project &quot;Organic Keywords&quot; which shows you the search volume, difficulty, traffic and position as well as a few other stats that can really help with understanding where and why you rank where you do.</p>
+<p>SEMrush, however, does seem to be much more efficient than Ahrefs. The crawling speed of SEMrush does still take between 10-20 minutes depending on your site, but compared to the 30 minutes of Ahrefs it does seem much quicker.</p>
+<p>SEMrush does also rank your website both comparing to other SEMrush users as well as the global website population making it great to track where you are compared to others. As for keyword tracking, just like Ahrefs – SEMrush prefers you to link Google analytics as well as Google search console to get the most out of the tool as it can track and watch keywords you are ranking for, as well as future keywords without you needing to add them manually.</p>
+<h3>Keyword Research and Analysis</h3>
+<p>Keyword research and analysis is one of the main reasons why you would buy either SEMrush or Ahrefs, to find out what's popular for your business or product/service, as well as ways you can improve your already ranking keywords. To start with, we're going to take a look at Ahrefs keyword research.</p>
+<p>In Ahrefs, this is called &quot;Keyword Explorer&quot;. The keyword explorer is a tool is very powerful, but does not make straight up suggestions. In this case, we used &quot;piano repair&quot; and ran the search. From the results, you are able to see several stats that will aid in the use of a said keyword. Keyword difficulty shows how hard it would be to get ranked in the top 10 (as well as an estimation).</p>
+<p><img src="assets/ahrefs-semrush-comparison/2.png" alt="Ahrefs Keyword Explorer"></p>
+<p>It also shows the volume of searches, how much a cost per click ad would cost – as well as traffic potential. Something that Ahrefs does very well is it adds plenty more value to the original search. In this case, we used &quot;piano repair&quot; but as you can see from the screenshot – we had 3219 extra keywords we could use, as well as questions, and other related search topics.</p>
+<p><img src="assets/ahrefs-semrush-comparison/3.png" alt="SERP Analysis in Ahrefs"></p>
+<p>Not only this, but Ahrefs shows the current ranking for the keyword and positions 1-10 (1-4 for CPC) allowing you to see who you would be competing against should you use the keyword.</p>
+<p><img src="assets/ahrefs-semrush-comparison/4.png" alt="Ahrefs Current Keyword Ranking"></p>
+<p><em>SEMrush</em></p>
+<p>SEMrush does have some amazing features when it comes down to keyword research and analysis. First off, the keyword analysis tool has everything you expect it to have. Just like Ahrefs, you can search for a keyword and get a volume, results, CPC, and difficulty rating. Not only this, but when you enter the keyword – you also get related keyword variations as well as questions that you should add to your content to help the site or business page rank better in Google and other search engines.</p>
+<p><img src="assets/ahrefs-semrush-comparison/5.png" alt="SEMrush keyword research"></p>
+<p>SEMrush also has keyword lists, and planners that can be used across their platform for convenience, just like Ahrefs. Something else that SEMrush has that both tools do, is the keyword tracker. If your site ranks for a keyword, you can enter the keyword into the Keyword tracker and watch its position every day with automated reporting and analysis to see where your keyword ranks, and ways to improve. This is very nice to have as it can show that the tool is helping you.</p>
+<p><img src="assets/ahrefs-semrush-comparison/6.png" alt="SEMrush keyword tracker"></p>
+<p>Something to note with both tools is that both display different results, and unfortunately – both are accurate. This means that although they can't 100% confirm the real number of visitors and search queries, it's a best guess – but using a wide range of other tools to compare, we realize that Ahrefs is much closer to the average than SEMrush, but not by too much.</p>
+<h3>Backlink Research and Analysis</h3>
+<p>Backlinks are the bread and butter of SEO, and is typically the one term associated with SEO tactics for new marketers or website owners. Although it's not all about backlinks anymore, they still play a massive part in your site's successes. Both Ahrefs and SEMrush have powerful and &quot;all-seeing&quot; backlink crawlers that let you see exactly where your backlinks are coming from, as well as being able to find broken backlinks (not included in Lite) and where to find new backlink opportunities.</p>
+<p><img src="assets/ahrefs-semrush-comparison/7.png" alt="Ahrefs backlink analysis"></p>
+<p>Ahrefs backlink explorer which features both backlink research, and analysis, is a little hard to navigate. Although Ahrefs is incredibly detailed, finding information you want from Ahrefs and a specific backlink can take a good few click to actually find the information you're looking for.</p>
+<p>Saying that, the level of detail added by Ahrefs is massive showing the backlink, the DR of it, traffic, and all the details about when the backlink was first and last seen on the net. It is very helpful for people wanting to know more about their backlinks, as well as how to approach new backlink opportunities with similar keywords.</p>
+<p><em>SEMrush</em></p>
+<p>Sorry Ahrefs – SEMrush is destroying you on the backlinks front. SEMrush has one of the best backlink tools available and for many reasons. As we mentioned, Ahrefs backlinks are great, as it shows you a great deal of detail as well as further information on how to get new backlinks – which is great. SEMrush on the other hand provides all of that and much more.</p>
+<p><img src="assets/ahrefs-semrush-comparison/8.png" alt="SEMrush Backlink Explorer"></p>
+<p>SEMrush has three key tools you will likely use; &quot;Backlink Analytics&quot;, &quot;Backlink Audit&quot;, and &quot;Link Building Tool&quot;. Just like Ahrefs, Backlink Analytics lets you check all of your site's backlinks, their toxicity rating, and a number of other stats and values showing you exactly where and how much traffic is being brought in from a referring domain.</p>
+<p>Backlink audit and link building tool on the other hand are unique to the two SEO tool providers. Backlink audit shows you the level of toxicity of a backlink. This means that if you get negative backlinks that will harm your SEO value, then SEMrush will tell you – and show you how to remove them. This is also an automated process, so why not let them help you take the negative backlink away to keep your SEO in good health.</p>
+<p><img src="assets/ahrefs-semrush-comparison/9.png" alt="SEMrush Backlink Building Tool"></p>
+<p>The link building tool is a huge life-safer for many people, and we use it all the time. The link building tool lets you type in your domain and some keywords for your domain. At this point, SEMrush will do some digging and find backlink opportunities to allow for easy and quick backlinking to your site. This is NOT automated bots etc., but is SEMrush contacting other website owners requesting to link a broken link to your site. This is often a paid service in the SEO industry, and SEMrush allows you to do this included with your plan.</p>
+<p><img src="assets/ahrefs-semrush-comparison/10.png" alt="SEMrush Backlink Health Check"></p>
+<p>Overall, SEMrush takes the cake with backlink research, analysis, and overall backlink capabilities.</p>
+<h3>Site Audit and Suggestion Capabilities</h3>
+<p>The site audit is another key part to the SEO tools and can provide invaluable information and suggestions to fix major SEO issues with a website. Both Ahrefs and SEMrush feature accurate and perceptive site audit tools, but we will check out Ahrefs first.</p>
+<p>Ahrefs &quot;Site Audit&quot; function is one of the best ways to find issues with your site/project as well as make several suggestions on what is at fault, as well as ways to fix them. Ahrefs does require you to add a &quot;Project&quot; before allowing the crawler to check for issues – but this is the first step anyway when using Ahrefs.</p>
+<p><img src="assets/ahrefs-semrush-comparison/11.png" alt="Ahrefs Site audit"></p>
+<p>Once you've added your site/project, and the crawl has finished – you will be greeted with a &quot;Health Score&quot; which is your website's SEO health overall. As you can see from the screenshot above, one of our projects shows a 92 which is great, but there are still several high-severity issues such as &quot;Multiple Meta description tags&quot;, &quot;Broken Images&quot;, and &quot;double-slash in URL&quot; which can all negatively impact SEO and search rankings for the site and keywords used.</p>
+<p>Not only does Ahrefs show the top issues (and all issues if you dig deeper), but it also tells you exactly what you need to remediate, as well as the outcome of not fixing them. Ahrefs does not hold back on the information provided and is a great tool to use to make sure your site is SEO-perfect.</p>
+<p><em>SEMrush</em></p>
+<p>Just like Ahrefs, SEMrush does have a very advanced crawler that can review your website or page and tell you everything that is wrong with it. The site audit capability on SEMrush is very similar, and does identify the same issues as Ahrefs making them almost identical when making suggestions as well as an overall health score.</p>
+<p>Something that SEMrush does do differently is how it tells you, and scores you around suggestions. Using the same page as we crawled on Ahrefs, SEMrush did pick up on hundreds more issues, but were mostly duplicate issues on different pages that could've been picked up into one &quot;issue&quot;, rather than multiple. Although this specific alert was an issue that I changed once and it fixed over 100 alerts, it's good to know that if one specific page on your site has an issue – SEMrush will pick up on it, even if every other page is fine.</p>
+<p><img src="assets/ahrefs-semrush-comparison/12.png" alt="SEMrush Site Audit"></p>
+<p>SEMrush is also very fast to update and check issues that you try to fix. If you're like us, you probably try to fix each alert one by one and do a full crawl to see if it's fixed, but this takes up time, and resources for the Pro plan. SEMrush has a feature that crawls specific issues, meaning it's faster as well as saving resources from your plan. This is something Ahrefs does not have and is a massive help for new site owners that will likely have many SEO issues to change.</p>
+<h3>UI and Usability</h3>
+<p>Both Ahrefs and SEMrush have similar UI and usability functions. First, we'll take a look at Ahrefs.</p>
+<p>Ahrefs has an easy-to-understand layout, and although nothing fancy, it definitely does the job. All of Ahrefs tools are lined up along the top navigation bar, with the most commonly used at the front as well as an &quot;More&quot; tab for the lesser used tools. Over time, this does change to what tools you use the most.</p>
+<p>When clicking through Ahrefs, the navigation bar at the top of the page never changes, and will always remain in the same place – however the main content will likely add a left-side column which showcases more tabs on the main tool you're using. I.e. if you head into &quot;Keyword Explorer&quot;, you will have left-side navigation showing extra tools within the keyword explorer. This helps to keep the site clean and functional. A new feature added within the last month – is Ahrefs colour palette. This allows you to choose between light and dark colour settings.</p>
+<p><img src="assets/ahrefs-semrush-comparison/13.png" alt="Ahrefs Site UI and functionality"></p>
+<p>Speed-wise, Ahrefs is actually very fast. Although the site audit speed can be a little slow depending on how big your site is, other aspects such as keyword explorer or backlink explorer are rapid when compared to other SEO tools on the market – including SEMrush. If you don't like waiting for results, then Ahrefs might be your preferred tool!</p>
+<p><em>SEMrush</em></p>
+<p>SEMrush, as we've already mentioned, does look quite similar and features the same top-navigation bar, but has extra tools and resources rather than the native tools per the Pro subscription. Just like Ahrefs, SEMrush has a left-side navigation bar for all the tools that the Pro subscription has access to and although they are almost identical, SEMrush does look a lot more modern and easier going on the eyes. Something to note, is at the time of writing – SEMrush does not have a dark mode feature, so you're stuck with the orange, black and white (which looks great!).</p>
+<p><img src="assets/ahrefs-semrush-comparison/14.png" alt="SEMrush Site UI and functionality"></p>
+<p>Functionality wise, SEMrush is about the same as Ahrefs. SEMrush is comparable in speed, with keywords and backlink analysis taking just a couple of seconds to get a whole catalogue of data and information, but similarly to Ahrefs – the site crawl can take a little bit of time. From adding the site to having a full-site audit, it took just 14 minutes which is acceptable for the tool, still considerably faster than Ahrefs on this front.</p>
+<h3>Pricing and Tiers</h3>
+<p><em>Ahrefs</em></p>
+<p>One major factor that can be the deciding one when purchasing a SEO tool can be the price, and what you get when purchasing a paid subscription of one of these SEO tools. Both Ahrefs and SEMrush have very similar pricing, but features vary a little bit.</p>
+<p>Ahrefs has four plans, Lite ($95/m), Standard ($190/m), Advanced ($385/m), and Enterprise ($960/m). These are spread over two subscription lengths, monthly, or annually – where you're able to get 2 months free. All paid tiers have the SEO dashboard, Site explorer, keyword explorer, site audit tool, rank tracker as well as free alerts, with more perks being added the higher the packages you go.</p>
+<p>For this review, (of Lite – the lowest subscription), you're able to use the tool to manage;</p>
+<ul>
+<li>5 Unverified project, and Unlimited verified projects. (Verified using GSC, or manual verification).</li>
+<li>750 Tracked Keywords (additional costs $50/m for 500 extra).</li>
+<li>Keyword, Domain, and Backlink Analysis</li>
+<li>Domain, Keyword, and Backlink Analytics; 500,000 results a month, ($50/m for an extra million).</li>
+<li>100,000 Page Crawls per Month (max. Of 25,000 per project).</li>
+</ul>
+<p>Something to note with Ahrefs, is that some features such as content explorer, domain comparisons, additional site explorer/audit features and the notable &quot;Ahrefs Search&quot; are all in the higher packages, and are not within the lite edition.</p>
+<p><img src="assets/ahrefs-semrush-comparison/15.png" alt="Ahrefs Pricing"></p>
+<p><em>SEMrush</em></p>
+<p>On the flip side, SEMrush only has three paid tiers, Pro ($119.95/m), Guru ($229.95/m) and Business ($449.95). SEMrush do break down the tiering much more elegantly, showcasing the exact numbers of searches you're able to do, and several green dots underneath each plan – comparing themselves. Paying annually does save 17% on subscription cost.</p>
+<p>For this review (of Pro – the lowest subscription), you're able to use the tool to manage;</p>
+<ul>
+<li>5 Projects (or Websites)</li>
+<li>500 Tracked Keywords</li>
+<li>Keyword, Domain, and Backlink Analysis</li>
+<li>Domain and Keyword Analytics; 10,000 Results per report; 3,000 reports per day.</li>
+<li>100,000 Page Crawls per month (split into 20,000 per project).</li>
+</ul>
+<p>SEMrush also opens the door with many on-site tools such as keyword research, on-page SEO, competitor analysis, link building, rank tracking, content optimization, seo analysis and even site-audits to help you improve your sites presence. The <a href="https://www.semrush.com/features/">full list of SEMrush features can be found here</a>. These are included with every paid plan, although some may have limitations.</p>
+<p><img src="assets/ahrefs-semrush-comparison/16.png" alt="SEMrush Pricing"></p>
+<h3>Support and Further SEO Education</h3>
+<p>In terms of support, both platforms are all for helping and assisting customers where possible. Ahrefs features a live chat function, as well as email support over a 24/7 period meaning you'll be able to get an answer typically in less than 30 minutes. SEMrush on the other hand has live chat, email support as well as multiple country phone lines if you prefer to speak to someone over the phone. This is also considered &quot;follow the sun&quot;, as there will always be a team working somewhere whenever you need them.</p>
+<p>Both SEMrush and Ahrefs have further education outside of their tool on their respective YouTube channels as well as on-site education platforms such as Ahrefs &quot;academy&quot; that can help people understand more about SEO, and how not only the SEO tool can help – but also other aspects of SEO to help grow your business. Both education platforms have a wide range of free to access content (regardless of if you're paying for it) and both offer a great level of information.</p>
+<p><img src="assets/ahrefs-semrush-comparison/17.png" alt="SEMrush education academy - learn SEO"></p>
+<p>In terms of support and further SEO information provided, both tools appear to go the extra mile to make sure you have the best setup for success from an SEO standpoint.</p>
+<h2>Our Honest Opinions</h2>
+<h3>Ahrefs</h3>
+<p>Our honest opinion on Ahrefs is mostly positive. All the aspects and tools included with the Lite plan are more than enough for anyone getting started with SEO and or marketing their own, or someone else's website. The tools are all fairly self-explanatory and the level of support provided by Ahrefs and their team is exceptional. Overall, we're really happy with the trial period we had with Ahrefs and we did in fact see a performance increase after making changes and using the tool to our advantage.</p>
+<p>The only downside of Ahrefs Lite plan is that many features that some people may want are not included in the plan. Although the cheaper out of the two, Ahrefs could have so much more potential if they were to include features such as broken backlinks, or content explorer in their Lite plan. With that being said, the difference between the plans is somewhat significant, so may not be achievable for new customers. With that being said, that would be our only downside to the tool and we think it would be great for people wanting to start mastering SEO on their own site and others!</p>
+<h3>SEMrush</h3>
+<p>Our honest opinion on SEMrush is again, nearly all positive. All the tools as well as the constant education stream you'll experience as a SEMrush customer does make the tool well worth the money. Although SEMrush is the more costly tool out of the two, there is a clear reason why. The extra services and features that are included in the Pro package are identical to the Lite package of Ahrefs, however it does come with the added benefits and features that are in the higher tiers of Ahrefs' packages.</p>
+<p>With that being said, SEMrush Pro would be the perfect subscription to trial, and use for a couple of months for marketers or website owners who would utilize 5 or less sites. We saw almost instant improvements to our site ranking and search performance just by using SEMrush. We also got some easy backlinks using their backlink tool!</p>
+<h2>Our Overall Winner</h2>
+<p>After using both products on the same and different sites, our overall winner in this comparison has to be SEMrush. With all the extra features as well as the effectiveness of each of the tools included do make it very close between Ahrefs and SEMrush, but for the slight extra cost on the base-tier plan, it just has to be SEMrush.</p>
+<p>If you have more than 5 sites/projects, we would likely switch to Ahrefs as there are unlimited projects included, but if you have less – it has to be SEMrush. How was your experience with SEMrush or Ahrefs? Let us know in the comments!</p>
+
+                                <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg w-full h-auto p-6 mt-4">
+    <div class="grid grid-cols-2 gap-4">
+        
+        <div class="flex flex-col justify-start items-start">
+            <h2 class="font-bold text-gray-900 dark:text-gray-50 text-lg mb-2"> <span class="sr-only">(Author)</span></h2>
+
+            
+
+            
+        </div>
+    </div>
+</div>
+                            </main>
+						</div>
+						<div class="col-span-12 lg:col-span-3">
+							<div class="bg-white dark:bg-gray-800 p-4 shadow-lg rounded-lg w-full h-auto mb-2">
+    <h2 class="font-semibold uppercase text-lg text-gray-400 dark:text-gray-300 mb-2">
+        My Links
+    </h2>
+	<ul>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="mailto:alex@croc.io"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Get in touch!
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a href="/blog" class="text-primary hover:text-primary-light">
+                        Blog
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a href="/uses" class="text-primary hover:text-primary-light">
+                        Stuff We Love
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://discord.gg/domains"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Join Domaincord
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://social.lol/@croc"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Mastodon
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://pixelfed.social/croc"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Pixelfed
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/crock"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        GitHub
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+            <li class="mb-2">
+                
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://dribbble.com/croc"
+                        class="text-primary hover:text-primary-light flex flex-row flex-nowrap">
+                        Dribbble
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                        </svg>
+                    </a>
+                
+            </li>
+        
+	</ul>
+</div>
+						</div>
+					</div>
+				</div>
+		</div>
+
+  </body>
+
+</html>
