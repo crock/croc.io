@@ -22,7 +22,6 @@ export const Head = () => {
 			<body className="bg-white dark:bg-black text-black dark:text-white" />
 			<title>Page Not Found | Croc Studios</title>
 			<meta name="description" content="The page you are looking for does not exist. Please check the URL and try again." />
-			<link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
 		</>
 	)
 }

@@ -1,6 +1,9 @@
 import type { GatsbyNode } from "gatsby"
 import path from "path"
 import slugify from "slugify"
+import util from 'util'
+
+const exec = util.promisify(require('child_process').exec);
 
 const slugifyOptions = {
 	replacement: "-", // replace spaces with replacement character, defaults to `-`

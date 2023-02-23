@@ -238,7 +238,6 @@ export const Head = () => {
 			<body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
 			<title>❤️ Stuff We Love | Croc Studios</title>
             <meta name="description" content="The stuff we use and love everyday." />
-            <link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
 		</>
 	)
 }

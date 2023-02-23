@@ -115,7 +115,6 @@ export const Head = () => {
 				name="description"
 				content="Securely and privately generate a random, strong password."
 			/>
-			<link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
 		</>
 	)
 }

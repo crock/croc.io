@@ -86,7 +86,6 @@ export const Head = () => {
 				name="description"
 				content="Intelligently detect whether any given site uses client-side or server-side rendering."
 			/>
-			<link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
 		</>
 	)
 }

@@ -16741,6 +16741,7 @@ __metadata:
     gatsby-transformer-sharp: ^5.5.0
     moment: ^2.29.4
     netlify-cli: ^12.9.2
+    pagefind: ^0.11.0
     postcss: ^8.4.21
     prettier: ^2.8.3
     prismjs: ^1.29.0
@@ -18104,6 +18105,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pagefind@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "pagefind@npm:0.11.0"
+  dependencies:
+    https-proxy-agent: ^5.0.0
+    proxy-from-env: ^1.1.0
+  bin:
+    pagefind: lib/index.js
+  checksum: 422adca03119ab608e4a85387f06d1b5267d70f483388c3189f1e559d6395ae2535bb6b74ab74d3ee23d8d01cc7d14ab45d0a53fe80d7844a67cd6e9f0b31beb
+  languageName: node
+  linkType: hard
+
 "parallel-transform@npm:^1.2.0":
   version: 1.2.0
   resolution: "parallel-transform@npm:1.2.0"
@@ -19386,6 +19399,13 @@ __metadata:
     forwarded: 0.2.0
     ipaddr.js: 1.9.1
   checksum: 29c6990ce9364648255454842f06f8c46fcd124d3e6d7c5066df44662de63cdc0bad032e9bf5a3d653ff72141cc7b6019873d685708ac8210c30458ad99f2b74
+  languageName: node
+  linkType: hard
+
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: ed7fcc2ba0a33404958e34d95d18638249a68c430e30fcb6c478497d72739ba64ce9810a24f53a7d921d0c065e5b78e3822759800698167256b04659366ca4d4
   languageName: node
   linkType: hard
 

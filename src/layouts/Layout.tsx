@@ -1,7 +1,8 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import { Link, Slice, Script } from "gatsby"
 import { Wrapper } from "crockit-react/core/"
+import { Helmet } from 'react-helmet'
 
 const shortcodes = { Link }
 
@@ -10,12 +11,6 @@ interface ILayout {
 }
 
 const Layout = ({ children }: ILayout) => {
-
-	useEffect(() => {
-		if (typeof window !== 'undefined') {
-			new window.PagefindUI({ element: "#search" });
-		}
-	})
 
 	return (
 		<MDXProvider components={shortcodes}>
@@ -37,7 +32,11 @@ const Layout = ({ children }: ILayout) => {
 					</div>
 				</Wrapper>
 			</div>
+			{/* <Helmet>
+				<link rel="stylesheet" href="/_pagefind/pagefind-ui.css" />
+			</Helmet>
 			<Script src="/_pagefind/pagefind-ui.js" type="text/javascript" />
+			<Script src="/custom.js" type="text/javascript" /> */}
 		</MDXProvider>
 	)
 }
