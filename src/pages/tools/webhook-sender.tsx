@@ -173,6 +173,7 @@ export const Head = () => {
 			<body className="bg-gray-50 dark:bg-gray-900 text-black dark:text-white" />
 			<title>Webhook Sender | Tools | Croc Studios</title>
 			<meta name="description" content="Easily send data to webhooks." />
+			<link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
 		</>
 	)
 }
