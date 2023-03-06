@@ -22,22 +22,10 @@ const links = [
 		internal: true,
 	},
 	{
-		id: 2,
-		title: "Join Domaincord",
-		href: "https://discord.gg/domains",
-		internal: false,
-	},
-	{
 		id: 3,
 		title: "Mastodon",
 		rel: "me",
-		href: "https://social.lol/@croc",
-		internal: false,
-	},
-	{
-		id: 4,
-		title: "Pixelfed",
-		href: "https://pixelfed.social/croc",
+		href: "https://mastodon.social/@croc",
 		internal: false,
 	},
 	{
