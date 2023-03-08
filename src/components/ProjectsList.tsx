@@ -4,13 +4,24 @@ import { Link } from "gatsby"
 import YearsActive from "./YearsActive"
 
 const ProjectsList = () => {
+
+	const sortedProjects = projects.sort((a, b) => {
+
+		if (a.endDate && b.endDate) {
+			return new Date(b.endDate).getTime() - new Date(a.endDate).getTime()
+		} else {
+			return new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
+		}
+
+	})
+
 	return (
 		<div className="flex flex-col justify-start items-start">
 			<h2 className="font-black text-4xl text-black dark:text-white mb-8">
 				Projects
 			</h2>
-			{projects.length &&
-				projects.map((proj) => (
+			{sortedProjects.length &&
+				sortedProjects.map((proj) => (
 					<Link
 						to={proj.postUrl}
 						key={proj.id}

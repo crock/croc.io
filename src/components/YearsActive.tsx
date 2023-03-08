@@ -3,10 +3,10 @@ import moment from "moment"
 
 interface YearsActiveProps {
 	startDate: string | number
-	endDate?: string | number
+	endDate?: string | number | null | undefined
 }
 
-const YearsActive = ({ startDate, endDate }: YearsActiveProps) => {
+const YearsActive = ({ startDate, endDate = null }: YearsActiveProps) => {
 	const startYear = moment(startDate, "YYYYMMDD").format("YYYY")
 	const endYear = endDate
 		? moment(endDate, "YYYYMMDD").format("YYYY")
