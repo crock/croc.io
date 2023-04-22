@@ -1,12 +1,15 @@
 import * as React from "react"
-import { Wrapper } from "crockit-react/core/"
-import { Slice } from "gatsby"
 import ProjectsList from "../components/ProjectsList"
 
 const IndexPage = () => {
 	return (
 		<>
 			<ProjectsList />
+			<div className="hidden" dangerouslySetInnerHTML={{__html: `
+				OMG.LOL Proofs:
+				proven.lol/9bdb6f (404.page)
+				proven.lol/5f07d2 (croc.io)
+			`}}></div>
 		</>
 	)
 }
