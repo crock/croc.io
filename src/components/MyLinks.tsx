@@ -25,7 +25,7 @@ const links = [
 		id: 3,
 		title: "Mastodon",
 		rel: "me",
-		href: "https://mastodon.social/@croc",
+		href: "https://social.lol/@croc",
 		internal: false,
 	},
 	{
@@ -38,6 +38,18 @@ const links = [
 		id: 6,
 		title: "Dribbble",
 		href: "https://dribbble.com/croc",
+		internal: false,
+	},
+	{
+		id: 7,
+		title: "Glass Photo 📷",
+		href: "https://glass.photo/crocker",
+		internal: false,
+	},
+	{
+		id: 7,
+		title: "Pixelfed 📷",
+		href: "https://pixelfed.social/croc",
 		internal: false,
 	},
 ]
