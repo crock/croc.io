@@ -10,7 +10,7 @@ const menuItems = [
 	{
 		id: 1,
 		displayName: "Mastodon",
-		url: "https://social.lol/@croc",
+		url: "https://mastodon.social/@croc",
 		internal: false,
 		rel: "me",
 		icon: faMastodon,

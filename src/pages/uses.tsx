@@ -8,11 +8,11 @@ const usesCategories = {
         },
         {
             id: 2,
-            title: "Apple iPhone 12 mini",
+            title: "Apple iPhone 13 mini",
         },
         {
             id: 3,
-            title: "Samsung Galaxy S22 Ultra 5G",
+            title: "Samsung Galaxy S22 Ultra",
         },
     ],
     software: [
@@ -127,13 +127,13 @@ const usesCategories = {
         {
             id: 1,
             title: "Pesticide CSS",
-            href: "https://404.page/pesticide-css",
+            href: "https://chrome.google.com/webstore/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi",
             internal: false,
         },
         {
             id: 2,
             title: "The Magic Highlighter",
-            href: "https://404.page/magic-highlighter",
+            href: "https://themagichighlighter.com",
             internal: false,
         },
     ],
