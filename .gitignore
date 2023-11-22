@@ -1,13 +1,5 @@
-# Gatsby.js files
-.cache/
-public
-
 # External dependencies
 node_modules
-vendor
-
-# yarn fiiles
-.yarn
 
 # Useless macOS file
 .DS_Store
@@ -24,5 +16,9 @@ vendor
 .vscode/
 .atom/
 .nova/
+
 # Local Netlify folder
 .netlify
+
+# Eleventy built site
+_site

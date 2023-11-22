@@ -1,0 +1,21 @@
+[
+	{
+		"id": 1,
+		"displayName": "Mastodon",
+		"url": "https://mastodon.social/@croc",
+		"internal": false,
+		"rel": "me"
+	},
+	{
+		"id": 3,
+		"displayName": "GitHub",
+		"url": "https://github.com/crock",
+		"internal": false
+	},
+	{
+		"id": 4,
+		"displayName": "Dribbble",
+		"url": "https://dribbble.com/croc",
+		"internal": false
+	}
+]
