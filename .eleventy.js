@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy("content/assets/**/*")
 
-	eleventyConfig.setTemplateFormats(["md"])
+	eleventyConfig.setTemplateFormats(["md", "njk"])
 
     eleventyConfig.addCollection("posts", function (collection) {
         return collection.getFilteredByGlob("content/posts/*.md")
@@ -24,8 +24,10 @@ module.exports = function (eleventyConfig) {
         return collection.getFilteredByGlob("content/projects/*.md")
     })
 
-    eleventyConfig.addCollection("companies", function (collection) {
-        return collection.getFilteredByGlob("content/companies/*.md")
+    eleventyConfig.addShortcode("post", function(postData) {
+        return `<div class="card">
+            <h3>${postData.title}</h3>
+        </div>`;
     })
 
 	return {
