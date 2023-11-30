@@ -22,4 +22,4 @@ I personally love the brandable name “Helpro”, it’s quirky and tells peopl
 
 Unfortunately, helpro.com appears to not be owned by Helpro Cleaning Services as the domain does not resolve.
 
-![](../assets/helpro-cleaning-service.jpeg)
+![](/assets/helpro-cleaning-service.jpeg)

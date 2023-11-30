@@ -10,7 +10,7 @@ tags:
 
 On my evening dog walk, I spotted the sign for a non-denominational church by the name of Catalyst in Orlando, FL.
 
-![](../assets/catalyst_orlando_church_sign.jpg)
+![](/assets/catalyst_orlando_church_sign.jpg)
 
 They use the domain name [CatalystOrlando.org](https://catalystorlando.org/) and have a really beautiful website.
 

@@ -16,4 +16,4 @@ Saw a[ Joe Taylor Restoration](https://www.jtrestoration.com/) service vehicle o
 
 According to their website, they have been the industry leader in South Florida Damage Restoration since 2002, providing such services as water, fire, mold, and biohazard mitigation.
 
-![](../assets/joe-taylor-restoration.jpeg)
+![](/assets/joe-taylor-restoration.jpeg)

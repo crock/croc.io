@@ -5,6 +5,7 @@
     "dev": "npx @11ty/eleventy --watch --incremental",
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
+    "postbuild": "pagefind --site _site",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\""
   },
   "dependencies": {

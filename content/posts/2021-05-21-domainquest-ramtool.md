@@ -12,4 +12,4 @@ Spotted the [RamTool Construction Supply Company](https://ramtool.com/) service 
 
 RamTool uses a short, brandable two-word domain name with a prancing ram as its logo. I personally love the name and how brandable it is.
 
-![](../assets/ramtool.jpeg)
+![](/assets/ramtool.jpeg)

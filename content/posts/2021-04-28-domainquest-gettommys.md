@@ -18,4 +18,4 @@ Originally registered in 2004 at GoDaddy, this somewhat unique brand name has ma
 
 Visit [Tommy’s](https://gettommys.com/) today if you are in need of watersports gear or boat repair!
 
-![](../assets/tommys-watersports-shop.jpeg)
+![](/assets/tommys-watersports-shop.jpeg)

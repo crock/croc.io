@@ -13,7 +13,7 @@ I stumbled upon the expired domain name worksauce.com at a GoDaddy auction and d
 I set myself a challenge: to build the site without looking at the source code of any other popular static site generators. After completing the initial release, I then compared my implementation to others to see how I could improve. By following this approach, I was able to gain a unique perspective and a deeper appreciation for the technology.
 
 <figure>
-![WorkSauce screenshot desktop](../assets/20230131_worksauce_screenshot.png)
+![WorkSauce screenshot desktop](/assets/20230131_worksauce_screenshot.png)
     <figcaption class="text-center">A visual snapshot of how the site looked on January 31, 2023.</figcaption>
 </figure>
 

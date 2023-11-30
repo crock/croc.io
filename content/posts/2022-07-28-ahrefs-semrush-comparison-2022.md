@@ -48,7 +48,7 @@ Domain crawling and ranking ability are something that both tools can do very we
 
 Ahrefs domain crawling can be a little slow. Their domain crawling doesn't start straight away, and after adding a project for ourselves with only 50 pages – it took roughly an hour to show the results of the crawl. We're not sure why this is the case, but it is something to be aware of when using Ahrefs if you're in a rush. Saying that, Ahrefs' crawler is very perceptive of the site it's crawling, and can find issues that many tools won't find, which is a big selling point for Ahrefs.
 
-![Ahrefs Domain Crawling](../assets/ahrefs-semrush-comparison/1.png)
+![Ahrefs Domain Crawling](/assets/ahrefs-semrush-comparison/1.png)
 
 Ahrefs is also quite good at ranking sites, but you have to use either Google search console or add keywords manually to be able to do this. If you do link Google search console, however, you can review all of your sites/project "Organic Keywords" which shows you the search volume, difficulty, traffic and position as well as a few other stats that can really help with understanding where and why you rank where you do.
 
@@ -62,25 +62,25 @@ Keyword research and analysis is one of the main reasons why you would buy eithe
 
 In Ahrefs, this is called "Keyword Explorer". The keyword explorer is a tool is very powerful, but does not make straight up suggestions. In this case, we used "piano repair" and ran the search. From the results, you are able to see several stats that will aid in the use of a said keyword. Keyword difficulty shows how hard it would be to get ranked in the top 10 (as well as an estimation).
 
-![Ahrefs Keyword Explorer](../assets/ahrefs-semrush-comparison/2.png)
+![Ahrefs Keyword Explorer](/assets/ahrefs-semrush-comparison/2.png)
 
 It also shows the volume of searches, how much a cost per click ad would cost – as well as traffic potential. Something that Ahrefs does very well is it adds plenty more value to the original search. In this case, we used "piano repair" but as you can see from the screenshot – we had 3219 extra keywords we could use, as well as questions, and other related search topics.
 
-![SERP Analysis in Ahrefs](../assets/ahrefs-semrush-comparison/3.png)
+![SERP Analysis in Ahrefs](/assets/ahrefs-semrush-comparison/3.png)
 
 Not only this, but Ahrefs shows the current ranking for the keyword and positions 1-10 (1-4 for CPC) allowing you to see who you would be competing against should you use the keyword.
 
-![Ahrefs Current Keyword Ranking](../assets/ahrefs-semrush-comparison/4.png)
+![Ahrefs Current Keyword Ranking](/assets/ahrefs-semrush-comparison/4.png)
 
 _SEMrush_
 
 SEMrush does have some amazing features when it comes down to keyword research and analysis. First off, the keyword analysis tool has everything you expect it to have. Just like Ahrefs, you can search for a keyword and get a volume, results, CPC, and difficulty rating. Not only this, but when you enter the keyword – you also get related keyword variations as well as questions that you should add to your content to help the site or business page rank better in Google and other search engines.
 
-![SEMrush keyword research](../assets/ahrefs-semrush-comparison/5.png)
+![SEMrush keyword research](/assets/ahrefs-semrush-comparison/5.png)
 
 SEMrush also has keyword lists, and planners that can be used across their platform for convenience, just like Ahrefs. Something else that SEMrush has that both tools do, is the keyword tracker. If your site ranks for a keyword, you can enter the keyword into the Keyword tracker and watch its position every day with automated reporting and analysis to see where your keyword ranks, and ways to improve. This is very nice to have as it can show that the tool is helping you.
 
-![SEMrush keyword tracker](../assets/ahrefs-semrush-comparison/6.png)
+![SEMrush keyword tracker](/assets/ahrefs-semrush-comparison/6.png)
 
 Something to note with both tools is that both display different results, and unfortunately – both are accurate. This means that although they can't 100% confirm the real number of visitors and search queries, it's a best guess – but using a wide range of other tools to compare, we realize that Ahrefs is much closer to the average than SEMrush, but not by too much.
 
@@ -88,7 +88,7 @@ Something to note with both tools is that both display different results, and un
 
 Backlinks are the bread and butter of SEO, and is typically the one term associated with SEO tactics for new marketers or website owners. Although it's not all about backlinks anymore, they still play a massive part in your site's successes. Both Ahrefs and SEMrush have powerful and "all-seeing" backlink crawlers that let you see exactly where your backlinks are coming from, as well as being able to find broken backlinks (not included in Lite) and where to find new backlink opportunities.
 
-![Ahrefs backlink analysis](../assets/ahrefs-semrush-comparison/7.png)
+![Ahrefs backlink analysis](/assets/ahrefs-semrush-comparison/7.png)
 
 Ahrefs backlink explorer which features both backlink research, and analysis, is a little hard to navigate. Although Ahrefs is incredibly detailed, finding information you want from Ahrefs and a specific backlink can take a good few click to actually find the information you're looking for.
 
@@ -98,17 +98,17 @@ _SEMrush_
 
 Sorry Ahrefs – SEMrush is destroying you on the backlinks front. SEMrush has one of the best backlink tools available and for many reasons. As we mentioned, Ahrefs backlinks are great, as it shows you a great deal of detail as well as further information on how to get new backlinks – which is great. SEMrush on the other hand provides all of that and much more.
 
-![SEMrush Backlink Explorer](../assets/ahrefs-semrush-comparison/8.png)
+![SEMrush Backlink Explorer](/assets/ahrefs-semrush-comparison/8.png)
 
 SEMrush has three key tools you will likely use; "Backlink Analytics", "Backlink Audit", and "Link Building Tool". Just like Ahrefs, Backlink Analytics lets you check all of your site's backlinks, their toxicity rating, and a number of other stats and values showing you exactly where and how much traffic is being brought in from a referring domain.
 
 Backlink audit and link building tool on the other hand are unique to the two SEO tool providers. Backlink audit shows you the level of toxicity of a backlink. This means that if you get negative backlinks that will harm your SEO value, then SEMrush will tell you – and show you how to remove them. This is also an automated process, so why not let them help you take the negative backlink away to keep your SEO in good health.
 
-![SEMrush Backlink Building Tool](../assets/ahrefs-semrush-comparison/9.png)
+![SEMrush Backlink Building Tool](/assets/ahrefs-semrush-comparison/9.png)
 
 The link building tool is a huge life-safer for many people, and we use it all the time. The link building tool lets you type in your domain and some keywords for your domain. At this point, SEMrush will do some digging and find backlink opportunities to allow for easy and quick backlinking to your site. This is NOT automated bots etc., but is SEMrush contacting other website owners requesting to link a broken link to your site. This is often a paid service in the SEO industry, and SEMrush allows you to do this included with your plan.
 
-![SEMrush Backlink Health Check](../assets/ahrefs-semrush-comparison/10.png)
+![SEMrush Backlink Health Check](/assets/ahrefs-semrush-comparison/10.png)
 
 Overall, SEMrush takes the cake with backlink research, analysis, and overall backlink capabilities.
 
@@ -118,7 +118,7 @@ The site audit is another key part to the SEO tools and can provide invaluable i
 
 Ahrefs "Site Audit" function is one of the best ways to find issues with your site/project as well as make several suggestions on what is at fault, as well as ways to fix them. Ahrefs does require you to add a "Project" before allowing the crawler to check for issues – but this is the first step anyway when using Ahrefs.
 
-![Ahrefs Site audit](../assets/ahrefs-semrush-comparison/11.png)
+![Ahrefs Site audit](/assets/ahrefs-semrush-comparison/11.png)
 
 Once you've added your site/project, and the crawl has finished – you will be greeted with a "Health Score" which is your website's SEO health overall. As you can see from the screenshot above, one of our projects shows a 92 which is great, but there are still several high-severity issues such as "Multiple Meta description tags", "Broken Images", and "double-slash in URL" which can all negatively impact SEO and search rankings for the site and keywords used.
 
@@ -130,7 +130,7 @@ Just like Ahrefs, SEMrush does have a very advanced crawler that can review your
 
 Something that SEMrush does do differently is how it tells you, and scores you around suggestions. Using the same page as we crawled on Ahrefs, SEMrush did pick up on hundreds more issues, but were mostly duplicate issues on different pages that could've been picked up into one "issue", rather than multiple. Although this specific alert was an issue that I changed once and it fixed over 100 alerts, it's good to know that if one specific page on your site has an issue – SEMrush will pick up on it, even if every other page is fine.
 
-![SEMrush Site Audit](../assets/ahrefs-semrush-comparison/12.png)
+![SEMrush Site Audit](/assets/ahrefs-semrush-comparison/12.png)
 
 SEMrush is also very fast to update and check issues that you try to fix. If you're like us, you probably try to fix each alert one by one and do a full crawl to see if it's fixed, but this takes up time, and resources for the Pro plan. SEMrush has a feature that crawls specific issues, meaning it's faster as well as saving resources from your plan. This is something Ahrefs does not have and is a massive help for new site owners that will likely have many SEO issues to change.
 
@@ -142,7 +142,7 @@ Ahrefs has an easy-to-understand layout, and although nothing fancy, it definite
 
 When clicking through Ahrefs, the navigation bar at the top of the page never changes, and will always remain in the same place – however the main content will likely add a left-side column which showcases more tabs on the main tool you're using. I.e. if you head into "Keyword Explorer", you will have left-side navigation showing extra tools within the keyword explorer. This helps to keep the site clean and functional. A new feature added within the last month – is Ahrefs colour palette. This allows you to choose between light and dark colour settings.
 
-![Ahrefs Site UI and functionality](../assets/ahrefs-semrush-comparison/13.png)
+![Ahrefs Site UI and functionality](/assets/ahrefs-semrush-comparison/13.png)
 
 Speed-wise, Ahrefs is actually very fast. Although the site audit speed can be a little slow depending on how big your site is, other aspects such as keyword explorer or backlink explorer are rapid when compared to other SEO tools on the market – including SEMrush. If you don't like waiting for results, then Ahrefs might be your preferred tool!
 
@@ -150,7 +150,7 @@ _SEMrush_
 
 SEMrush, as we've already mentioned, does look quite similar and features the same top-navigation bar, but has extra tools and resources rather than the native tools per the Pro subscription. Just like Ahrefs, SEMrush has a left-side navigation bar for all the tools that the Pro subscription has access to and although they are almost identical, SEMrush does look a lot more modern and easier going on the eyes. Something to note, is at the time of writing – SEMrush does not have a dark mode feature, so you're stuck with the orange, black and white (which looks great!).
 
-![SEMrush Site UI and functionality](../assets/ahrefs-semrush-comparison/14.png)
+![SEMrush Site UI and functionality](/assets/ahrefs-semrush-comparison/14.png)
 
 Functionality wise, SEMrush is about the same as Ahrefs. SEMrush is comparable in speed, with keywords and backlink analysis taking just a couple of seconds to get a whole catalogue of data and information, but similarly to Ahrefs – the site crawl can take a little bit of time. From adding the site to having a full-site audit, it took just 14 minutes which is acceptable for the tool, still considerably faster than Ahrefs on this front.
 
@@ -172,7 +172,7 @@ For this review, (of Lite – the lowest subscription), you're able to use the t
 
 Something to note with Ahrefs, is that some features such as content explorer, domain comparisons, additional site explorer/audit features and the notable "Ahrefs Search" are all in the higher packages, and are not within the lite edition.
 
-![Ahrefs Pricing](../assets/ahrefs-semrush-comparison/15.png)
+![Ahrefs Pricing](/assets/ahrefs-semrush-comparison/15.png)
 
 _SEMrush_
 
@@ -188,7 +188,7 @@ For this review (of Pro – the lowest subscription), you're able to use the too
 
 SEMrush also opens the door with many on-site tools such as keyword research, on-page SEO, competitor analysis, link building, rank tracking, content optimization, seo analysis and even site-audits to help you improve your sites presence. The [full list of SEMrush features can be found here](https://www.semrush.com/features/). These are included with every paid plan, although some may have limitations.
 
-![SEMrush Pricing](../assets/ahrefs-semrush-comparison/16.png)
+![SEMrush Pricing](/assets/ahrefs-semrush-comparison/16.png)
 
 ### Support and Further SEO Education
 
@@ -196,7 +196,7 @@ In terms of support, both platforms are all for helping and assisting customers 
 
 Both SEMrush and Ahrefs have further education outside of their tool on their respective YouTube channels as well as on-site education platforms such as Ahrefs "academy" that can help people understand more about SEO, and how not only the SEO tool can help – but also other aspects of SEO to help grow your business. Both education platforms have a wide range of free to access content (regardless of if you're paying for it) and both offer a great level of information.
 
-![SEMrush education academy - learn SEO](../assets/ahrefs-semrush-comparison/17.png)
+![SEMrush education academy - learn SEO](/assets/ahrefs-semrush-comparison/17.png)
 
 In terms of support and further SEO information provided, both tools appear to go the extra mile to make sure you have the best setup for success from an SEO standpoint.
 

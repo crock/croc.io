@@ -14,4 +14,4 @@ We categorize and group these “sightings” by extension and number of keyword
 
 This afternoon, an [Orlando Appliance Service LLC ](https://www.orlandoapplianceservices.com/)service vehicle was driving down US-527. The 3-word descriptive .ORG domain printed on their vehicle appears to have expired at some point and they migrated over to the .COM variant of their brand, which was an excellent move in my opinion.
 
-![](../assets/orlando-appliance-service.jpeg)
+![](/assets/orlando-appliance-service.jpeg)

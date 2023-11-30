@@ -16,4 +16,4 @@ Be sure to check out their website if you are in need of air conditioning or ele
 
 [ArmstrongAirInc.com](https://www.armstrongairinc.com/)
 
-![Armstrong Air and Electric](../assets/20230526_195356.jpeg)
+![Armstrong Air and Electric](/assets/20230526_195356.jpeg)

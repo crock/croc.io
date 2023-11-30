@@ -13,7 +13,7 @@ tags:
     - running-post
 ---
 
-![Discord Domain Directory banner](../assets/discorddomaindirectory-banner.png)
+![Discord Domain Directory banner](/assets/discorddomaindirectory-banner.png)
 
 Since its founding in 2015, Discord has grown into one of the largest social chat apps for millennials and Generation Z on the web today. With over 150 million monthly active users as of March 2022, there are no signs of slowing down anytime soon.
 

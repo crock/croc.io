@@ -59,8 +59,8 @@ Now navigate to Appearance -> Styles -> [YOUR THEME] – Templates -> extra.less
 
 Navigating back to the homepage should reveal a more balanced and appealing stats section for the user menu.
 
-![](../assets/86289163-358d0680-bbb9-11ea-9d17-8c92595394e3.webp)
+![](/assets/86289163-358d0680-bbb9-11ea-9d17-8c92595394e3.webp)
 
 The following CSS will still work even if you use the [ThemeHouse Reactions add-on](https://www.themehouse.com/xenforo/2/addons/reactions-plus) .
 
-![](../assets/86289184-42a9f580-bbb9-11ea-92be-92d350736393.webp)
+![](/assets/86289184-42a9f580-bbb9-11ea-92be-92d350736393.webp)

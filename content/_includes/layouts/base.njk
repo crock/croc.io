@@ -11,9 +11,16 @@ description: Software development and design studio based in the US. We build we
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/globals.css">
+
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+    <script src="/pagefind/pagefind-ui.js"></script>
   </head>
   <body>
-    {{ content | safe }}
+    {% include "header.njk" %}
+    <div id="search"></div>
+    <main>
+      {{ content | safe }}
+    </main>
 
     <script src="/assets/js/custom.js"></script>
   </body>

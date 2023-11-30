@@ -14,7 +14,7 @@ tags:
 customSlug: grew-highly-competitive-niche-gaming-content-site-sold-1500
 ---
 
-![](../assets/ovrpwr-featured-thumbnail.jpeg)
+![](/assets/ovrpwr-featured-thumbnail.jpeg)
 
 When I was younger, I would always be Infront of games, and I always loved being the “achievement hunter” out of my family, which was fun when you have two older brothers! No matter what the game was, I wanted to truly complete it.
 
@@ -36,11 +36,11 @@ I wasn’t sure initially what I wanted to do with OvrPwr, I wasn’t sure if I 
 
 After I had decided what I wanted to do with OvrPwr, I usually rush into things. As I wasn’t too confident with anything other than pure, hard-coded PHP — I decided to head over to CodeCanyon. I had a license key from TechQuack but did in the end having to pay for another license. This was the first instance of OvrPwr.
 
-![](../assets/ovrpwr-homepage-original.png)
+![](/assets/ovrpwr-homepage-original.png)
 
 At this point, OvrPwr.net was ready. I had made the logo on Photoshop a few days before, experimenting with colours and layouts, and I decided that OvrPwr needed something bright, something catchy. OvrPwr’s old logo was bright orange and wasn’t even symmetrical!
 
-![](../assets/ovrpwr.png)
+![](/assets/ovrpwr.png)
 
 Once the site was set up it was finally time to start writing some content. Something that I’ve always been able to do, is write content just how I like it. After TechQuack, I learnt that affiliate-based content (where you provide links and if a reader clicks, you may receive a commission) was where most of the money was. My first post on OvrPwr was called “How to get Free CSGO Skins in 2019” and I provided affiliate links (10% commission on earnings). This article took around 30 minutes to write and post, and I was so excited!
 
@@ -66,7 +66,7 @@ Once everything was migrated, I thought it was time to switch to something else 
 
 Once OvrPwr.com was connected to WordPress, it was time to start writing again. I used the keywords that the SEO consultant had provided and spent a good 3–4 months writing high-quality content that got natural views, all from SEO.
 
-![](../assets/ovrpwr-homepage.png)
+![](/assets/ovrpwr-homepage.png)
 
 ## Running OvrPwr — Day to Day Operations
 
@@ -82,13 +82,13 @@ One of my friends, was looking for a job, knew English quite well and the averag
 
 He was able to write daily articles, that returned a nice 30–40 views, per article, within the first 7 days of posting them. Some of these articles were more news-based, rather than guides and tips and tricks like I had been writing. I was really happy with his work, and couldn’t have asked for anything more. This was quite an investment for me, but I made a great relationship with the writer, and will likely be working with him on my other projects.
 
-![](../assets/ovrpwr-chart-2.png)
+![](/assets/ovrpwr-chart-2.png)
 
 ### Revenue Streams
 
 With spending almost $250 a month on OvrPwr, I needed to really figure out how to make money. At this point, OvrPwr had Google AdSense running, but that was it. Google Ads are great for people who have a good niche, and one that gets plenty of views — however the gaming niche, with only 1000/views a month, isn’t something that should be the main source of income. As you can see, over the last 3 years — OvrPwr didn’t earn much from ads served by Google.
 
-![](../assets/ovrpwr-chart-3.png)
+![](/assets/ovrpwr-chart-3.png)
 
 I needed to write some affiliate content. Affiliate content is content that would let me earn a commission or revenue from readers clicking, using, or purchasing something from another company — but coming from OvrPwr.
 
@@ -100,7 +100,7 @@ On average, OvrPwr was earning around $20 a month, which was still quite a massi
 
 After running OvrPwr for 3 years, but truly committing to it for 8 months, I had made the decision to sell it. Some months I was getting 1800 views a month, but sometimes I was only getting 900 views a month, but averaged out to be around 1500 views a month.
 
-![](../assets/ovrpwr-chart-4.png)
+![](/assets/ovrpwr-chart-4.png)
 
 I spoke to my writer and asked what he thought to sell the site. This is a hard decision because the writer would normally lose their job with this, but thankfully I was able to re-purpose the role for my other projects.
 
@@ -114,7 +114,7 @@ To me, these offers were low, but the problem was — I was losing more money th
 
 I countered the offer at $1100 for $1600, before they countered for $1250, and I made one last counter offer for $1500. This offer was accepted by the buyer, and within a few days — I was paid directly into my bank account and the transfer process was easy. I gave the buyer the account details and pushed the domain via. Namecheap.
 
-![](../assets/ovrpwr-chart-5.png)
+![](/assets/ovrpwr-chart-5.png)
 
 ## What I would do differently next time?
 

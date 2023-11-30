@@ -1,3 +1,4 @@
+const shortcodes = require("./11ty/shortcodes/")
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.ignores.add("README.md")
@@ -17,17 +18,17 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.setTemplateFormats(["md", "njk"])
 
     eleventyConfig.addCollection("posts", function (collection) {
-        return collection.getFilteredByGlob("content/posts/*.md")
+        const posts = collection.getFilteredByGlob("content/posts/*.md")
+        return posts.sort((a, b) => b.data.publishDate - a.data.publishDate)
     })
 
     eleventyConfig.addCollection("projects", function (collection) {
-        return collection.getFilteredByGlob("content/projects/*.md")
+        const projects = collection.getFilteredByGlob("content/projects/*.md")
+        return projects.sort((a, b) => b.data.publishDate - a.data.publishDate)
     })
 
-    eleventyConfig.addShortcode("post", function(postData) {
-        return `<div class="card">
-            <h3>${postData.title}</h3>
-        </div>`;
+    Object.keys(shortcodes).forEach((shortcodeName) => {
+        eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
     })
 
 	return {

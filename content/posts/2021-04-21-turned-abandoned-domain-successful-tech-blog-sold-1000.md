@@ -42,7 +42,7 @@ On CodeCanyon, I found an amazing script within 30 minutes of searching called [
 
 This script was bought, installed onto my shared-hosting with Namecheap and I was ready and configuring the site within minutes. From the ground, it didn’t look very ‘techy’. I quickly hopped onto Fiverr and asked someone to create me a logo that included a duck (for the Quack) and something that was a little technical. This was the image I was sent back!
 
-![](../assets/techquack.png)
+![](/assets/techquack.png)
 
 This logo was what I had imagined, it was simple, incorporated a little duck and I thought this was a perfect match for the black and white design I had on the website. I was ready, this was it — time to write some content up for the site and get it all published for the world to see.
 
@@ -90,7 +90,7 @@ Remembering this, and realizing how silly it was (as people being in the office 
 
 I wrote up _“How to set up Recurring Out of Office in Outlook 2016”_ and little did I know how amazing this one article would be. After a few days, I noticed that my view-count and AdSense balance was rising quite healthy, but almost anonymously. I logged into the Search Console to find out what was going on, and I couldn’t believe that my one post had logged over 200 views in less than a week.
 
-![](../assets/out-of-office-reply-tutorial-thumbnail.png)
+![](/assets/out-of-office-reply-tutorial-thumbnail.png)
 
 This one article alone started to generate even more content and was even generating backlinks for myself which was amazing for SEO. This major turning point was what sold TechQuack in my opinion.
 
@@ -122,6 +122,6 @@ Selling TechQuack was not at the forefront of my agenda when I first started thi
 
 TechQuack is now a quite successful tech blog generating around 5k views/week, all unique and the curve seems to be going up. The new owner has posted a lot more content than I ever could, but they are now reaping the rewards of this amazing website.
 
-![](../assets/techquack-chart.png)
+![](/assets/techquack-chart.png)
 
 For sure, If I could do it again there are so many things I would do differently, but as with any project, you learn, and you fail — but the next project will be so much better. I am already working on another project, which will be amazing too, but this time — I’m not focusing on the money but rather building a brand, and a community that will love the site just as much as I will.

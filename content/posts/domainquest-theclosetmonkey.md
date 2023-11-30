@@ -14,4 +14,4 @@ They build custom closets and other storage solutions for homes and businesses.
 
 Their [Facebook page](https://www.facebook.com/theclosetmonkey) has over 1,000 likes and a 4.8 star average rating based on 59 reviews at the time of this writing.
 
-![](../assets/IMG_0186.jpeg)
+![](/assets/IMG_0186.jpeg)

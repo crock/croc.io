@@ -15,7 +15,7 @@ tags:
 category: Guides
 ---
 
-![soldier aiming down sight with a sniper rifle](../assets/sniper-war.jpeg)
+![soldier aiming down sight with a sniper rifle](/assets/sniper-war.jpeg)
 
 Dropcatching, sometimes referred to as domain sniping, is the process of bidding on expiring domain names in hopes that the dropcatching service can successfully register the domain on the customer’s behalf as soon as it drops.
 

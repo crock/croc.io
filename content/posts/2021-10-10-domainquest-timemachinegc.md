@@ -12,4 +12,4 @@ Spotted this interesting service van filling up at a Wawa. The company calls the
 
 You can visit the company’s website by visiting [timemachinegc.com](https://timemachinegc.com/).
 
-![](../assets/time-machine-restoration.jpeg)
+![](/assets/time-machine-restoration.jpeg)
