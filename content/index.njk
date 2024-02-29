@@ -2,3 +2,6 @@
 title: "Home | Croc.io"
 ---
 
+{% for item in collections.posts %}
+  {% post item.data %}
+{% endfor %}

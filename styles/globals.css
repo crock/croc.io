@@ -81,3 +81,40 @@ header {
   }
 }
 
+.card {
+	min-width: 300px;
+	height: auto;
+	max-height: 300px;
+	box-shadow: 3px 3px 10px 0 #cfcfcf;
+	padding: 1rem;
+
+	& .title {
+		font-weight: bold;
+		font-size: 1.25rem;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+	
+	& .publishDate {
+		margin-bottom: 1rem;
+		font-size: 0.9rem;
+		font-style: italic;
+		
+		
+		& time {
+			color: var(--primary-color);
+		}
+		
+		& .author {
+			color: var(--primary-color);
+		}
+	}
+	
+	& .excerpt {
+		line-height: 1.5rem;
+		font-weight: 300;
+		font-size: 1rem;
+	}
+}
+
+

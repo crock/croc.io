@@ -1,4 +1,11 @@
 const shortcodes = require("./11ty/shortcodes/")
+const markdownIt = require("markdown-it")
+
+const MARKDOWN_OPTIONS = {
+    html: true,
+    breaks: false,
+    linkify: true
+};
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.ignores.add("README.md")
@@ -30,6 +37,18 @@ module.exports = function (eleventyConfig) {
     Object.keys(shortcodes).forEach((shortcodeName) => {
         eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName])
     })
+
+    eleventyConfig.setFrontMatterParsingOptions({ 
+        excerpt: true,
+        excerpt_separator: "--excerpt--"
+    });
+
+    const markdownLibrary = markdownIt(MARKDOWN_OPTIONS);
+    eleventyConfig.setLibrary("md", markdownLibrary);
+
+    eleventyConfig.addFilter("toHTML", str => {
+        return markdownLibrary.renderInline(str);
+    });
 
 	return {
 		dir: {
