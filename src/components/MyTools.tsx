@@ -16,12 +16,6 @@ const links = [
 		internal: true,
 	},
 	{
-		id: 3,
-		title: "CSR Detector",
-		href: "/tools/csr-detector",
-		internal: true,
-	},
-	{
 		id: 4,
 		title: "Dropfilter",
 		href: "https://dropfilter.app",
