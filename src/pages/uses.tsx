@@ -5,33 +5,30 @@ const usesCategories = {
         {
             id: 1,
             title: "Apple MacBook Pro 16-inch M2 Max",
+            href: undefined,
         },
         {
             id: 2,
-            title: "Apple iPhone 13 mini",
+            title: "Apple iPhone 14 mini",
+            href: undefined,
         },
         {
             id: 3,
-            title: "Samsung Galaxy S22 Ultra",
+            title: "Samsung Galaxy S24 Ultra",
+            href: undefined,
         },
     ],
     software: [
         {
             id: 1,
-            title: "Visual Studio Code",
-            href: "https://code.visualstudio.com/",
+            title: "JetBrains Suite",
+            href: "https://jetbrains.com/",
             internal: false,
         },
         {
             id: 2,
             title: "DBngin",
             href: "https://dbngin.com/",
-            internal: false,
-        },
-        {
-            id: 3,
-            title: "Table Plus",
-            href: "https://tableplus.com/",
             internal: false,
         },
         {
@@ -52,12 +49,6 @@ const usesCategories = {
             id: 2,
             title: "Discord",
             href: "https://discord.com",
-            internal: false,
-        },
-        {
-            id: 3,
-            title: "Notion",
-            href: "https://notion.com",
             internal: false,
         },
     ],

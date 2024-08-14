@@ -58,5 +58,17 @@
 		"postUrl": "/posts/link-extractor",
 		"imageUrl": null,
 		"tags": ["ReactJS", "Vite", "TypeScript"]
+	},
+	{
+		"id": 8,
+		"name": "Account Base",
+		"startDate": 20240814,
+		"endDate": null,
+		"ongoing": true,
+		"status": "active",
+		"pitch": "AccountBase is a demo of a potentially upcoming cross-platform mobile and desktop application with useful functionality for social media account sellers and domain name investors.",
+		"postUrl": "/posts/accountbase",
+		"imageUrl": null,
+		"tags": ["ReactJS", "Vite", "TypeScript"]
 	}
 ]
